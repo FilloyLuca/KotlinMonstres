@@ -217,6 +217,7 @@ var roche = Element(5,"Roche")
 var normal = Element(6,"Normal")
 
 fun main() {
+////Sprint1
 route1.zoneSuivante = route2
 route2.zonePrecedente = route1
 joueur.sacAItems.add(monsterKube1)
@@ -225,5 +226,28 @@ joueur.sacAItems.add(monsterKube1)
 val partie = nouvellePartie()
 partie.choisirStarter()
 partie.jouer()
+
+////Sprint2
+
+// 🔥 Feu
+feu.forces.addAll(listOf(plante, insecte))
+feu.faiblesses.addAll(listOf(eau, roche,feu))
+
+// 🌱 Plante
+plante.forces.addAll(listOf(eau, roche))
+plante.faiblesses.addAll(listOf(feu, insecte))
+
+// 💧 Eau
+eau.forces.addAll(listOf(feu, roche))
+eau.faiblesses.addAll(listOf(plante))
+
+// 🐞 Insecte
+insecte.forces.addAll(listOf(plante))
+insecte.faiblesses.addAll(listOf(feu, roche))
+
+// 🪨 Roche
+roche.forces.addAll(listOf(feu, insecte))
+roche.faiblesses.addAll(listOf(eau, plante))
+
 
 }

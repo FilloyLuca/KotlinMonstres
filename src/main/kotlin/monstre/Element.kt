@@ -1,12 +1,23 @@
 package org.example.monstre
-
+/**
+ * Classe représentant un élément avec :
+ *
+ * Deux propriétés dans le constructeur principal :
+ *   - id : identifiant unique de l'élément (de type Int)
+ *   - nom : nom de l'élément (de type String)
+ *
+ * Trois propriétés définies dans le corps de la classe :
+ *   - forces : liste mutable contenant les noms des éléments contre lesquels cet élément est fort
+ *   - faiblesses : liste mutable contenant les noms des éléments contre lesquels cet élément est faible
+ *   - immunises : liste mutable contenant les noms des éléments contre lesquels cet élément est immunisé
+ */
 class Element (
     val id : Int,
     val nom : String,
 ){
-    val forces = mutableListOf<String>()
-    val faiblesses = mutableListOf<String>()
-    val immunises = mutableListOf<String>()
+    val forces = mutableListOf<Element>()
+    val faiblesses = mutableListOf<Element>()
+    val immunises = mutableListOf<Element>()
 
     /**
      * Détermine l'efficacité d'un élément courant contre un élément cible.
