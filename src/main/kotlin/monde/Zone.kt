@@ -85,5 +85,4 @@ class Zone(
         val combat = CombatMonstre(premierMonstre,monstreSauvage)
         combat.lanceCombat()
     }
-
 }
