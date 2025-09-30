@@ -124,7 +124,6 @@ class CombatMonstre (
                     } else{
                         val choixMonstre = joueur.equipeMonstre[indexChoix]
                         if (choixMonstre.pv <= 0) {
-//                            println("Impossible ! Ce monstre est KO")
                             println("Impossible ! ${choixMonstre.nom} est KO")
                             choixValide = false
                         } else {
