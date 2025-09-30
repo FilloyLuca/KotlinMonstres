@@ -3,6 +3,7 @@ package monstre
 import org.example.eau
 import org.example.feu
 import org.example.insecte
+import org.example.monstre.Technique
 import org.example.normal
 import org.example.plante
 import org.example.roche
@@ -37,7 +38,6 @@ class ElementTest {
         // ⚪ Normal
         normal.faiblesses.add(roche)
     }
-
 
     @Test
     fun efficaceContre() {
