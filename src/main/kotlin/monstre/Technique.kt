@@ -18,16 +18,29 @@ class Technique(
      * @param technique La technique utilisée, contenant un attribut `precision` (valeur entre 1 et 100).
      * @return true si la technique touche (aléatoire ≤ précision), false sinon.
      */
-//    fun calculerPrecision(technique : Technique) : Boolean{
-//        val nb = Random.nextInt(1, 101)  // 101 est exclusif, donc génère de 1 à 100
-//        if (nb <= technique.precision) return true
-//        else return false
-//    }
-    fun calculerPrecision() : Boolean {
+    fun calculerPrecision(): Boolean {
         val nb = Random.nextInt(1, 101)
         return nb <= precision
     }
 
-    fun calculBonusStab(){}
+    /**
+     * Calcule le bonus STAB (Same Type Attack Bonus) pour un monstre utilisant cette technique.
+     *
+     * Si le monstre possède le même élément que la technique, le bonus est de +0.15.
+     * Sinon, le malus est de -0.15.
+     * Le résultat ne peut jamais être inférieur à 0.1.
+     *
+     * @param monstre Le monstre qui utilise la technique.
+     * @return Le multiplicateur de puissance ajusté (ne modifie pas la propriété de la technique).
+     */
+    fun calculBonusStab(monstre: IndividuMonstre): Double {
+        val bonus = if (elementTechnique in monstre.espece.elements) {
+            0.15
+        } else {
+            -0.15
+        }
+        val resultat = multiplicateurDePuissance + bonus
 
+        return if (resultat < 0.1) 0.1 else resultat
+    }
 }
