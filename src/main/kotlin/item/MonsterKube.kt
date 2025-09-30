@@ -33,7 +33,6 @@ class MonsterKube(
 //        }
 //        return true
 //    }
-
     override fun utiliser(cible: IndividuMonstre): Boolean {
         println("\nVous lancez la Monster Kube !")
         if (cible.entraineur != null) println("\nLe monstre ne peut pas être capturé.")
