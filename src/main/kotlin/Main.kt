@@ -228,7 +228,6 @@ partie.choisirStarter()
 partie.jouer()
 
 ////Sprint2
-
 // 🔥 Feu
 feu.forces.addAll(listOf(plante, insecte))
 feu.faiblesses.addAll(listOf(eau, roche,feu))
