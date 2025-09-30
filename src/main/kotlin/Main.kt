@@ -6,6 +6,7 @@ import org.example.item.MonsterKube
 import org.example.jeu.CombatMonstre
 import org.example.jeu.Partie
 import org.example.monde.Zone
+import org.example.monstre.Element
 import org.example.monstre.EspeceMonstre
 import org.example.monstre.IndividuMonstre
 import kotlin.math.E
@@ -208,6 +209,12 @@ fun nouvellePartie(): Partie {
     return Partie(1, joueur, zone = route1)
 }
 
+var plante = Element(1,"Plante")
+var feu = Element(2,"Feu")
+var eau = Element(3,"Eau")
+var insecte = Element(4,"Insecte")
+var roche = Element(5,"Roche")
+var normal = Element(6,"Normal")
 
 fun main() {
 route1.zoneSuivante = route2
