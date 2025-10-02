@@ -35,17 +35,6 @@ class Technique(
      * @param monstre Le monstre qui utilise la technique.
      * @return Le multiplicateur de puissance ajusté (ne modifie pas la propriété de la technique).
      */
-//    fun calculBonusStab(monstre: IndividuMonstre): Double {
-//        val bonus = if (elementTechnique in monstre.espece.elements) {
-//            -0.15
-//        } else {
-//            0.15
-//        }
-//        val resultat = multiplicateurDePuissance + bonus
-//
-//        return if (resultat < 0.1) 0.1 else resultat
-//    }
-
     fun calculBonusStab(individu: IndividuMonstre): Double{
         var bonus = -0.15
         if (elementTechnique in individu.espece.elements)bonus = 0.15

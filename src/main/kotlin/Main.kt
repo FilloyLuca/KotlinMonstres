@@ -9,10 +9,97 @@ import org.example.monde.Zone
 import org.example.monstre.Element
 import org.example.monstre.EspeceMonstre
 import org.example.monstre.IndividuMonstre
+import org.example.monstre.Technique
 import kotlin.math.E
 
 var joueur = Entraineur(1,"Sacha",100)
 var rival = Entraineur(2,"Regis",200)
+
+var plante = Element(1,"Plante")
+var feu = Element(2,"Feu")
+var eau = Element(3,"Eau")
+var insecte = Element(4,"Insecte")
+var roche = Element(5,"Roche")
+var normal = Element(6,"Normal")
+
+//Techniques
+// ⚪ Normal
+val charge = Technique(
+    id = 1,
+    nom = "Charge",
+    precision = 95.0,
+    multiplicateurDePuissance = 1.0,
+    estSpecial = false,
+    estBuff = false,
+    estDebuff = false,
+    faireDegat = true,
+    elementTechnique = normal
+)
+
+// 🔥 Feu
+val flammeche = Technique(
+    id = 2,
+    nom = "Flammèche",
+    precision = 90.0,
+    multiplicateurDePuissance = 1.2,
+    estSpecial = true,
+    estBuff = false,
+    estDebuff = false,
+    faireDegat = true,
+    elementTechnique = feu
+)
+
+// 🌱 Plante
+val fouetLianes = Technique(
+    id = 3,
+    nom = "Fouet-Lianes",
+    precision = 85.0,
+    multiplicateurDePuissance = 1.0,
+    estSpecial = true,
+    estBuff = false,
+    estDebuff = false,
+    faireDegat = true,
+    elementTechnique = plante
+)
+
+// 💧 Eau
+val bulleDEau = Technique(
+    id = 4,
+    nom = "Bulle d'o",
+    precision = 90.0,
+    multiplicateurDePuissance = 1.0,
+    estSpecial = true,
+    estBuff = false,
+    estDebuff = false,
+    faireDegat = true,
+    elementTechnique = eau
+)
+
+// 🐞 Insecte
+val piqure = Technique(
+    id = 5,
+    nom = "Piqure",
+    precision = 80.0,
+    multiplicateurDePuissance = 1.0,
+    estSpecial = true,
+    estBuff = false,
+    estDebuff = false,
+    faireDegat = true,
+    elementTechnique = insecte
+)
+
+// 🪨 Roche
+val tomberoche = Technique(
+    id = 6,
+    nom = "Tomberoche",
+    precision = 85.0,
+    multiplicateurDePuissance = 1.0,
+    estSpecial = false,
+    estBuff = false,
+    estDebuff = false,
+    faireDegat = true,
+    elementTechnique = roche
+)
 
 var especeSpringLeaf = EspeceMonstre(
     1,
@@ -209,12 +296,6 @@ fun nouvellePartie(): Partie {
     return Partie(1, joueur, zone = route1)
 }
 
-var plante = Element(1,"Plante")
-var feu = Element(2,"Feu")
-var eau = Element(3,"Eau")
-var insecte = Element(4,"Insecte")
-var roche = Element(5,"Roche")
-var normal = Element(6,"Normal")
 
 fun main() {
 ////Sprint1
@@ -222,12 +303,10 @@ route1.zoneSuivante = route2
 route2.zonePrecedente = route1
 joueur.sacAItems.add(monsterKube1)
 
-
 val partie = nouvellePartie()
 partie.choisirStarter()
 partie.jouer()
 
-////Sprint2
 // 🔥 Feu
 feu.forces.addAll(listOf(plante, insecte))
 feu.faiblesses.addAll(listOf(eau, roche,feu))
