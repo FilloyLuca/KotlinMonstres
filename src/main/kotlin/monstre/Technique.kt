@@ -10,6 +10,7 @@ class Technique(
     var multiplicateurDePuissance : Double,
     val estBuff : Boolean,
     val estDebuff : Boolean,
+    val estSpecial : Boolean,
     val faireDegat : Boolean,
     val elementTechnique : Element
 ) {
@@ -49,5 +50,46 @@ class Technique(
         var bonus = -0.15
         if (elementTechnique in individu.espece.elements)bonus = 0.15
         return max((bonus + multiplicateurDePuissance),0.1)
+    }
+
+    /**
+     * Applique l’effet principal de la technique :
+     * - inflige des dégâts
+     * - (TODO) applique des buffs/debuffs
+     *
+     * @param attaquant IndividuMonstre utilisateur de la technique
+     * @param defenseur IndividuMonstre cible de la technique
+     * @return Les dégâts infligés (0.0 si pas de dégâts)
+     */
+    fun effet(attaquant: IndividuMonstre, defenseur: IndividuMonstre): Double {
+        if (estBuff) {
+            // TODO : déclencher buff (futur Statut)
+            return 0.0
+        }
+
+        if (estDebuff) {
+            // TODO : déclencher debuff (futur Statut)
+            return 0.0
+        }
+
+        if (!faireDegat) {
+            return 0.0
+        }
+
+        val degatBase = if (estSpecial) {
+            attaquant.attaqueSpe
+        } else {
+            attaquant.attaque
+        }
+
+        val multiplicateur = calculBonusStab(attaquant)
+        var multiElement = elementTechnique.efficaceContre(defenseur.espece.elements[0])
+
+        if (defenseur.espece.elements.size > 1) {
+            multiElement *= elementTechnique.efficaceContre(defenseur.espece.elements[1])
+        }
+
+        val resultat = degatBase * multiplicateur * multiElement
+        return resultat
     }
 }

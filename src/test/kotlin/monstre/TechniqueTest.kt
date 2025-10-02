@@ -46,9 +46,9 @@ class TechniqueTest {
     @Test
     fun calculerPrecision() {
         // Créer les techniques
-        val technique100 = Technique(1,"Griffe",100.0,30.0,true,false,true,normal)
-        val technique0 = Technique(2,"Guezz",0.0,0.0,false,true,false, normal)
-        val technique50 = Technique(3,"Amendes",50.0,100.0,true,false,true,normal)
+        val technique100 = Technique(1,"Griffe",100.0,30.0,true,false,true,true,normal)
+        val technique0 = Technique(2,"Guezz",0.0,0.0,false,true,false, false,normal)
+        val technique50 = Technique(3,"Amendes",50.0,100.0,true,false,true,false,normal)
 
         var compteurT50 = 0
 
@@ -74,7 +74,7 @@ class TechniqueTest {
 
     @Test
     fun testcalculerBonusStab(){
-        val techFeu = Technique(1,"Flammeche",100.0,1.0,false,false,true, feu)
+        val techFeu = Technique(1,"Flammeche",100.0,1.0,false,false,false, true,feu)
         val monstreFeu = IndividuMonstre(
             2,
             "flamkip",
