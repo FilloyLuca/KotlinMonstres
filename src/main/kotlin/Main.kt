@@ -248,5 +248,7 @@ insecte.faiblesses.addAll(listOf(feu, roche))
 roche.forces.addAll(listOf(feu, insecte))
 roche.faiblesses.addAll(listOf(eau, plante))
 
+// ⚪ Normal
+normal.faiblesses.add(roche)
 
 }
