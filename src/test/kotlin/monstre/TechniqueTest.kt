@@ -74,7 +74,17 @@ class TechniqueTest {
 
     @Test
     fun testcalculerBonusStab(){
-        val techFeu = Technique(1,"Flammeche",100.0,1.0,false,false,false, true,feu)
+        val techFeu = Technique(
+            1,
+            "Flammeche",
+            100.0,
+            1.0,
+            false,
+            false,
+            false,
+            true,
+            feu
+        )
         val monstreFeu = IndividuMonstre(
             2,
             "flamkip",
@@ -89,6 +99,7 @@ class TechniqueTest {
             null,
             1500.0
         )
+
         val bonusFeu = techFeu.calculBonusStab(monstreFeu)
         val bonusPlante = techFeu.calculBonusStab(monstrePlante)
 
@@ -97,6 +108,74 @@ class TechniqueTest {
         println("Assertion réussie : bonusFeu == $bonusFeu")
         assertEquals(bonusPlante, 0.85, "Le bonus pour le monstre de type Plante devrait être de $bonusPlante")
         println("Assertion réussie : bonusPlante == $bonusPlante")
+    }
+
+    @Test
+    fun testEffetInfligeDegats() {
+        val techPlante = Technique(
+            3,
+            "Technique plante",
+            100.0,
+            1.0,
+            false,
+            false,
+            false,
+            true,
+            plante
+        )
+
+        val techSpePlante = Technique(
+            3,
+            "Technique plante",
+            100.0,
+            1.0,
+            false,
+            false,
+            true,
+            true,
+            plante
+        )
+
+        val monstreFeu = IndividuMonstre(
+            1,
+            "attaquant",
+            especeFlamkip,
+            null,
+            1500.0
+        )
+        val monstrePlante = IndividuMonstre(
+            2,
+            "defenseur",
+            especeSpringLeaf,
+            null,
+            1500.0
+        )
+
+        //Pour eviter les variations de score d'attaque
+        monstreFeu.attaque = 10
+        monstrePlante.attaque = 10
+        monstreFeu.attaqueSpe = 15
+        monstrePlante.attaqueSpe = 15
+
+        val degats1 = techPlante.effet(monstreFeu, monstrePlante)
+        //degats1 = (10 * 0.85) * 1.0 = 8.5
+        println(degats1)
+        assertTrue(degats1 == 8.5)
+
+        val degats2 = techPlante.effet(monstrePlante, monstreFeu)
+        //degat2 = (10 * 1.15) * 0.5 = 5.75
+        println(degats2)
+        assertTrue(degats2 == 5.75)
+
+        val degatsSpe1 = techSpePlante.effet(monstreFeu, monstrePlante)
+        //degats1 = (15 * 0.85) * 1.0 = 12.75
+        println(degatsSpe1)
+        assertTrue(degatsSpe1 == 12.75)
+
+        val degatsSpe2 = techSpePlante.effet(monstrePlante, monstreFeu)
+        //degat2 = (15 * 1.15) * 0.5 = 8.625
+        println(degatsSpe2)
+        assertTrue(degatsSpe2 == 8.625)
     }
 }
 
