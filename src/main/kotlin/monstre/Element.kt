@@ -32,16 +32,12 @@ class Element (
      *  0.0 si l'élément cible est dans les éléments immunisés.
      *  1.0 si l'élément cible n'est ni une force ni une faiblesse.
      */
-    fun efficaceContre(elementCible: Element): Double{
-        when(elementCible) {
-            forces -> return 2.0
-            faiblesses -> return 0.5
-            immunises -> return 0.0
-            else -> return 1.0
+    fun efficaceContre(elementCible: Element): Double {
+        return when {
+            elementCible in forces -> 2.0
+            elementCible in faiblesses -> 0.5
+            elementCible in immunises -> 0.0
+            else -> 1.0
         }
     }
-
-
-
-
 }

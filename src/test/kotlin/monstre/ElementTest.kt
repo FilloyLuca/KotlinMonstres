@@ -41,9 +41,9 @@ class ElementTest {
 
     @Test
     fun efficaceContre() {
-        assertEquals(  1.0,feu.efficaceContre(normal))
-        assertEquals(  2.0,feu.efficaceContre(plante))
-        assertEquals( 0.5,feu.efficaceContre(feu))
-        assertEquals(2.0, insecte.efficaceContre(plante) )
+        assertEquals(1.0,feu.efficaceContre(normal))
+        assertEquals(2.0,feu.efficaceContre(plante))
+        assertEquals(0.5,feu.efficaceContre(feu))
+        assertEquals(2.0, insecte.efficaceContre(plante))
     }
 }
