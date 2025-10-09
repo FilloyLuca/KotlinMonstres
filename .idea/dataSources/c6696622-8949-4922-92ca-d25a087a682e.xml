@@ -1,0 +1,5434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="db_monsters_lfilloy@172.16.0.210">
+  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.53">
+    <root id="1">
+      <DefaultCasing>exact</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <Grants>|root||abalcerowi||ALTER|G
+|root||afotieufia||ALTER|G
+|root||agoubo||ALTER|G
+|root||ajosso||ALTER|G
+|root||akhennouci||ALTER|G
+|root||alaine||ALTER|G
+|root||alazaar||ALTER|G
+|root||anoel||ALTER|G
+|root||asouleiman||ALTER|G
+|root||atandabany||ALTER|G
+|root||azarif||ALTER|G
+|root||brodrigues||ALTER|G
+|root||bsako||ALTER|G
+|root||cjasick||ALTER|G
+|root||ckraftvale||ALTER|G
+|root||cokembameb||ALTER|G
+|root||cscion||ALTER|G
+|root||ddossantos||ALTER|G
+|root||dmaudet||ALTER|G
+|root||dthevaranc||ALTER|G
+|root||emikanda||ALTER|G
+|root||epousse||ALTER|G
+|root||erieu||ALTER|G
+|root||ethomy||ALTER|G
+|root||fbitsindou||ALTER|G
+|root||fmomika||ALTER|G
+|root||gbarreau||ALTER|G
+|root||hcros||ALTER|G
+|root||hekolimole||ALTER|G
+|root||iaziz||ALTER|G
+|root||idembele||ALTER|G
+|root||imzyene||ALTER|G
+|root||jchongtoua||ALTER|G
+|root||jdhikash||ALTER|G
+|root||jdimwanadi||ALTER|G
+|root||jfraoui||ALTER|G
+|root||jkialengel||ALTER|G
+|root||jleonard||ALTER|G
+|root||jlorng||ALTER|G
+|root||jmoudjoung||ALTER|G
+|root||kdiakumpun||ALTER|G
+|root||kemmanuel||ALTER|G
+|root||kmilius||ALTER|G
+|root||kya||ALTER|G
+|root||lbuy||ALTER|G
+|root||lcaronnage||ALTER|G
+|root||ldarras||ALTER|G
+|root||lfilloy||ALTER|G
+|root||lgerance||ALTER|G
+|root||lkiusi||ALTER|G
+|root||lsimon1||ALTER|G
+|root||makarojeux||ALTER|G
+|root||mbeladassi||ALTER|G
+|root||mdehay||ALTER|G
+|root||mgalli||ALTER|G
+|root||mguerry||ALTER|G
+|root||mmeziane1||ALTER|G
+|root||mrieu||ALTER|G
+|root||mya||ALTER|G
+|root||mysql|localhost|ALTER|G
+|root||nbelkacem||ALTER|G
+|root||ndhokhutsa||ALTER|G
+|root||nhellal||ALTER|G
+|root||njean||ALTER|G
+|root||nnsomi||ALTER|G
+|root||nrabarisoa||ALTER|G
+|root||ntran||ALTER|G
+|root||okasindu||ALTER|G
+|root||olufundu||ALTER|G
+|root||oviravagon||ALTER|G
+|root||raissi||ALTER|G
+|root||root|localhost|ALTER|G
+|root||sbenboubak||ALTER|G
+|root||schachoua||ALTER|G
+|root||sdelblond||ALTER|G
+|root||sgoupil||ALTER|G
+|root||sgueye||ALTER|G
+|root||sichalalen||ALTER|G
+|root||srandriana||ALTER|G
+|root||ssong||ALTER|G
+|root||tdurang||ALTER|G
+|root||tramamonji||ALTER|G
+|root||tvanrompa1||ALTER|G
+|root||tvanrompae||ALTER|G
+|root||ufaye||ALTER|G
+|root||vgomessilv||ALTER|G
+|root||wouahi||ALTER|G
+|root||yburandcha||ALTER|G
+|root||yelmourabi||ALTER|G
+|root||ysoufi||ALTER|G
+|root||zbensiali||ALTER|G
+|root||abalcerowi||ALTER ROUTINE|G
+|root||afotieufia||ALTER ROUTINE|G
+|root||agoubo||ALTER ROUTINE|G
+|root||ajosso||ALTER ROUTINE|G
+|root||akhennouci||ALTER ROUTINE|G
+|root||alaine||ALTER ROUTINE|G
+|root||alazaar||ALTER ROUTINE|G
+|root||anoel||ALTER ROUTINE|G
+|root||asouleiman||ALTER ROUTINE|G
+|root||atandabany||ALTER ROUTINE|G
+|root||azarif||ALTER ROUTINE|G
+|root||brodrigues||ALTER ROUTINE|G
+|root||bsako||ALTER ROUTINE|G
+|root||cjasick||ALTER ROUTINE|G
+|root||ckraftvale||ALTER ROUTINE|G
+|root||cokembameb||ALTER ROUTINE|G
+|root||cscion||ALTER ROUTINE|G
+|root||ddossantos||ALTER ROUTINE|G
+|root||dmaudet||ALTER ROUTINE|G
+|root||dthevaranc||ALTER ROUTINE|G
+|root||emikanda||ALTER ROUTINE|G
+|root||epousse||ALTER ROUTINE|G
+|root||erieu||ALTER ROUTINE|G
+|root||ethomy||ALTER ROUTINE|G
+|root||fbitsindou||ALTER ROUTINE|G
+|root||fmomika||ALTER ROUTINE|G
+|root||gbarreau||ALTER ROUTINE|G
+|root||hcros||ALTER ROUTINE|G
+|root||hekolimole||ALTER ROUTINE|G
+|root||iaziz||ALTER ROUTINE|G
+|root||idembele||ALTER ROUTINE|G
+|root||imzyene||ALTER ROUTINE|G
+|root||jchongtoua||ALTER ROUTINE|G
+|root||jdhikash||ALTER ROUTINE|G
+|root||jdimwanadi||ALTER ROUTINE|G
+|root||jfraoui||ALTER ROUTINE|G
+|root||jkialengel||ALTER ROUTINE|G
+|root||jleonard||ALTER ROUTINE|G
+|root||jlorng||ALTER ROUTINE|G
+|root||jmoudjoung||ALTER ROUTINE|G
+|root||kdiakumpun||ALTER ROUTINE|G
+|root||kemmanuel||ALTER ROUTINE|G
+|root||kmilius||ALTER ROUTINE|G
+|root||kya||ALTER ROUTINE|G
+|root||lbuy||ALTER ROUTINE|G
+|root||lcaronnage||ALTER ROUTINE|G
+|root||ldarras||ALTER ROUTINE|G
+|root||lfilloy||ALTER ROUTINE|G
+|root||lgerance||ALTER ROUTINE|G
+|root||lkiusi||ALTER ROUTINE|G
+|root||lsimon1||ALTER ROUTINE|G
+|root||makarojeux||ALTER ROUTINE|G
+|root||mbeladassi||ALTER ROUTINE|G
+|root||mdehay||ALTER ROUTINE|G
+|root||mgalli||ALTER ROUTINE|G
+|root||mguerry||ALTER ROUTINE|G
+|root||mmeziane1||ALTER ROUTINE|G
+|root||mrieu||ALTER ROUTINE|G
+|root||mya||ALTER ROUTINE|G
+|root||mysql|localhost|ALTER ROUTINE|G
+|root||nbelkacem||ALTER ROUTINE|G
+|root||ndhokhutsa||ALTER ROUTINE|G
+|root||nhellal||ALTER ROUTINE|G
+|root||njean||ALTER ROUTINE|G
+|root||nnsomi||ALTER ROUTINE|G
+|root||nrabarisoa||ALTER ROUTINE|G
+|root||ntran||ALTER ROUTINE|G
+|root||okasindu||ALTER ROUTINE|G
+|root||olufundu||ALTER ROUTINE|G
+|root||oviravagon||ALTER ROUTINE|G
+|root||raissi||ALTER ROUTINE|G
+|root||root|localhost|ALTER ROUTINE|G
+|root||sbenboubak||ALTER ROUTINE|G
+|root||schachoua||ALTER ROUTINE|G
+|root||sdelblond||ALTER ROUTINE|G
+|root||sgoupil||ALTER ROUTINE|G
+|root||sgueye||ALTER ROUTINE|G
+|root||sichalalen||ALTER ROUTINE|G
+|root||srandriana||ALTER ROUTINE|G
+|root||ssong||ALTER ROUTINE|G
+|root||tdurang||ALTER ROUTINE|G
+|root||tramamonji||ALTER ROUTINE|G
+|root||tvanrompa1||ALTER ROUTINE|G
+|root||tvanrompae||ALTER ROUTINE|G
+|root||ufaye||ALTER ROUTINE|G
+|root||vgomessilv||ALTER ROUTINE|G
+|root||wouahi||ALTER ROUTINE|G
+|root||yburandcha||ALTER ROUTINE|G
+|root||yelmourabi||ALTER ROUTINE|G
+|root||ysoufi||ALTER ROUTINE|G
+|root||zbensiali||ALTER ROUTINE|G
+|root||abalcerowi||BINLOG ADMIN|G
+|root||afotieufia||BINLOG ADMIN|G
+|root||agoubo||BINLOG ADMIN|G
+|root||ajosso||BINLOG ADMIN|G
+|root||akhennouci||BINLOG ADMIN|G
+|root||alaine||BINLOG ADMIN|G
+|root||alazaar||BINLOG ADMIN|G
+|root||anoel||BINLOG ADMIN|G
+|root||asouleiman||BINLOG ADMIN|G
+|root||atandabany||BINLOG ADMIN|G
+|root||azarif||BINLOG ADMIN|G
+|root||brodrigues||BINLOG ADMIN|G
+|root||bsako||BINLOG ADMIN|G
+|root||cjasick||BINLOG ADMIN|G
+|root||ckraftvale||BINLOG ADMIN|G
+|root||cokembameb||BINLOG ADMIN|G
+|root||cscion||BINLOG ADMIN|G
+|root||ddossantos||BINLOG ADMIN|G
+|root||dmaudet||BINLOG ADMIN|G
+|root||dthevaranc||BINLOG ADMIN|G
+|root||emikanda||BINLOG ADMIN|G
+|root||epousse||BINLOG ADMIN|G
+|root||erieu||BINLOG ADMIN|G
+|root||ethomy||BINLOG ADMIN|G
+|root||fbitsindou||BINLOG ADMIN|G
+|root||fmomika||BINLOG ADMIN|G
+|root||gbarreau||BINLOG ADMIN|G
+|root||hcros||BINLOG ADMIN|G
+|root||hekolimole||BINLOG ADMIN|G
+|root||iaziz||BINLOG ADMIN|G
+|root||idembele||BINLOG ADMIN|G
+|root||imzyene||BINLOG ADMIN|G
+|root||jchongtoua||BINLOG ADMIN|G
+|root||jdhikash||BINLOG ADMIN|G
+|root||jdimwanadi||BINLOG ADMIN|G
+|root||jfraoui||BINLOG ADMIN|G
+|root||jkialengel||BINLOG ADMIN|G
+|root||jleonard||BINLOG ADMIN|G
+|root||jlorng||BINLOG ADMIN|G
+|root||jmoudjoung||BINLOG ADMIN|G
+|root||kdiakumpun||BINLOG ADMIN|G
+|root||kemmanuel||BINLOG ADMIN|G
+|root||kmilius||BINLOG ADMIN|G
+|root||kya||BINLOG ADMIN|G
+|root||lbuy||BINLOG ADMIN|G
+|root||lcaronnage||BINLOG ADMIN|G
+|root||ldarras||BINLOG ADMIN|G
+|root||lfilloy||BINLOG ADMIN|G
+|root||lgerance||BINLOG ADMIN|G
+|root||lkiusi||BINLOG ADMIN|G
+|root||lsimon1||BINLOG ADMIN|G
+|root||makarojeux||BINLOG ADMIN|G
+|root||mbeladassi||BINLOG ADMIN|G
+|root||mdehay||BINLOG ADMIN|G
+|root||mgalli||BINLOG ADMIN|G
+|root||mguerry||BINLOG ADMIN|G
+|root||mmeziane1||BINLOG ADMIN|G
+|root||mrieu||BINLOG ADMIN|G
+|root||mya||BINLOG ADMIN|G
+|root||mysql|localhost|BINLOG ADMIN|G
+|root||nbelkacem||BINLOG ADMIN|G
+|root||ndhokhutsa||BINLOG ADMIN|G
+|root||nhellal||BINLOG ADMIN|G
+|root||njean||BINLOG ADMIN|G
+|root||nnsomi||BINLOG ADMIN|G
+|root||nrabarisoa||BINLOG ADMIN|G
+|root||ntran||BINLOG ADMIN|G
+|root||okasindu||BINLOG ADMIN|G
+|root||olufundu||BINLOG ADMIN|G
+|root||oviravagon||BINLOG ADMIN|G
+|root||raissi||BINLOG ADMIN|G
+|root||root|localhost|BINLOG ADMIN|G
+|root||sbenboubak||BINLOG ADMIN|G
+|root||schachoua||BINLOG ADMIN|G
+|root||sdelblond||BINLOG ADMIN|G
+|root||sgoupil||BINLOG ADMIN|G
+|root||sgueye||BINLOG ADMIN|G
+|root||sichalalen||BINLOG ADMIN|G
+|root||srandriana||BINLOG ADMIN|G
+|root||ssong||BINLOG ADMIN|G
+|root||tdurang||BINLOG ADMIN|G
+|root||tramamonji||BINLOG ADMIN|G
+|root||tvanrompa1||BINLOG ADMIN|G
+|root||tvanrompae||BINLOG ADMIN|G
+|root||ufaye||BINLOG ADMIN|G
+|root||vgomessilv||BINLOG ADMIN|G
+|root||wouahi||BINLOG ADMIN|G
+|root||yburandcha||BINLOG ADMIN|G
+|root||yelmourabi||BINLOG ADMIN|G
+|root||ysoufi||BINLOG ADMIN|G
+|root||zbensiali||BINLOG ADMIN|G
+|root||abalcerowi||BINLOG MONITOR|G
+|root||afotieufia||BINLOG MONITOR|G
+|root||agoubo||BINLOG MONITOR|G
+|root||ajosso||BINLOG MONITOR|G
+|root||akhennouci||BINLOG MONITOR|G
+|root||alaine||BINLOG MONITOR|G
+|root||alazaar||BINLOG MONITOR|G
+|root||anoel||BINLOG MONITOR|G
+|root||asouleiman||BINLOG MONITOR|G
+|root||atandabany||BINLOG MONITOR|G
+|root||azarif||BINLOG MONITOR|G
+|root||brodrigues||BINLOG MONITOR|G
+|root||bsako||BINLOG MONITOR|G
+|root||cjasick||BINLOG MONITOR|G
+|root||ckraftvale||BINLOG MONITOR|G
+|root||cokembameb||BINLOG MONITOR|G
+|root||cscion||BINLOG MONITOR|G
+|root||ddossantos||BINLOG MONITOR|G
+|root||dmaudet||BINLOG MONITOR|G
+|root||dthevaranc||BINLOG MONITOR|G
+|root||emikanda||BINLOG MONITOR|G
+|root||epousse||BINLOG MONITOR|G
+|root||erieu||BINLOG MONITOR|G
+|root||ethomy||BINLOG MONITOR|G
+|root||fbitsindou||BINLOG MONITOR|G
+|root||fmomika||BINLOG MONITOR|G
+|root||gbarreau||BINLOG MONITOR|G
+|root||hcros||BINLOG MONITOR|G
+|root||hekolimole||BINLOG MONITOR|G
+|root||iaziz||BINLOG MONITOR|G
+|root||idembele||BINLOG MONITOR|G
+|root||imzyene||BINLOG MONITOR|G
+|root||jchongtoua||BINLOG MONITOR|G
+|root||jdhikash||BINLOG MONITOR|G
+|root||jdimwanadi||BINLOG MONITOR|G
+|root||jfraoui||BINLOG MONITOR|G
+|root||jkialengel||BINLOG MONITOR|G
+|root||jleonard||BINLOG MONITOR|G
+|root||jlorng||BINLOG MONITOR|G
+|root||jmoudjoung||BINLOG MONITOR|G
+|root||kdiakumpun||BINLOG MONITOR|G
+|root||kemmanuel||BINLOG MONITOR|G
+|root||kmilius||BINLOG MONITOR|G
+|root||kya||BINLOG MONITOR|G
+|root||lbuy||BINLOG MONITOR|G
+|root||lcaronnage||BINLOG MONITOR|G
+|root||ldarras||BINLOG MONITOR|G
+|root||lfilloy||BINLOG MONITOR|G
+|root||lgerance||BINLOG MONITOR|G
+|root||lkiusi||BINLOG MONITOR|G
+|root||lsimon1||BINLOG MONITOR|G
+|root||makarojeux||BINLOG MONITOR|G
+|root||mbeladassi||BINLOG MONITOR|G
+|root||mdehay||BINLOG MONITOR|G
+|root||mgalli||BINLOG MONITOR|G
+|root||mguerry||BINLOG MONITOR|G
+|root||mmeziane1||BINLOG MONITOR|G
+|root||mrieu||BINLOG MONITOR|G
+|root||mya||BINLOG MONITOR|G
+|root||mysql|localhost|BINLOG MONITOR|G
+|root||nbelkacem||BINLOG MONITOR|G
+|root||ndhokhutsa||BINLOG MONITOR|G
+|root||nhellal||BINLOG MONITOR|G
+|root||njean||BINLOG MONITOR|G
+|root||nnsomi||BINLOG MONITOR|G
+|root||nrabarisoa||BINLOG MONITOR|G
+|root||ntran||BINLOG MONITOR|G
+|root||okasindu||BINLOG MONITOR|G
+|root||olufundu||BINLOG MONITOR|G
+|root||oviravagon||BINLOG MONITOR|G
+|root||raissi||BINLOG MONITOR|G
+|root||root|localhost|BINLOG MONITOR|G
+|root||sbenboubak||BINLOG MONITOR|G
+|root||schachoua||BINLOG MONITOR|G
+|root||sdelblond||BINLOG MONITOR|G
+|root||sgoupil||BINLOG MONITOR|G
+|root||sgueye||BINLOG MONITOR|G
+|root||sichalalen||BINLOG MONITOR|G
+|root||srandriana||BINLOG MONITOR|G
+|root||ssong||BINLOG MONITOR|G
+|root||tdurang||BINLOG MONITOR|G
+|root||tramamonji||BINLOG MONITOR|G
+|root||tvanrompa1||BINLOG MONITOR|G
+|root||tvanrompae||BINLOG MONITOR|G
+|root||ufaye||BINLOG MONITOR|G
+|root||vgomessilv||BINLOG MONITOR|G
+|root||wouahi||BINLOG MONITOR|G
+|root||yburandcha||BINLOG MONITOR|G
+|root||yelmourabi||BINLOG MONITOR|G
+|root||ysoufi||BINLOG MONITOR|G
+|root||zbensiali||BINLOG MONITOR|G
+|root||abalcerowi||BINLOG REPLAY|G
+|root||afotieufia||BINLOG REPLAY|G
+|root||agoubo||BINLOG REPLAY|G
+|root||ajosso||BINLOG REPLAY|G
+|root||akhennouci||BINLOG REPLAY|G
+|root||alaine||BINLOG REPLAY|G
+|root||alazaar||BINLOG REPLAY|G
+|root||anoel||BINLOG REPLAY|G
+|root||asouleiman||BINLOG REPLAY|G
+|root||atandabany||BINLOG REPLAY|G
+|root||azarif||BINLOG REPLAY|G
+|root||brodrigues||BINLOG REPLAY|G
+|root||bsako||BINLOG REPLAY|G
+|root||cjasick||BINLOG REPLAY|G
+|root||ckraftvale||BINLOG REPLAY|G
+|root||cokembameb||BINLOG REPLAY|G
+|root||cscion||BINLOG REPLAY|G
+|root||ddossantos||BINLOG REPLAY|G
+|root||dmaudet||BINLOG REPLAY|G
+|root||dthevaranc||BINLOG REPLAY|G
+|root||emikanda||BINLOG REPLAY|G
+|root||epousse||BINLOG REPLAY|G
+|root||erieu||BINLOG REPLAY|G
+|root||ethomy||BINLOG REPLAY|G
+|root||fbitsindou||BINLOG REPLAY|G
+|root||fmomika||BINLOG REPLAY|G
+|root||gbarreau||BINLOG REPLAY|G
+|root||hcros||BINLOG REPLAY|G
+|root||hekolimole||BINLOG REPLAY|G
+|root||iaziz||BINLOG REPLAY|G
+|root||idembele||BINLOG REPLAY|G
+|root||imzyene||BINLOG REPLAY|G
+|root||jchongtoua||BINLOG REPLAY|G
+|root||jdhikash||BINLOG REPLAY|G
+|root||jdimwanadi||BINLOG REPLAY|G
+|root||jfraoui||BINLOG REPLAY|G
+|root||jkialengel||BINLOG REPLAY|G
+|root||jleonard||BINLOG REPLAY|G
+|root||jlorng||BINLOG REPLAY|G
+|root||jmoudjoung||BINLOG REPLAY|G
+|root||kdiakumpun||BINLOG REPLAY|G
+|root||kemmanuel||BINLOG REPLAY|G
+|root||kmilius||BINLOG REPLAY|G
+|root||kya||BINLOG REPLAY|G
+|root||lbuy||BINLOG REPLAY|G
+|root||lcaronnage||BINLOG REPLAY|G
+|root||ldarras||BINLOG REPLAY|G
+|root||lfilloy||BINLOG REPLAY|G
+|root||lgerance||BINLOG REPLAY|G
+|root||lkiusi||BINLOG REPLAY|G
+|root||lsimon1||BINLOG REPLAY|G
+|root||makarojeux||BINLOG REPLAY|G
+|root||mbeladassi||BINLOG REPLAY|G
+|root||mdehay||BINLOG REPLAY|G
+|root||mgalli||BINLOG REPLAY|G
+|root||mguerry||BINLOG REPLAY|G
+|root||mmeziane1||BINLOG REPLAY|G
+|root||mrieu||BINLOG REPLAY|G
+|root||mya||BINLOG REPLAY|G
+|root||mysql|localhost|BINLOG REPLAY|G
+|root||nbelkacem||BINLOG REPLAY|G
+|root||ndhokhutsa||BINLOG REPLAY|G
+|root||nhellal||BINLOG REPLAY|G
+|root||njean||BINLOG REPLAY|G
+|root||nnsomi||BINLOG REPLAY|G
+|root||nrabarisoa||BINLOG REPLAY|G
+|root||ntran||BINLOG REPLAY|G
+|root||okasindu||BINLOG REPLAY|G
+|root||olufundu||BINLOG REPLAY|G
+|root||oviravagon||BINLOG REPLAY|G
+|root||raissi||BINLOG REPLAY|G
+|root||root|localhost|BINLOG REPLAY|G
+|root||sbenboubak||BINLOG REPLAY|G
+|root||schachoua||BINLOG REPLAY|G
+|root||sdelblond||BINLOG REPLAY|G
+|root||sgoupil||BINLOG REPLAY|G
+|root||sgueye||BINLOG REPLAY|G
+|root||sichalalen||BINLOG REPLAY|G
+|root||srandriana||BINLOG REPLAY|G
+|root||ssong||BINLOG REPLAY|G
+|root||tdurang||BINLOG REPLAY|G
+|root||tramamonji||BINLOG REPLAY|G
+|root||tvanrompa1||BINLOG REPLAY|G
+|root||tvanrompae||BINLOG REPLAY|G
+|root||ufaye||BINLOG REPLAY|G
+|root||vgomessilv||BINLOG REPLAY|G
+|root||wouahi||BINLOG REPLAY|G
+|root||yburandcha||BINLOG REPLAY|G
+|root||yelmourabi||BINLOG REPLAY|G
+|root||ysoufi||BINLOG REPLAY|G
+|root||zbensiali||BINLOG REPLAY|G
+|root||abalcerowi||CONNECTION ADMIN|G
+|root||afotieufia||CONNECTION ADMIN|G
+|root||agoubo||CONNECTION ADMIN|G
+|root||ajosso||CONNECTION ADMIN|G
+|root||akhennouci||CONNECTION ADMIN|G
+|root||alaine||CONNECTION ADMIN|G
+|root||alazaar||CONNECTION ADMIN|G
+|root||anoel||CONNECTION ADMIN|G
+|root||asouleiman||CONNECTION ADMIN|G
+|root||atandabany||CONNECTION ADMIN|G
+|root||azarif||CONNECTION ADMIN|G
+|root||brodrigues||CONNECTION ADMIN|G
+|root||bsako||CONNECTION ADMIN|G
+|root||cjasick||CONNECTION ADMIN|G
+|root||ckraftvale||CONNECTION ADMIN|G
+|root||cokembameb||CONNECTION ADMIN|G
+|root||cscion||CONNECTION ADMIN|G
+|root||ddossantos||CONNECTION ADMIN|G
+|root||dmaudet||CONNECTION ADMIN|G
+|root||dthevaranc||CONNECTION ADMIN|G
+|root||emikanda||CONNECTION ADMIN|G
+|root||epousse||CONNECTION ADMIN|G
+|root||erieu||CONNECTION ADMIN|G
+|root||ethomy||CONNECTION ADMIN|G
+|root||fbitsindou||CONNECTION ADMIN|G
+|root||fmomika||CONNECTION ADMIN|G
+|root||gbarreau||CONNECTION ADMIN|G
+|root||hcros||CONNECTION ADMIN|G
+|root||hekolimole||CONNECTION ADMIN|G
+|root||iaziz||CONNECTION ADMIN|G
+|root||idembele||CONNECTION ADMIN|G
+|root||imzyene||CONNECTION ADMIN|G
+|root||jchongtoua||CONNECTION ADMIN|G
+|root||jdhikash||CONNECTION ADMIN|G
+|root||jdimwanadi||CONNECTION ADMIN|G
+|root||jfraoui||CONNECTION ADMIN|G
+|root||jkialengel||CONNECTION ADMIN|G
+|root||jleonard||CONNECTION ADMIN|G
+|root||jlorng||CONNECTION ADMIN|G
+|root||jmoudjoung||CONNECTION ADMIN|G
+|root||kdiakumpun||CONNECTION ADMIN|G
+|root||kemmanuel||CONNECTION ADMIN|G
+|root||kmilius||CONNECTION ADMIN|G
+|root||kya||CONNECTION ADMIN|G
+|root||lbuy||CONNECTION ADMIN|G
+|root||lcaronnage||CONNECTION ADMIN|G
+|root||ldarras||CONNECTION ADMIN|G
+|root||lfilloy||CONNECTION ADMIN|G
+|root||lgerance||CONNECTION ADMIN|G
+|root||lkiusi||CONNECTION ADMIN|G
+|root||lsimon1||CONNECTION ADMIN|G
+|root||makarojeux||CONNECTION ADMIN|G
+|root||mbeladassi||CONNECTION ADMIN|G
+|root||mdehay||CONNECTION ADMIN|G
+|root||mgalli||CONNECTION ADMIN|G
+|root||mguerry||CONNECTION ADMIN|G
+|root||mmeziane1||CONNECTION ADMIN|G
+|root||mrieu||CONNECTION ADMIN|G
+|root||mya||CONNECTION ADMIN|G
+|root||mysql|localhost|CONNECTION ADMIN|G
+|root||nbelkacem||CONNECTION ADMIN|G
+|root||ndhokhutsa||CONNECTION ADMIN|G
+|root||nhellal||CONNECTION ADMIN|G
+|root||njean||CONNECTION ADMIN|G
+|root||nnsomi||CONNECTION ADMIN|G
+|root||nrabarisoa||CONNECTION ADMIN|G
+|root||ntran||CONNECTION ADMIN|G
+|root||okasindu||CONNECTION ADMIN|G
+|root||olufundu||CONNECTION ADMIN|G
+|root||oviravagon||CONNECTION ADMIN|G
+|root||raissi||CONNECTION ADMIN|G
+|root||root|localhost|CONNECTION ADMIN|G
+|root||sbenboubak||CONNECTION ADMIN|G
+|root||schachoua||CONNECTION ADMIN|G
+|root||sdelblond||CONNECTION ADMIN|G
+|root||sgoupil||CONNECTION ADMIN|G
+|root||sgueye||CONNECTION ADMIN|G
+|root||sichalalen||CONNECTION ADMIN|G
+|root||srandriana||CONNECTION ADMIN|G
+|root||ssong||CONNECTION ADMIN|G
+|root||tdurang||CONNECTION ADMIN|G
+|root||tramamonji||CONNECTION ADMIN|G
+|root||tvanrompa1||CONNECTION ADMIN|G
+|root||tvanrompae||CONNECTION ADMIN|G
+|root||ufaye||CONNECTION ADMIN|G
+|root||vgomessilv||CONNECTION ADMIN|G
+|root||wouahi||CONNECTION ADMIN|G
+|root||yburandcha||CONNECTION ADMIN|G
+|root||yelmourabi||CONNECTION ADMIN|G
+|root||ysoufi||CONNECTION ADMIN|G
+|root||zbensiali||CONNECTION ADMIN|G
+|root||abalcerowi||CREATE|G
+|root||afotieufia||CREATE|G
+|root||agoubo||CREATE|G
+|root||ajosso||CREATE|G
+|root||akhennouci||CREATE|G
+|root||alaine||CREATE|G
+|root||alazaar||CREATE|G
+|root||anoel||CREATE|G
+|root||asouleiman||CREATE|G
+|root||atandabany||CREATE|G
+|root||azarif||CREATE|G
+|root||brodrigues||CREATE|G
+|root||bsako||CREATE|G
+|root||cjasick||CREATE|G
+|root||ckraftvale||CREATE|G
+|root||cokembameb||CREATE|G
+|root||cscion||CREATE|G
+|root||ddossantos||CREATE|G
+|root||dmaudet||CREATE|G
+|root||dthevaranc||CREATE|G
+|root||emikanda||CREATE|G
+|root||epousse||CREATE|G
+|root||erieu||CREATE|G
+|root||ethomy||CREATE|G
+|root||fbitsindou||CREATE|G
+|root||fmomika||CREATE|G
+|root||gbarreau||CREATE|G
+|root||hcros||CREATE|G
+|root||hekolimole||CREATE|G
+|root||iaziz||CREATE|G
+|root||idembele||CREATE|G
+|root||imzyene||CREATE|G
+|root||jchongtoua||CREATE|G
+|root||jdhikash||CREATE|G
+|root||jdimwanadi||CREATE|G
+|root||jfraoui||CREATE|G
+|root||jkialengel||CREATE|G
+|root||jleonard||CREATE|G
+|root||jlorng||CREATE|G
+|root||jmoudjoung||CREATE|G
+|root||kdiakumpun||CREATE|G
+|root||kemmanuel||CREATE|G
+|root||kmilius||CREATE|G
+|root||kya||CREATE|G
+|root||lbuy||CREATE|G
+|root||lcaronnage||CREATE|G
+|root||ldarras||CREATE|G
+|root||lfilloy||CREATE|G
+|root||lgerance||CREATE|G
+|root||lkiusi||CREATE|G
+|root||lsimon1||CREATE|G
+|root||makarojeux||CREATE|G
+|root||mbeladassi||CREATE|G
+|root||mdehay||CREATE|G
+|root||mgalli||CREATE|G
+|root||mguerry||CREATE|G
+|root||mmeziane1||CREATE|G
+|root||mrieu||CREATE|G
+|root||mya||CREATE|G
+|root||mysql|localhost|CREATE|G
+|root||nbelkacem||CREATE|G
+|root||ndhokhutsa||CREATE|G
+|root||nhellal||CREATE|G
+|root||njean||CREATE|G
+|root||nnsomi||CREATE|G
+|root||nrabarisoa||CREATE|G
+|root||ntran||CREATE|G
+|root||okasindu||CREATE|G
+|root||olufundu||CREATE|G
+|root||oviravagon||CREATE|G
+|root||raissi||CREATE|G
+|root||root|localhost|CREATE|G
+|root||sbenboubak||CREATE|G
+|root||schachoua||CREATE|G
+|root||sdelblond||CREATE|G
+|root||sgoupil||CREATE|G
+|root||sgueye||CREATE|G
+|root||sichalalen||CREATE|G
+|root||srandriana||CREATE|G
+|root||ssong||CREATE|G
+|root||tdurang||CREATE|G
+|root||tramamonji||CREATE|G
+|root||tvanrompa1||CREATE|G
+|root||tvanrompae||CREATE|G
+|root||ufaye||CREATE|G
+|root||vgomessilv||CREATE|G
+|root||wouahi||CREATE|G
+|root||yburandcha||CREATE|G
+|root||yelmourabi||CREATE|G
+|root||ysoufi||CREATE|G
+|root||zbensiali||CREATE|G
+|root||abalcerowi||CREATE ROUTINE|G
+|root||afotieufia||CREATE ROUTINE|G
+|root||agoubo||CREATE ROUTINE|G
+|root||ajosso||CREATE ROUTINE|G
+|root||akhennouci||CREATE ROUTINE|G
+|root||alaine||CREATE ROUTINE|G
+|root||alazaar||CREATE ROUTINE|G
+|root||anoel||CREATE ROUTINE|G
+|root||asouleiman||CREATE ROUTINE|G
+|root||atandabany||CREATE ROUTINE|G
+|root||azarif||CREATE ROUTINE|G
+|root||brodrigues||CREATE ROUTINE|G
+|root||bsako||CREATE ROUTINE|G
+|root||cjasick||CREATE ROUTINE|G
+|root||ckraftvale||CREATE ROUTINE|G
+|root||cokembameb||CREATE ROUTINE|G
+|root||cscion||CREATE ROUTINE|G
+|root||ddossantos||CREATE ROUTINE|G
+|root||dmaudet||CREATE ROUTINE|G
+|root||dthevaranc||CREATE ROUTINE|G
+|root||emikanda||CREATE ROUTINE|G
+|root||epousse||CREATE ROUTINE|G
+|root||erieu||CREATE ROUTINE|G
+|root||ethomy||CREATE ROUTINE|G
+|root||fbitsindou||CREATE ROUTINE|G
+|root||fmomika||CREATE ROUTINE|G
+|root||gbarreau||CREATE ROUTINE|G
+|root||hcros||CREATE ROUTINE|G
+|root||hekolimole||CREATE ROUTINE|G
+|root||iaziz||CREATE ROUTINE|G
+|root||idembele||CREATE ROUTINE|G
+|root||imzyene||CREATE ROUTINE|G
+|root||jchongtoua||CREATE ROUTINE|G
+|root||jdhikash||CREATE ROUTINE|G
+|root||jdimwanadi||CREATE ROUTINE|G
+|root||jfraoui||CREATE ROUTINE|G
+|root||jkialengel||CREATE ROUTINE|G
+|root||jleonard||CREATE ROUTINE|G
+|root||jlorng||CREATE ROUTINE|G
+|root||jmoudjoung||CREATE ROUTINE|G
+|root||kdiakumpun||CREATE ROUTINE|G
+|root||kemmanuel||CREATE ROUTINE|G
+|root||kmilius||CREATE ROUTINE|G
+|root||kya||CREATE ROUTINE|G
+|root||lbuy||CREATE ROUTINE|G
+|root||lcaronnage||CREATE ROUTINE|G
+|root||ldarras||CREATE ROUTINE|G
+|root||lfilloy||CREATE ROUTINE|G
+|root||lgerance||CREATE ROUTINE|G
+|root||lkiusi||CREATE ROUTINE|G
+|root||lsimon1||CREATE ROUTINE|G
+|root||makarojeux||CREATE ROUTINE|G
+|root||mbeladassi||CREATE ROUTINE|G
+|root||mdehay||CREATE ROUTINE|G
+|root||mgalli||CREATE ROUTINE|G
+|root||mguerry||CREATE ROUTINE|G
+|root||mmeziane1||CREATE ROUTINE|G
+|root||mrieu||CREATE ROUTINE|G
+|root||mya||CREATE ROUTINE|G
+|root||mysql|localhost|CREATE ROUTINE|G
+|root||nbelkacem||CREATE ROUTINE|G
+|root||ndhokhutsa||CREATE ROUTINE|G
+|root||nhellal||CREATE ROUTINE|G
+|root||njean||CREATE ROUTINE|G
+|root||nnsomi||CREATE ROUTINE|G
+|root||nrabarisoa||CREATE ROUTINE|G
+|root||ntran||CREATE ROUTINE|G
+|root||okasindu||CREATE ROUTINE|G
+|root||olufundu||CREATE ROUTINE|G
+|root||oviravagon||CREATE ROUTINE|G
+|root||raissi||CREATE ROUTINE|G
+|root||root|localhost|CREATE ROUTINE|G
+|root||sbenboubak||CREATE ROUTINE|G
+|root||schachoua||CREATE ROUTINE|G
+|root||sdelblond||CREATE ROUTINE|G
+|root||sgoupil||CREATE ROUTINE|G
+|root||sgueye||CREATE ROUTINE|G
+|root||sichalalen||CREATE ROUTINE|G
+|root||srandriana||CREATE ROUTINE|G
+|root||ssong||CREATE ROUTINE|G
+|root||tdurang||CREATE ROUTINE|G
+|root||tramamonji||CREATE ROUTINE|G
+|root||tvanrompa1||CREATE ROUTINE|G
+|root||tvanrompae||CREATE ROUTINE|G
+|root||ufaye||CREATE ROUTINE|G
+|root||vgomessilv||CREATE ROUTINE|G
+|root||wouahi||CREATE ROUTINE|G
+|root||yburandcha||CREATE ROUTINE|G
+|root||yelmourabi||CREATE ROUTINE|G
+|root||ysoufi||CREATE ROUTINE|G
+|root||zbensiali||CREATE ROUTINE|G
+|root||abalcerowi||CREATE TABLESPACE|G
+|root||afotieufia||CREATE TABLESPACE|G
+|root||agoubo||CREATE TABLESPACE|G
+|root||ajosso||CREATE TABLESPACE|G
+|root||akhennouci||CREATE TABLESPACE|G
+|root||alaine||CREATE TABLESPACE|G
+|root||alazaar||CREATE TABLESPACE|G
+|root||anoel||CREATE TABLESPACE|G
+|root||asouleiman||CREATE TABLESPACE|G
+|root||atandabany||CREATE TABLESPACE|G
+|root||azarif||CREATE TABLESPACE|G
+|root||brodrigues||CREATE TABLESPACE|G
+|root||bsako||CREATE TABLESPACE|G
+|root||cjasick||CREATE TABLESPACE|G
+|root||ckraftvale||CREATE TABLESPACE|G
+|root||cokembameb||CREATE TABLESPACE|G
+|root||cscion||CREATE TABLESPACE|G
+|root||ddossantos||CREATE TABLESPACE|G
+|root||dmaudet||CREATE TABLESPACE|G
+|root||dthevaranc||CREATE TABLESPACE|G
+|root||emikanda||CREATE TABLESPACE|G
+|root||epousse||CREATE TABLESPACE|G
+|root||erieu||CREATE TABLESPACE|G
+|root||ethomy||CREATE TABLESPACE|G
+|root||fbitsindou||CREATE TABLESPACE|G
+|root||fmomika||CREATE TABLESPACE|G
+|root||gbarreau||CREATE TABLESPACE|G
+|root||hcros||CREATE TABLESPACE|G
+|root||hekolimole||CREATE TABLESPACE|G
+|root||iaziz||CREATE TABLESPACE|G
+|root||idembele||CREATE TABLESPACE|G
+|root||imzyene||CREATE TABLESPACE|G
+|root||jchongtoua||CREATE TABLESPACE|G
+|root||jdhikash||CREATE TABLESPACE|G
+|root||jdimwanadi||CREATE TABLESPACE|G
+|root||jfraoui||CREATE TABLESPACE|G
+|root||jkialengel||CREATE TABLESPACE|G
+|root||jleonard||CREATE TABLESPACE|G
+|root||jlorng||CREATE TABLESPACE|G
+|root||jmoudjoung||CREATE TABLESPACE|G
+|root||kdiakumpun||CREATE TABLESPACE|G
+|root||kemmanuel||CREATE TABLESPACE|G
+|root||kmilius||CREATE TABLESPACE|G
+|root||kya||CREATE TABLESPACE|G
+|root||lbuy||CREATE TABLESPACE|G
+|root||lcaronnage||CREATE TABLESPACE|G
+|root||ldarras||CREATE TABLESPACE|G
+|root||lfilloy||CREATE TABLESPACE|G
+|root||lgerance||CREATE TABLESPACE|G
+|root||lkiusi||CREATE TABLESPACE|G
+|root||lsimon1||CREATE TABLESPACE|G
+|root||makarojeux||CREATE TABLESPACE|G
+|root||mbeladassi||CREATE TABLESPACE|G
+|root||mdehay||CREATE TABLESPACE|G
+|root||mgalli||CREATE TABLESPACE|G
+|root||mguerry||CREATE TABLESPACE|G
+|root||mmeziane1||CREATE TABLESPACE|G
+|root||mrieu||CREATE TABLESPACE|G
+|root||mya||CREATE TABLESPACE|G
+|root||mysql|localhost|CREATE TABLESPACE|G
+|root||nbelkacem||CREATE TABLESPACE|G
+|root||ndhokhutsa||CREATE TABLESPACE|G
+|root||nhellal||CREATE TABLESPACE|G
+|root||njean||CREATE TABLESPACE|G
+|root||nnsomi||CREATE TABLESPACE|G
+|root||nrabarisoa||CREATE TABLESPACE|G
+|root||ntran||CREATE TABLESPACE|G
+|root||okasindu||CREATE TABLESPACE|G
+|root||olufundu||CREATE TABLESPACE|G
+|root||oviravagon||CREATE TABLESPACE|G
+|root||raissi||CREATE TABLESPACE|G
+|root||root|localhost|CREATE TABLESPACE|G
+|root||sbenboubak||CREATE TABLESPACE|G
+|root||schachoua||CREATE TABLESPACE|G
+|root||sdelblond||CREATE TABLESPACE|G
+|root||sgoupil||CREATE TABLESPACE|G
+|root||sgueye||CREATE TABLESPACE|G
+|root||sichalalen||CREATE TABLESPACE|G
+|root||srandriana||CREATE TABLESPACE|G
+|root||ssong||CREATE TABLESPACE|G
+|root||tdurang||CREATE TABLESPACE|G
+|root||tramamonji||CREATE TABLESPACE|G
+|root||tvanrompa1||CREATE TABLESPACE|G
+|root||tvanrompae||CREATE TABLESPACE|G
+|root||ufaye||CREATE TABLESPACE|G
+|root||vgomessilv||CREATE TABLESPACE|G
+|root||wouahi||CREATE TABLESPACE|G
+|root||yburandcha||CREATE TABLESPACE|G
+|root||yelmourabi||CREATE TABLESPACE|G
+|root||ysoufi||CREATE TABLESPACE|G
+|root||zbensiali||CREATE TABLESPACE|G
+|root||abalcerowi||CREATE TEMPORARY TABLES|G
+|root||afotieufia||CREATE TEMPORARY TABLES|G
+|root||agoubo||CREATE TEMPORARY TABLES|G
+|root||ajosso||CREATE TEMPORARY TABLES|G
+|root||akhennouci||CREATE TEMPORARY TABLES|G
+|root||alaine||CREATE TEMPORARY TABLES|G
+|root||alazaar||CREATE TEMPORARY TABLES|G
+|root||anoel||CREATE TEMPORARY TABLES|G
+|root||asouleiman||CREATE TEMPORARY TABLES|G
+|root||atandabany||CREATE TEMPORARY TABLES|G
+|root||azarif||CREATE TEMPORARY TABLES|G
+|root||brodrigues||CREATE TEMPORARY TABLES|G
+|root||bsako||CREATE TEMPORARY TABLES|G
+|root||cjasick||CREATE TEMPORARY TABLES|G
+|root||ckraftvale||CREATE TEMPORARY TABLES|G
+|root||cokembameb||CREATE TEMPORARY TABLES|G
+|root||cscion||CREATE TEMPORARY TABLES|G
+|root||ddossantos||CREATE TEMPORARY TABLES|G
+|root||dmaudet||CREATE TEMPORARY TABLES|G
+|root||dthevaranc||CREATE TEMPORARY TABLES|G
+|root||emikanda||CREATE TEMPORARY TABLES|G
+|root||epousse||CREATE TEMPORARY TABLES|G
+|root||erieu||CREATE TEMPORARY TABLES|G
+|root||ethomy||CREATE TEMPORARY TABLES|G
+|root||fbitsindou||CREATE TEMPORARY TABLES|G
+|root||fmomika||CREATE TEMPORARY TABLES|G
+|root||gbarreau||CREATE TEMPORARY TABLES|G
+|root||hcros||CREATE TEMPORARY TABLES|G
+|root||hekolimole||CREATE TEMPORARY TABLES|G
+|root||iaziz||CREATE TEMPORARY TABLES|G
+|root||idembele||CREATE TEMPORARY TABLES|G
+|root||imzyene||CREATE TEMPORARY TABLES|G
+|root||jchongtoua||CREATE TEMPORARY TABLES|G
+|root||jdhikash||CREATE TEMPORARY TABLES|G
+|root||jdimwanadi||CREATE TEMPORARY TABLES|G
+|root||jfraoui||CREATE TEMPORARY TABLES|G
+|root||jkialengel||CREATE TEMPORARY TABLES|G
+|root||jleonard||CREATE TEMPORARY TABLES|G
+|root||jlorng||CREATE TEMPORARY TABLES|G
+|root||jmoudjoung||CREATE TEMPORARY TABLES|G
+|root||kdiakumpun||CREATE TEMPORARY TABLES|G
+|root||kemmanuel||CREATE TEMPORARY TABLES|G
+|root||kmilius||CREATE TEMPORARY TABLES|G
+|root||kya||CREATE TEMPORARY TABLES|G
+|root||lbuy||CREATE TEMPORARY TABLES|G
+|root||lcaronnage||CREATE TEMPORARY TABLES|G
+|root||ldarras||CREATE TEMPORARY TABLES|G
+|root||lfilloy||CREATE TEMPORARY TABLES|G
+|root||lgerance||CREATE TEMPORARY TABLES|G
+|root||lkiusi||CREATE TEMPORARY TABLES|G
+|root||lsimon1||CREATE TEMPORARY TABLES|G
+|root||makarojeux||CREATE TEMPORARY TABLES|G
+|root||mbeladassi||CREATE TEMPORARY TABLES|G
+|root||mdehay||CREATE TEMPORARY TABLES|G
+|root||mgalli||CREATE TEMPORARY TABLES|G
+|root||mguerry||CREATE TEMPORARY TABLES|G
+|root||mmeziane1||CREATE TEMPORARY TABLES|G
+|root||mrieu||CREATE TEMPORARY TABLES|G
+|root||mya||CREATE TEMPORARY TABLES|G
+|root||mysql|localhost|CREATE TEMPORARY TABLES|G
+|root||nbelkacem||CREATE TEMPORARY TABLES|G
+|root||ndhokhutsa||CREATE TEMPORARY TABLES|G
+|root||nhellal||CREATE TEMPORARY TABLES|G
+|root||njean||CREATE TEMPORARY TABLES|G
+|root||nnsomi||CREATE TEMPORARY TABLES|G
+|root||nrabarisoa||CREATE TEMPORARY TABLES|G
+|root||ntran||CREATE TEMPORARY TABLES|G
+|root||okasindu||CREATE TEMPORARY TABLES|G
+|root||olufundu||CREATE TEMPORARY TABLES|G
+|root||oviravagon||CREATE TEMPORARY TABLES|G
+|root||raissi||CREATE TEMPORARY TABLES|G
+|root||root|localhost|CREATE TEMPORARY TABLES|G
+|root||sbenboubak||CREATE TEMPORARY TABLES|G
+|root||schachoua||CREATE TEMPORARY TABLES|G
+|root||sdelblond||CREATE TEMPORARY TABLES|G
+|root||sgoupil||CREATE TEMPORARY TABLES|G
+|root||sgueye||CREATE TEMPORARY TABLES|G
+|root||sichalalen||CREATE TEMPORARY TABLES|G
+|root||srandriana||CREATE TEMPORARY TABLES|G
+|root||ssong||CREATE TEMPORARY TABLES|G
+|root||tdurang||CREATE TEMPORARY TABLES|G
+|root||tramamonji||CREATE TEMPORARY TABLES|G
+|root||tvanrompa1||CREATE TEMPORARY TABLES|G
+|root||tvanrompae||CREATE TEMPORARY TABLES|G
+|root||ufaye||CREATE TEMPORARY TABLES|G
+|root||vgomessilv||CREATE TEMPORARY TABLES|G
+|root||wouahi||CREATE TEMPORARY TABLES|G
+|root||yburandcha||CREATE TEMPORARY TABLES|G
+|root||yelmourabi||CREATE TEMPORARY TABLES|G
+|root||ysoufi||CREATE TEMPORARY TABLES|G
+|root||zbensiali||CREATE TEMPORARY TABLES|G
+|root||abalcerowi||CREATE USER|G
+|root||afotieufia||CREATE USER|G
+|root||agoubo||CREATE USER|G
+|root||ajosso||CREATE USER|G
+|root||akhennouci||CREATE USER|G
+|root||alaine||CREATE USER|G
+|root||alazaar||CREATE USER|G
+|root||anoel||CREATE USER|G
+|root||asouleiman||CREATE USER|G
+|root||atandabany||CREATE USER|G
+|root||azarif||CREATE USER|G
+|root||brodrigues||CREATE USER|G
+|root||bsako||CREATE USER|G
+|root||cjasick||CREATE USER|G
+|root||ckraftvale||CREATE USER|G
+|root||cokembameb||CREATE USER|G
+|root||cscion||CREATE USER|G
+|root||ddossantos||CREATE USER|G
+|root||dmaudet||CREATE USER|G
+|root||dthevaranc||CREATE USER|G
+|root||emikanda||CREATE USER|G
+|root||epousse||CREATE USER|G
+|root||erieu||CREATE USER|G
+|root||ethomy||CREATE USER|G
+|root||fbitsindou||CREATE USER|G
+|root||fmomika||CREATE USER|G
+|root||gbarreau||CREATE USER|G
+|root||hcros||CREATE USER|G
+|root||hekolimole||CREATE USER|G
+|root||iaziz||CREATE USER|G
+|root||idembele||CREATE USER|G
+|root||imzyene||CREATE USER|G
+|root||jchongtoua||CREATE USER|G
+|root||jdhikash||CREATE USER|G
+|root||jdimwanadi||CREATE USER|G
+|root||jfraoui||CREATE USER|G
+|root||jkialengel||CREATE USER|G
+|root||jleonard||CREATE USER|G
+|root||jlorng||CREATE USER|G
+|root||jmoudjoung||CREATE USER|G
+|root||kdiakumpun||CREATE USER|G
+|root||kemmanuel||CREATE USER|G
+|root||kmilius||CREATE USER|G
+|root||kya||CREATE USER|G
+|root||lbuy||CREATE USER|G
+|root||lcaronnage||CREATE USER|G
+|root||ldarras||CREATE USER|G
+|root||lfilloy||CREATE USER|G
+|root||lgerance||CREATE USER|G
+|root||lkiusi||CREATE USER|G
+|root||lsimon1||CREATE USER|G
+|root||makarojeux||CREATE USER|G
+|root||mbeladassi||CREATE USER|G
+|root||mdehay||CREATE USER|G
+|root||mgalli||CREATE USER|G
+|root||mguerry||CREATE USER|G
+|root||mmeziane1||CREATE USER|G
+|root||mrieu||CREATE USER|G
+|root||mya||CREATE USER|G
+|root||mysql|localhost|CREATE USER|G
+|root||nbelkacem||CREATE USER|G
+|root||ndhokhutsa||CREATE USER|G
+|root||nhellal||CREATE USER|G
+|root||njean||CREATE USER|G
+|root||nnsomi||CREATE USER|G
+|root||nrabarisoa||CREATE USER|G
+|root||ntran||CREATE USER|G
+|root||okasindu||CREATE USER|G
+|root||olufundu||CREATE USER|G
+|root||oviravagon||CREATE USER|G
+|root||raissi||CREATE USER|G
+|root||root|localhost|CREATE USER|G
+|root||sbenboubak||CREATE USER|G
+|root||schachoua||CREATE USER|G
+|root||sdelblond||CREATE USER|G
+|root||sgoupil||CREATE USER|G
+|root||sgueye||CREATE USER|G
+|root||sichalalen||CREATE USER|G
+|root||srandriana||CREATE USER|G
+|root||ssong||CREATE USER|G
+|root||tdurang||CREATE USER|G
+|root||tramamonji||CREATE USER|G
+|root||tvanrompa1||CREATE USER|G
+|root||tvanrompae||CREATE USER|G
+|root||ufaye||CREATE USER|G
+|root||vgomessilv||CREATE USER|G
+|root||wouahi||CREATE USER|G
+|root||yburandcha||CREATE USER|G
+|root||yelmourabi||CREATE USER|G
+|root||ysoufi||CREATE USER|G
+|root||zbensiali||CREATE USER|G
+|root||abalcerowi||CREATE VIEW|G
+|root||afotieufia||CREATE VIEW|G
+|root||agoubo||CREATE VIEW|G
+|root||ajosso||CREATE VIEW|G
+|root||akhennouci||CREATE VIEW|G
+|root||alaine||CREATE VIEW|G
+|root||alazaar||CREATE VIEW|G
+|root||anoel||CREATE VIEW|G
+|root||asouleiman||CREATE VIEW|G
+|root||atandabany||CREATE VIEW|G
+|root||azarif||CREATE VIEW|G
+|root||brodrigues||CREATE VIEW|G
+|root||bsako||CREATE VIEW|G
+|root||cjasick||CREATE VIEW|G
+|root||ckraftvale||CREATE VIEW|G
+|root||cokembameb||CREATE VIEW|G
+|root||cscion||CREATE VIEW|G
+|root||ddossantos||CREATE VIEW|G
+|root||dmaudet||CREATE VIEW|G
+|root||dthevaranc||CREATE VIEW|G
+|root||emikanda||CREATE VIEW|G
+|root||epousse||CREATE VIEW|G
+|root||erieu||CREATE VIEW|G
+|root||ethomy||CREATE VIEW|G
+|root||fbitsindou||CREATE VIEW|G
+|root||fmomika||CREATE VIEW|G
+|root||gbarreau||CREATE VIEW|G
+|root||hcros||CREATE VIEW|G
+|root||hekolimole||CREATE VIEW|G
+|root||iaziz||CREATE VIEW|G
+|root||idembele||CREATE VIEW|G
+|root||imzyene||CREATE VIEW|G
+|root||jchongtoua||CREATE VIEW|G
+|root||jdhikash||CREATE VIEW|G
+|root||jdimwanadi||CREATE VIEW|G
+|root||jfraoui||CREATE VIEW|G
+|root||jkialengel||CREATE VIEW|G
+|root||jleonard||CREATE VIEW|G
+|root||jlorng||CREATE VIEW|G
+|root||jmoudjoung||CREATE VIEW|G
+|root||kdiakumpun||CREATE VIEW|G
+|root||kemmanuel||CREATE VIEW|G
+|root||kmilius||CREATE VIEW|G
+|root||kya||CREATE VIEW|G
+|root||lbuy||CREATE VIEW|G
+|root||lcaronnage||CREATE VIEW|G
+|root||ldarras||CREATE VIEW|G
+|root||lfilloy||CREATE VIEW|G
+|root||lgerance||CREATE VIEW|G
+|root||lkiusi||CREATE VIEW|G
+|root||lsimon1||CREATE VIEW|G
+|root||makarojeux||CREATE VIEW|G
+|root||mbeladassi||CREATE VIEW|G
+|root||mdehay||CREATE VIEW|G
+|root||mgalli||CREATE VIEW|G
+|root||mguerry||CREATE VIEW|G
+|root||mmeziane1||CREATE VIEW|G
+|root||mrieu||CREATE VIEW|G
+|root||mya||CREATE VIEW|G
+|root||mysql|localhost|CREATE VIEW|G
+|root||nbelkacem||CREATE VIEW|G
+|root||ndhokhutsa||CREATE VIEW|G
+|root||nhellal||CREATE VIEW|G
+|root||njean||CREATE VIEW|G
+|root||nnsomi||CREATE VIEW|G
+|root||nrabarisoa||CREATE VIEW|G
+|root||ntran||CREATE VIEW|G
+|root||okasindu||CREATE VIEW|G
+|root||olufundu||CREATE VIEW|G
+|root||oviravagon||CREATE VIEW|G
+|root||raissi||CREATE VIEW|G
+|root||root|localhost|CREATE VIEW|G
+|root||sbenboubak||CREATE VIEW|G
+|root||schachoua||CREATE VIEW|G
+|root||sdelblond||CREATE VIEW|G
+|root||sgoupil||CREATE VIEW|G
+|root||sgueye||CREATE VIEW|G
+|root||sichalalen||CREATE VIEW|G
+|root||srandriana||CREATE VIEW|G
+|root||ssong||CREATE VIEW|G
+|root||tdurang||CREATE VIEW|G
+|root||tramamonji||CREATE VIEW|G
+|root||tvanrompa1||CREATE VIEW|G
+|root||tvanrompae||CREATE VIEW|G
+|root||ufaye||CREATE VIEW|G
+|root||vgomessilv||CREATE VIEW|G
+|root||wouahi||CREATE VIEW|G
+|root||yburandcha||CREATE VIEW|G
+|root||yelmourabi||CREATE VIEW|G
+|root||ysoufi||CREATE VIEW|G
+|root||zbensiali||CREATE VIEW|G
+|root||abalcerowi||DELETE|G
+|root||afotieufia||DELETE|G
+|root||agoubo||DELETE|G
+|root||ajosso||DELETE|G
+|root||akhennouci||DELETE|G
+|root||alaine||DELETE|G
+|root||alazaar||DELETE|G
+|root||anoel||DELETE|G
+|root||asouleiman||DELETE|G
+|root||atandabany||DELETE|G
+|root||azarif||DELETE|G
+|root||brodrigues||DELETE|G
+|root||bsako||DELETE|G
+|root||cjasick||DELETE|G
+|root||ckraftvale||DELETE|G
+|root||cokembameb||DELETE|G
+|root||cscion||DELETE|G
+|root||ddossantos||DELETE|G
+|root||dmaudet||DELETE|G
+|root||dthevaranc||DELETE|G
+|root||emikanda||DELETE|G
+|root||epousse||DELETE|G
+|root||erieu||DELETE|G
+|root||ethomy||DELETE|G
+|root||fbitsindou||DELETE|G
+|root||fmomika||DELETE|G
+|root||gbarreau||DELETE|G
+|root||hcros||DELETE|G
+|root||hekolimole||DELETE|G
+|root||iaziz||DELETE|G
+|root||idembele||DELETE|G
+|root||imzyene||DELETE|G
+|root||jchongtoua||DELETE|G
+|root||jdhikash||DELETE|G
+|root||jdimwanadi||DELETE|G
+|root||jfraoui||DELETE|G
+|root||jkialengel||DELETE|G
+|root||jleonard||DELETE|G
+|root||jlorng||DELETE|G
+|root||jmoudjoung||DELETE|G
+|root||kdiakumpun||DELETE|G
+|root||kemmanuel||DELETE|G
+|root||kmilius||DELETE|G
+|root||kya||DELETE|G
+|root||lbuy||DELETE|G
+|root||lcaronnage||DELETE|G
+|root||ldarras||DELETE|G
+|root||lfilloy||DELETE|G
+|root||lgerance||DELETE|G
+|root||lkiusi||DELETE|G
+|root||lsimon1||DELETE|G
+|root||makarojeux||DELETE|G
+|root||mbeladassi||DELETE|G
+|root||mdehay||DELETE|G
+|root||mgalli||DELETE|G
+|root||mguerry||DELETE|G
+|root||mmeziane1||DELETE|G
+|root||mrieu||DELETE|G
+|root||mya||DELETE|G
+|root||mysql|localhost|DELETE|G
+|root||nbelkacem||DELETE|G
+|root||ndhokhutsa||DELETE|G
+|root||nhellal||DELETE|G
+|root||njean||DELETE|G
+|root||nnsomi||DELETE|G
+|root||nrabarisoa||DELETE|G
+|root||ntran||DELETE|G
+|root||okasindu||DELETE|G
+|root||olufundu||DELETE|G
+|root||oviravagon||DELETE|G
+|root||raissi||DELETE|G
+|root||root|localhost|DELETE|G
+|root||sbenboubak||DELETE|G
+|root||schachoua||DELETE|G
+|root||sdelblond||DELETE|G
+|root||sgoupil||DELETE|G
+|root||sgueye||DELETE|G
+|root||sichalalen||DELETE|G
+|root||srandriana||DELETE|G
+|root||ssong||DELETE|G
+|root||tdurang||DELETE|G
+|root||tramamonji||DELETE|G
+|root||tvanrompa1||DELETE|G
+|root||tvanrompae||DELETE|G
+|root||ufaye||DELETE|G
+|root||vgomessilv||DELETE|G
+|root||wouahi||DELETE|G
+|root||yburandcha||DELETE|G
+|root||yelmourabi||DELETE|G
+|root||ysoufi||DELETE|G
+|root||zbensiali||DELETE|G
+|root||abalcerowi||DELETE HISTORY|G
+|root||afotieufia||DELETE HISTORY|G
+|root||agoubo||DELETE HISTORY|G
+|root||ajosso||DELETE HISTORY|G
+|root||akhennouci||DELETE HISTORY|G
+|root||alaine||DELETE HISTORY|G
+|root||alazaar||DELETE HISTORY|G
+|root||anoel||DELETE HISTORY|G
+|root||asouleiman||DELETE HISTORY|G
+|root||atandabany||DELETE HISTORY|G
+|root||azarif||DELETE HISTORY|G
+|root||brodrigues||DELETE HISTORY|G
+|root||bsako||DELETE HISTORY|G
+|root||cjasick||DELETE HISTORY|G
+|root||ckraftvale||DELETE HISTORY|G
+|root||cokembameb||DELETE HISTORY|G
+|root||cscion||DELETE HISTORY|G
+|root||ddossantos||DELETE HISTORY|G
+|root||dmaudet||DELETE HISTORY|G
+|root||dthevaranc||DELETE HISTORY|G
+|root||emikanda||DELETE HISTORY|G
+|root||epousse||DELETE HISTORY|G
+|root||erieu||DELETE HISTORY|G
+|root||ethomy||DELETE HISTORY|G
+|root||fbitsindou||DELETE HISTORY|G
+|root||fmomika||DELETE HISTORY|G
+|root||gbarreau||DELETE HISTORY|G
+|root||hcros||DELETE HISTORY|G
+|root||hekolimole||DELETE HISTORY|G
+|root||iaziz||DELETE HISTORY|G
+|root||idembele||DELETE HISTORY|G
+|root||imzyene||DELETE HISTORY|G
+|root||jchongtoua||DELETE HISTORY|G
+|root||jdhikash||DELETE HISTORY|G
+|root||jdimwanadi||DELETE HISTORY|G
+|root||jfraoui||DELETE HISTORY|G
+|root||jkialengel||DELETE HISTORY|G
+|root||jleonard||DELETE HISTORY|G
+|root||jlorng||DELETE HISTORY|G
+|root||jmoudjoung||DELETE HISTORY|G
+|root||kdiakumpun||DELETE HISTORY|G
+|root||kemmanuel||DELETE HISTORY|G
+|root||kmilius||DELETE HISTORY|G
+|root||kya||DELETE HISTORY|G
+|root||lbuy||DELETE HISTORY|G
+|root||lcaronnage||DELETE HISTORY|G
+|root||ldarras||DELETE HISTORY|G
+|root||lfilloy||DELETE HISTORY|G
+|root||lgerance||DELETE HISTORY|G
+|root||lkiusi||DELETE HISTORY|G
+|root||lsimon1||DELETE HISTORY|G
+|root||makarojeux||DELETE HISTORY|G
+|root||mbeladassi||DELETE HISTORY|G
+|root||mdehay||DELETE HISTORY|G
+|root||mgalli||DELETE HISTORY|G
+|root||mguerry||DELETE HISTORY|G
+|root||mmeziane1||DELETE HISTORY|G
+|root||mrieu||DELETE HISTORY|G
+|root||mya||DELETE HISTORY|G
+|root||mysql|localhost|DELETE HISTORY|G
+|root||nbelkacem||DELETE HISTORY|G
+|root||ndhokhutsa||DELETE HISTORY|G
+|root||nhellal||DELETE HISTORY|G
+|root||njean||DELETE HISTORY|G
+|root||nnsomi||DELETE HISTORY|G
+|root||nrabarisoa||DELETE HISTORY|G
+|root||ntran||DELETE HISTORY|G
+|root||okasindu||DELETE HISTORY|G
+|root||olufundu||DELETE HISTORY|G
+|root||oviravagon||DELETE HISTORY|G
+|root||raissi||DELETE HISTORY|G
+|root||root|localhost|DELETE HISTORY|G
+|root||sbenboubak||DELETE HISTORY|G
+|root||schachoua||DELETE HISTORY|G
+|root||sdelblond||DELETE HISTORY|G
+|root||sgoupil||DELETE HISTORY|G
+|root||sgueye||DELETE HISTORY|G
+|root||sichalalen||DELETE HISTORY|G
+|root||srandriana||DELETE HISTORY|G
+|root||ssong||DELETE HISTORY|G
+|root||tdurang||DELETE HISTORY|G
+|root||tramamonji||DELETE HISTORY|G
+|root||tvanrompa1||DELETE HISTORY|G
+|root||tvanrompae||DELETE HISTORY|G
+|root||ufaye||DELETE HISTORY|G
+|root||vgomessilv||DELETE HISTORY|G
+|root||wouahi||DELETE HISTORY|G
+|root||yburandcha||DELETE HISTORY|G
+|root||yelmourabi||DELETE HISTORY|G
+|root||ysoufi||DELETE HISTORY|G
+|root||zbensiali||DELETE HISTORY|G
+|root||abalcerowi||DROP|G
+|root||afotieufia||DROP|G
+|root||agoubo||DROP|G
+|root||ajosso||DROP|G
+|root||akhennouci||DROP|G
+|root||alaine||DROP|G
+|root||alazaar||DROP|G
+|root||anoel||DROP|G
+|root||asouleiman||DROP|G
+|root||atandabany||DROP|G
+|root||azarif||DROP|G
+|root||brodrigues||DROP|G
+|root||bsako||DROP|G
+|root||cjasick||DROP|G
+|root||ckraftvale||DROP|G
+|root||cokembameb||DROP|G
+|root||cscion||DROP|G
+|root||ddossantos||DROP|G
+|root||dmaudet||DROP|G
+|root||dthevaranc||DROP|G
+|root||emikanda||DROP|G
+|root||epousse||DROP|G
+|root||erieu||DROP|G
+|root||ethomy||DROP|G
+|root||fbitsindou||DROP|G
+|root||fmomika||DROP|G
+|root||gbarreau||DROP|G
+|root||hcros||DROP|G
+|root||hekolimole||DROP|G
+|root||iaziz||DROP|G
+|root||idembele||DROP|G
+|root||imzyene||DROP|G
+|root||jchongtoua||DROP|G
+|root||jdhikash||DROP|G
+|root||jdimwanadi||DROP|G
+|root||jfraoui||DROP|G
+|root||jkialengel||DROP|G
+|root||jleonard||DROP|G
+|root||jlorng||DROP|G
+|root||jmoudjoung||DROP|G
+|root||kdiakumpun||DROP|G
+|root||kemmanuel||DROP|G
+|root||kmilius||DROP|G
+|root||kya||DROP|G
+|root||lbuy||DROP|G
+|root||lcaronnage||DROP|G
+|root||ldarras||DROP|G
+|root||lfilloy||DROP|G
+|root||lgerance||DROP|G
+|root||lkiusi||DROP|G
+|root||lsimon1||DROP|G
+|root||makarojeux||DROP|G
+|root||mbeladassi||DROP|G
+|root||mdehay||DROP|G
+|root||mgalli||DROP|G
+|root||mguerry||DROP|G
+|root||mmeziane1||DROP|G
+|root||mrieu||DROP|G
+|root||mya||DROP|G
+|root||mysql|localhost|DROP|G
+|root||nbelkacem||DROP|G
+|root||ndhokhutsa||DROP|G
+|root||nhellal||DROP|G
+|root||njean||DROP|G
+|root||nnsomi||DROP|G
+|root||nrabarisoa||DROP|G
+|root||ntran||DROP|G
+|root||okasindu||DROP|G
+|root||olufundu||DROP|G
+|root||oviravagon||DROP|G
+|root||raissi||DROP|G
+|root||root|localhost|DROP|G
+|root||sbenboubak||DROP|G
+|root||schachoua||DROP|G
+|root||sdelblond||DROP|G
+|root||sgoupil||DROP|G
+|root||sgueye||DROP|G
+|root||sichalalen||DROP|G
+|root||srandriana||DROP|G
+|root||ssong||DROP|G
+|root||tdurang||DROP|G
+|root||tramamonji||DROP|G
+|root||tvanrompa1||DROP|G
+|root||tvanrompae||DROP|G
+|root||ufaye||DROP|G
+|root||vgomessilv||DROP|G
+|root||wouahi||DROP|G
+|root||yburandcha||DROP|G
+|root||yelmourabi||DROP|G
+|root||ysoufi||DROP|G
+|root||zbensiali||DROP|G
+|root||abalcerowi||EVENT|G
+|root||afotieufia||EVENT|G
+|root||agoubo||EVENT|G
+|root||ajosso||EVENT|G
+|root||akhennouci||EVENT|G
+|root||alaine||EVENT|G
+|root||alazaar||EVENT|G
+|root||anoel||EVENT|G
+|root||asouleiman||EVENT|G
+|root||atandabany||EVENT|G
+|root||azarif||EVENT|G
+|root||brodrigues||EVENT|G
+|root||bsako||EVENT|G
+|root||cjasick||EVENT|G
+|root||ckraftvale||EVENT|G
+|root||cokembameb||EVENT|G
+|root||cscion||EVENT|G
+|root||ddossantos||EVENT|G
+|root||dmaudet||EVENT|G
+|root||dthevaranc||EVENT|G
+|root||emikanda||EVENT|G
+|root||epousse||EVENT|G
+|root||erieu||EVENT|G
+|root||ethomy||EVENT|G
+|root||fbitsindou||EVENT|G
+|root||fmomika||EVENT|G
+|root||gbarreau||EVENT|G
+|root||hcros||EVENT|G
+|root||hekolimole||EVENT|G
+|root||iaziz||EVENT|G
+|root||idembele||EVENT|G
+|root||imzyene||EVENT|G
+|root||jchongtoua||EVENT|G
+|root||jdhikash||EVENT|G
+|root||jdimwanadi||EVENT|G
+|root||jfraoui||EVENT|G
+|root||jkialengel||EVENT|G
+|root||jleonard||EVENT|G
+|root||jlorng||EVENT|G
+|root||jmoudjoung||EVENT|G
+|root||kdiakumpun||EVENT|G
+|root||kemmanuel||EVENT|G
+|root||kmilius||EVENT|G
+|root||kya||EVENT|G
+|root||lbuy||EVENT|G
+|root||lcaronnage||EVENT|G
+|root||ldarras||EVENT|G
+|root||lfilloy||EVENT|G
+|root||lgerance||EVENT|G
+|root||lkiusi||EVENT|G
+|root||lsimon1||EVENT|G
+|root||makarojeux||EVENT|G
+|root||mbeladassi||EVENT|G
+|root||mdehay||EVENT|G
+|root||mgalli||EVENT|G
+|root||mguerry||EVENT|G
+|root||mmeziane1||EVENT|G
+|root||mrieu||EVENT|G
+|root||mya||EVENT|G
+|root||mysql|localhost|EVENT|G
+|root||nbelkacem||EVENT|G
+|root||ndhokhutsa||EVENT|G
+|root||nhellal||EVENT|G
+|root||njean||EVENT|G
+|root||nnsomi||EVENT|G
+|root||nrabarisoa||EVENT|G
+|root||ntran||EVENT|G
+|root||okasindu||EVENT|G
+|root||olufundu||EVENT|G
+|root||oviravagon||EVENT|G
+|root||raissi||EVENT|G
+|root||root|localhost|EVENT|G
+|root||sbenboubak||EVENT|G
+|root||schachoua||EVENT|G
+|root||sdelblond||EVENT|G
+|root||sgoupil||EVENT|G
+|root||sgueye||EVENT|G
+|root||sichalalen||EVENT|G
+|root||srandriana||EVENT|G
+|root||ssong||EVENT|G
+|root||tdurang||EVENT|G
+|root||tramamonji||EVENT|G
+|root||tvanrompa1||EVENT|G
+|root||tvanrompae||EVENT|G
+|root||ufaye||EVENT|G
+|root||vgomessilv||EVENT|G
+|root||wouahi||EVENT|G
+|root||yburandcha||EVENT|G
+|root||yelmourabi||EVENT|G
+|root||ysoufi||EVENT|G
+|root||zbensiali||EVENT|G
+|root||abalcerowi||EXECUTE|G
+|root||afotieufia||EXECUTE|G
+|root||agoubo||EXECUTE|G
+|root||ajosso||EXECUTE|G
+|root||akhennouci||EXECUTE|G
+|root||alaine||EXECUTE|G
+|root||alazaar||EXECUTE|G
+|root||anoel||EXECUTE|G
+|root||asouleiman||EXECUTE|G
+|root||atandabany||EXECUTE|G
+|root||azarif||EXECUTE|G
+|root||brodrigues||EXECUTE|G
+|root||bsako||EXECUTE|G
+|root||cjasick||EXECUTE|G
+|root||ckraftvale||EXECUTE|G
+|root||cokembameb||EXECUTE|G
+|root||cscion||EXECUTE|G
+|root||ddossantos||EXECUTE|G
+|root||dmaudet||EXECUTE|G
+|root||dthevaranc||EXECUTE|G
+|root||emikanda||EXECUTE|G
+|root||epousse||EXECUTE|G
+|root||erieu||EXECUTE|G
+|root||ethomy||EXECUTE|G
+|root||fbitsindou||EXECUTE|G
+|root||fmomika||EXECUTE|G
+|root||gbarreau||EXECUTE|G
+|root||hcros||EXECUTE|G
+|root||hekolimole||EXECUTE|G
+|root||iaziz||EXECUTE|G
+|root||idembele||EXECUTE|G
+|root||imzyene||EXECUTE|G
+|root||jchongtoua||EXECUTE|G
+|root||jdhikash||EXECUTE|G
+|root||jdimwanadi||EXECUTE|G
+|root||jfraoui||EXECUTE|G
+|root||jkialengel||EXECUTE|G
+|root||jleonard||EXECUTE|G
+|root||jlorng||EXECUTE|G
+|root||jmoudjoung||EXECUTE|G
+|root||kdiakumpun||EXECUTE|G
+|root||kemmanuel||EXECUTE|G
+|root||kmilius||EXECUTE|G
+|root||kya||EXECUTE|G
+|root||lbuy||EXECUTE|G
+|root||lcaronnage||EXECUTE|G
+|root||ldarras||EXECUTE|G
+|root||lfilloy||EXECUTE|G
+|root||lgerance||EXECUTE|G
+|root||lkiusi||EXECUTE|G
+|root||lsimon1||EXECUTE|G
+|root||makarojeux||EXECUTE|G
+|root||mbeladassi||EXECUTE|G
+|root||mdehay||EXECUTE|G
+|root||mgalli||EXECUTE|G
+|root||mguerry||EXECUTE|G
+|root||mmeziane1||EXECUTE|G
+|root||mrieu||EXECUTE|G
+|root||mya||EXECUTE|G
+|root||mysql|localhost|EXECUTE|G
+|root||nbelkacem||EXECUTE|G
+|root||ndhokhutsa||EXECUTE|G
+|root||nhellal||EXECUTE|G
+|root||njean||EXECUTE|G
+|root||nnsomi||EXECUTE|G
+|root||nrabarisoa||EXECUTE|G
+|root||ntran||EXECUTE|G
+|root||okasindu||EXECUTE|G
+|root||olufundu||EXECUTE|G
+|root||oviravagon||EXECUTE|G
+|root||raissi||EXECUTE|G
+|root||root|localhost|EXECUTE|G
+|root||sbenboubak||EXECUTE|G
+|root||schachoua||EXECUTE|G
+|root||sdelblond||EXECUTE|G
+|root||sgoupil||EXECUTE|G
+|root||sgueye||EXECUTE|G
+|root||sichalalen||EXECUTE|G
+|root||srandriana||EXECUTE|G
+|root||ssong||EXECUTE|G
+|root||tdurang||EXECUTE|G
+|root||tramamonji||EXECUTE|G
+|root||tvanrompa1||EXECUTE|G
+|root||tvanrompae||EXECUTE|G
+|root||ufaye||EXECUTE|G
+|root||vgomessilv||EXECUTE|G
+|root||wouahi||EXECUTE|G
+|root||yburandcha||EXECUTE|G
+|root||yelmourabi||EXECUTE|G
+|root||ysoufi||EXECUTE|G
+|root||zbensiali||EXECUTE|G
+|root||abalcerowi||FEDERATED ADMIN|G
+|root||afotieufia||FEDERATED ADMIN|G
+|root||agoubo||FEDERATED ADMIN|G
+|root||ajosso||FEDERATED ADMIN|G
+|root||akhennouci||FEDERATED ADMIN|G
+|root||alaine||FEDERATED ADMIN|G
+|root||alazaar||FEDERATED ADMIN|G
+|root||anoel||FEDERATED ADMIN|G
+|root||asouleiman||FEDERATED ADMIN|G
+|root||atandabany||FEDERATED ADMIN|G
+|root||azarif||FEDERATED ADMIN|G
+|root||brodrigues||FEDERATED ADMIN|G
+|root||bsako||FEDERATED ADMIN|G
+|root||cjasick||FEDERATED ADMIN|G
+|root||ckraftvale||FEDERATED ADMIN|G
+|root||cokembameb||FEDERATED ADMIN|G
+|root||cscion||FEDERATED ADMIN|G
+|root||ddossantos||FEDERATED ADMIN|G
+|root||dmaudet||FEDERATED ADMIN|G
+|root||dthevaranc||FEDERATED ADMIN|G
+|root||emikanda||FEDERATED ADMIN|G
+|root||epousse||FEDERATED ADMIN|G
+|root||erieu||FEDERATED ADMIN|G
+|root||ethomy||FEDERATED ADMIN|G
+|root||fbitsindou||FEDERATED ADMIN|G
+|root||fmomika||FEDERATED ADMIN|G
+|root||gbarreau||FEDERATED ADMIN|G
+|root||hcros||FEDERATED ADMIN|G
+|root||hekolimole||FEDERATED ADMIN|G
+|root||iaziz||FEDERATED ADMIN|G
+|root||idembele||FEDERATED ADMIN|G
+|root||imzyene||FEDERATED ADMIN|G
+|root||jchongtoua||FEDERATED ADMIN|G
+|root||jdhikash||FEDERATED ADMIN|G
+|root||jdimwanadi||FEDERATED ADMIN|G
+|root||jfraoui||FEDERATED ADMIN|G
+|root||jkialengel||FEDERATED ADMIN|G
+|root||jleonard||FEDERATED ADMIN|G
+|root||jlorng||FEDERATED ADMIN|G
+|root||jmoudjoung||FEDERATED ADMIN|G
+|root||kdiakumpun||FEDERATED ADMIN|G
+|root||kemmanuel||FEDERATED ADMIN|G
+|root||kmilius||FEDERATED ADMIN|G
+|root||kya||FEDERATED ADMIN|G
+|root||lbuy||FEDERATED ADMIN|G
+|root||lcaronnage||FEDERATED ADMIN|G
+|root||ldarras||FEDERATED ADMIN|G
+|root||lfilloy||FEDERATED ADMIN|G
+|root||lgerance||FEDERATED ADMIN|G
+|root||lkiusi||FEDERATED ADMIN|G
+|root||lsimon1||FEDERATED ADMIN|G
+|root||makarojeux||FEDERATED ADMIN|G
+|root||mbeladassi||FEDERATED ADMIN|G
+|root||mdehay||FEDERATED ADMIN|G
+|root||mgalli||FEDERATED ADMIN|G
+|root||mguerry||FEDERATED ADMIN|G
+|root||mmeziane1||FEDERATED ADMIN|G
+|root||mrieu||FEDERATED ADMIN|G
+|root||mya||FEDERATED ADMIN|G
+|root||mysql|localhost|FEDERATED ADMIN|G
+|root||nbelkacem||FEDERATED ADMIN|G
+|root||ndhokhutsa||FEDERATED ADMIN|G
+|root||nhellal||FEDERATED ADMIN|G
+|root||njean||FEDERATED ADMIN|G
+|root||nnsomi||FEDERATED ADMIN|G
+|root||nrabarisoa||FEDERATED ADMIN|G
+|root||ntran||FEDERATED ADMIN|G
+|root||okasindu||FEDERATED ADMIN|G
+|root||olufundu||FEDERATED ADMIN|G
+|root||oviravagon||FEDERATED ADMIN|G
+|root||raissi||FEDERATED ADMIN|G
+|root||root|localhost|FEDERATED ADMIN|G
+|root||sbenboubak||FEDERATED ADMIN|G
+|root||schachoua||FEDERATED ADMIN|G
+|root||sdelblond||FEDERATED ADMIN|G
+|root||sgoupil||FEDERATED ADMIN|G
+|root||sgueye||FEDERATED ADMIN|G
+|root||sichalalen||FEDERATED ADMIN|G
+|root||srandriana||FEDERATED ADMIN|G
+|root||ssong||FEDERATED ADMIN|G
+|root||tdurang||FEDERATED ADMIN|G
+|root||tramamonji||FEDERATED ADMIN|G
+|root||tvanrompa1||FEDERATED ADMIN|G
+|root||tvanrompae||FEDERATED ADMIN|G
+|root||ufaye||FEDERATED ADMIN|G
+|root||vgomessilv||FEDERATED ADMIN|G
+|root||wouahi||FEDERATED ADMIN|G
+|root||yburandcha||FEDERATED ADMIN|G
+|root||yelmourabi||FEDERATED ADMIN|G
+|root||ysoufi||FEDERATED ADMIN|G
+|root||zbensiali||FEDERATED ADMIN|G
+|root||abalcerowi||FILE|G
+|root||afotieufia||FILE|G
+|root||agoubo||FILE|G
+|root||ajosso||FILE|G
+|root||akhennouci||FILE|G
+|root||alaine||FILE|G
+|root||alazaar||FILE|G
+|root||anoel||FILE|G
+|root||asouleiman||FILE|G
+|root||atandabany||FILE|G
+|root||azarif||FILE|G
+|root||brodrigues||FILE|G
+|root||bsako||FILE|G
+|root||cjasick||FILE|G
+|root||ckraftvale||FILE|G
+|root||cokembameb||FILE|G
+|root||cscion||FILE|G
+|root||ddossantos||FILE|G
+|root||dmaudet||FILE|G
+|root||dthevaranc||FILE|G
+|root||emikanda||FILE|G
+|root||epousse||FILE|G
+|root||erieu||FILE|G
+|root||ethomy||FILE|G
+|root||fbitsindou||FILE|G
+|root||fmomika||FILE|G
+|root||gbarreau||FILE|G
+|root||hcros||FILE|G
+|root||hekolimole||FILE|G
+|root||iaziz||FILE|G
+|root||idembele||FILE|G
+|root||imzyene||FILE|G
+|root||jchongtoua||FILE|G
+|root||jdhikash||FILE|G
+|root||jdimwanadi||FILE|G
+|root||jfraoui||FILE|G
+|root||jkialengel||FILE|G
+|root||jleonard||FILE|G
+|root||jlorng||FILE|G
+|root||jmoudjoung||FILE|G
+|root||kdiakumpun||FILE|G
+|root||kemmanuel||FILE|G
+|root||kmilius||FILE|G
+|root||kya||FILE|G
+|root||lbuy||FILE|G
+|root||lcaronnage||FILE|G
+|root||ldarras||FILE|G
+|root||lfilloy||FILE|G
+|root||lgerance||FILE|G
+|root||lkiusi||FILE|G
+|root||lsimon1||FILE|G
+|root||makarojeux||FILE|G
+|root||mbeladassi||FILE|G
+|root||mdehay||FILE|G
+|root||mgalli||FILE|G
+|root||mguerry||FILE|G
+|root||mmeziane1||FILE|G
+|root||mrieu||FILE|G
+|root||mya||FILE|G
+|root||mysql|localhost|FILE|G
+|root||nbelkacem||FILE|G
+|root||ndhokhutsa||FILE|G
+|root||nhellal||FILE|G
+|root||njean||FILE|G
+|root||nnsomi||FILE|G
+|root||nrabarisoa||FILE|G
+|root||ntran||FILE|G
+|root||okasindu||FILE|G
+|root||olufundu||FILE|G
+|root||oviravagon||FILE|G
+|root||raissi||FILE|G
+|root||root|localhost|FILE|G
+|root||sbenboubak||FILE|G
+|root||schachoua||FILE|G
+|root||sdelblond||FILE|G
+|root||sgoupil||FILE|G
+|root||sgueye||FILE|G
+|root||sichalalen||FILE|G
+|root||srandriana||FILE|G
+|root||ssong||FILE|G
+|root||tdurang||FILE|G
+|root||tramamonji||FILE|G
+|root||tvanrompa1||FILE|G
+|root||tvanrompae||FILE|G
+|root||ufaye||FILE|G
+|root||vgomessilv||FILE|G
+|root||wouahi||FILE|G
+|root||yburandcha||FILE|G
+|root||yelmourabi||FILE|G
+|root||ysoufi||FILE|G
+|root||zbensiali||FILE|G
+|root||abalcerowi||INDEX|G
+|root||afotieufia||INDEX|G
+|root||agoubo||INDEX|G
+|root||ajosso||INDEX|G
+|root||akhennouci||INDEX|G
+|root||alaine||INDEX|G
+|root||alazaar||INDEX|G
+|root||anoel||INDEX|G
+|root||asouleiman||INDEX|G
+|root||atandabany||INDEX|G
+|root||azarif||INDEX|G
+|root||brodrigues||INDEX|G
+|root||bsako||INDEX|G
+|root||cjasick||INDEX|G
+|root||ckraftvale||INDEX|G
+|root||cokembameb||INDEX|G
+|root||cscion||INDEX|G
+|root||ddossantos||INDEX|G
+|root||dmaudet||INDEX|G
+|root||dthevaranc||INDEX|G
+|root||emikanda||INDEX|G
+|root||epousse||INDEX|G
+|root||erieu||INDEX|G
+|root||ethomy||INDEX|G
+|root||fbitsindou||INDEX|G
+|root||fmomika||INDEX|G
+|root||gbarreau||INDEX|G
+|root||hcros||INDEX|G
+|root||hekolimole||INDEX|G
+|root||iaziz||INDEX|G
+|root||idembele||INDEX|G
+|root||imzyene||INDEX|G
+|root||jchongtoua||INDEX|G
+|root||jdhikash||INDEX|G
+|root||jdimwanadi||INDEX|G
+|root||jfraoui||INDEX|G
+|root||jkialengel||INDEX|G
+|root||jleonard||INDEX|G
+|root||jlorng||INDEX|G
+|root||jmoudjoung||INDEX|G
+|root||kdiakumpun||INDEX|G
+|root||kemmanuel||INDEX|G
+|root||kmilius||INDEX|G
+|root||kya||INDEX|G
+|root||lbuy||INDEX|G
+|root||lcaronnage||INDEX|G
+|root||ldarras||INDEX|G
+|root||lfilloy||INDEX|G
+|root||lgerance||INDEX|G
+|root||lkiusi||INDEX|G
+|root||lsimon1||INDEX|G
+|root||makarojeux||INDEX|G
+|root||mbeladassi||INDEX|G
+|root||mdehay||INDEX|G
+|root||mgalli||INDEX|G
+|root||mguerry||INDEX|G
+|root||mmeziane1||INDEX|G
+|root||mrieu||INDEX|G
+|root||mya||INDEX|G
+|root||mysql|localhost|INDEX|G
+|root||nbelkacem||INDEX|G
+|root||ndhokhutsa||INDEX|G
+|root||nhellal||INDEX|G
+|root||njean||INDEX|G
+|root||nnsomi||INDEX|G
+|root||nrabarisoa||INDEX|G
+|root||ntran||INDEX|G
+|root||okasindu||INDEX|G
+|root||olufundu||INDEX|G
+|root||oviravagon||INDEX|G
+|root||raissi||INDEX|G
+|root||root|localhost|INDEX|G
+|root||sbenboubak||INDEX|G
+|root||schachoua||INDEX|G
+|root||sdelblond||INDEX|G
+|root||sgoupil||INDEX|G
+|root||sgueye||INDEX|G
+|root||sichalalen||INDEX|G
+|root||srandriana||INDEX|G
+|root||ssong||INDEX|G
+|root||tdurang||INDEX|G
+|root||tramamonji||INDEX|G
+|root||tvanrompa1||INDEX|G
+|root||tvanrompae||INDEX|G
+|root||ufaye||INDEX|G
+|root||vgomessilv||INDEX|G
+|root||wouahi||INDEX|G
+|root||yburandcha||INDEX|G
+|root||yelmourabi||INDEX|G
+|root||ysoufi||INDEX|G
+|root||zbensiali||INDEX|G
+|root||abalcerowi||INSERT|G
+|root||afotieufia||INSERT|G
+|root||agoubo||INSERT|G
+|root||ajosso||INSERT|G
+|root||akhennouci||INSERT|G
+|root||alaine||INSERT|G
+|root||alazaar||INSERT|G
+|root||anoel||INSERT|G
+|root||asouleiman||INSERT|G
+|root||atandabany||INSERT|G
+|root||azarif||INSERT|G
+|root||brodrigues||INSERT|G
+|root||bsako||INSERT|G
+|root||cjasick||INSERT|G
+|root||ckraftvale||INSERT|G
+|root||cokembameb||INSERT|G
+|root||cscion||INSERT|G
+|root||ddossantos||INSERT|G
+|root||dmaudet||INSERT|G
+|root||dthevaranc||INSERT|G
+|root||emikanda||INSERT|G
+|root||epousse||INSERT|G
+|root||erieu||INSERT|G
+|root||ethomy||INSERT|G
+|root||fbitsindou||INSERT|G
+|root||fmomika||INSERT|G
+|root||gbarreau||INSERT|G
+|root||hcros||INSERT|G
+|root||hekolimole||INSERT|G
+|root||iaziz||INSERT|G
+|root||idembele||INSERT|G
+|root||imzyene||INSERT|G
+|root||jchongtoua||INSERT|G
+|root||jdhikash||INSERT|G
+|root||jdimwanadi||INSERT|G
+|root||jfraoui||INSERT|G
+|root||jkialengel||INSERT|G
+|root||jleonard||INSERT|G
+|root||jlorng||INSERT|G
+|root||jmoudjoung||INSERT|G
+|root||kdiakumpun||INSERT|G
+|root||kemmanuel||INSERT|G
+|root||kmilius||INSERT|G
+|root||kya||INSERT|G
+|root||lbuy||INSERT|G
+|root||lcaronnage||INSERT|G
+|root||ldarras||INSERT|G
+|root||lfilloy||INSERT|G
+|root||lgerance||INSERT|G
+|root||lkiusi||INSERT|G
+|root||lsimon1||INSERT|G
+|root||makarojeux||INSERT|G
+|root||mbeladassi||INSERT|G
+|root||mdehay||INSERT|G
+|root||mgalli||INSERT|G
+|root||mguerry||INSERT|G
+|root||mmeziane1||INSERT|G
+|root||mrieu||INSERT|G
+|root||mya||INSERT|G
+|root||mysql|localhost|INSERT|G
+|root||nbelkacem||INSERT|G
+|root||ndhokhutsa||INSERT|G
+|root||nhellal||INSERT|G
+|root||njean||INSERT|G
+|root||nnsomi||INSERT|G
+|root||nrabarisoa||INSERT|G
+|root||ntran||INSERT|G
+|root||okasindu||INSERT|G
+|root||olufundu||INSERT|G
+|root||oviravagon||INSERT|G
+|root||raissi||INSERT|G
+|root||root|localhost|INSERT|G
+|root||sbenboubak||INSERT|G
+|root||schachoua||INSERT|G
+|root||sdelblond||INSERT|G
+|root||sgoupil||INSERT|G
+|root||sgueye||INSERT|G
+|root||sichalalen||INSERT|G
+|root||srandriana||INSERT|G
+|root||ssong||INSERT|G
+|root||tdurang||INSERT|G
+|root||tramamonji||INSERT|G
+|root||tvanrompa1||INSERT|G
+|root||tvanrompae||INSERT|G
+|root||ufaye||INSERT|G
+|root||vgomessilv||INSERT|G
+|root||wouahi||INSERT|G
+|root||yburandcha||INSERT|G
+|root||yelmourabi||INSERT|G
+|root||ysoufi||INSERT|G
+|root||zbensiali||INSERT|G
+|root||abalcerowi||LOCK TABLES|G
+|root||afotieufia||LOCK TABLES|G
+|root||agoubo||LOCK TABLES|G
+|root||ajosso||LOCK TABLES|G
+|root||akhennouci||LOCK TABLES|G
+|root||alaine||LOCK TABLES|G
+|root||alazaar||LOCK TABLES|G
+|root||anoel||LOCK TABLES|G
+|root||asouleiman||LOCK TABLES|G
+|root||atandabany||LOCK TABLES|G
+|root||azarif||LOCK TABLES|G
+|root||brodrigues||LOCK TABLES|G
+|root||bsako||LOCK TABLES|G
+|root||cjasick||LOCK TABLES|G
+|root||ckraftvale||LOCK TABLES|G
+|root||cokembameb||LOCK TABLES|G
+|root||cscion||LOCK TABLES|G
+|root||ddossantos||LOCK TABLES|G
+|root||dmaudet||LOCK TABLES|G
+|root||dthevaranc||LOCK TABLES|G
+|root||emikanda||LOCK TABLES|G
+|root||epousse||LOCK TABLES|G
+|root||erieu||LOCK TABLES|G
+|root||ethomy||LOCK TABLES|G
+|root||fbitsindou||LOCK TABLES|G
+|root||fmomika||LOCK TABLES|G
+|root||gbarreau||LOCK TABLES|G
+|root||hcros||LOCK TABLES|G
+|root||hekolimole||LOCK TABLES|G
+|root||iaziz||LOCK TABLES|G
+|root||idembele||LOCK TABLES|G
+|root||imzyene||LOCK TABLES|G
+|root||jchongtoua||LOCK TABLES|G
+|root||jdhikash||LOCK TABLES|G
+|root||jdimwanadi||LOCK TABLES|G
+|root||jfraoui||LOCK TABLES|G
+|root||jkialengel||LOCK TABLES|G
+|root||jleonard||LOCK TABLES|G
+|root||jlorng||LOCK TABLES|G
+|root||jmoudjoung||LOCK TABLES|G
+|root||kdiakumpun||LOCK TABLES|G
+|root||kemmanuel||LOCK TABLES|G
+|root||kmilius||LOCK TABLES|G
+|root||kya||LOCK TABLES|G
+|root||lbuy||LOCK TABLES|G
+|root||lcaronnage||LOCK TABLES|G
+|root||ldarras||LOCK TABLES|G
+|root||lfilloy||LOCK TABLES|G
+|root||lgerance||LOCK TABLES|G
+|root||lkiusi||LOCK TABLES|G
+|root||lsimon1||LOCK TABLES|G
+|root||makarojeux||LOCK TABLES|G
+|root||mbeladassi||LOCK TABLES|G
+|root||mdehay||LOCK TABLES|G
+|root||mgalli||LOCK TABLES|G
+|root||mguerry||LOCK TABLES|G
+|root||mmeziane1||LOCK TABLES|G
+|root||mrieu||LOCK TABLES|G
+|root||mya||LOCK TABLES|G
+|root||mysql|localhost|LOCK TABLES|G
+|root||nbelkacem||LOCK TABLES|G
+|root||ndhokhutsa||LOCK TABLES|G
+|root||nhellal||LOCK TABLES|G
+|root||njean||LOCK TABLES|G
+|root||nnsomi||LOCK TABLES|G
+|root||nrabarisoa||LOCK TABLES|G
+|root||ntran||LOCK TABLES|G
+|root||okasindu||LOCK TABLES|G
+|root||olufundu||LOCK TABLES|G
+|root||oviravagon||LOCK TABLES|G
+|root||raissi||LOCK TABLES|G
+|root||root|localhost|LOCK TABLES|G
+|root||sbenboubak||LOCK TABLES|G
+|root||schachoua||LOCK TABLES|G
+|root||sdelblond||LOCK TABLES|G
+|root||sgoupil||LOCK TABLES|G
+|root||sgueye||LOCK TABLES|G
+|root||sichalalen||LOCK TABLES|G
+|root||srandriana||LOCK TABLES|G
+|root||ssong||LOCK TABLES|G
+|root||tdurang||LOCK TABLES|G
+|root||tramamonji||LOCK TABLES|G
+|root||tvanrompa1||LOCK TABLES|G
+|root||tvanrompae||LOCK TABLES|G
+|root||ufaye||LOCK TABLES|G
+|root||vgomessilv||LOCK TABLES|G
+|root||wouahi||LOCK TABLES|G
+|root||yburandcha||LOCK TABLES|G
+|root||yelmourabi||LOCK TABLES|G
+|root||ysoufi||LOCK TABLES|G
+|root||zbensiali||LOCK TABLES|G
+|root||abalcerowi||PROCESS|G
+|root||afotieufia||PROCESS|G
+|root||agoubo||PROCESS|G
+|root||ajosso||PROCESS|G
+|root||akhennouci||PROCESS|G
+|root||alaine||PROCESS|G
+|root||alazaar||PROCESS|G
+|root||anoel||PROCESS|G
+|root||asouleiman||PROCESS|G
+|root||atandabany||PROCESS|G
+|root||azarif||PROCESS|G
+|root||brodrigues||PROCESS|G
+|root||bsako||PROCESS|G
+|root||cjasick||PROCESS|G
+|root||ckraftvale||PROCESS|G
+|root||cokembameb||PROCESS|G
+|root||cscion||PROCESS|G
+|root||ddossantos||PROCESS|G
+|root||dmaudet||PROCESS|G
+|root||dthevaranc||PROCESS|G
+|root||emikanda||PROCESS|G
+|root||epousse||PROCESS|G
+|root||erieu||PROCESS|G
+|root||ethomy||PROCESS|G
+|root||fbitsindou||PROCESS|G
+|root||fmomika||PROCESS|G
+|root||gbarreau||PROCESS|G
+|root||hcros||PROCESS|G
+|root||hekolimole||PROCESS|G
+|root||iaziz||PROCESS|G
+|root||idembele||PROCESS|G
+|root||imzyene||PROCESS|G
+|root||jchongtoua||PROCESS|G
+|root||jdhikash||PROCESS|G
+|root||jdimwanadi||PROCESS|G
+|root||jfraoui||PROCESS|G
+|root||jkialengel||PROCESS|G
+|root||jleonard||PROCESS|G
+|root||jlorng||PROCESS|G
+|root||jmoudjoung||PROCESS|G
+|root||kdiakumpun||PROCESS|G
+|root||kemmanuel||PROCESS|G
+|root||kmilius||PROCESS|G
+|root||kya||PROCESS|G
+|root||lbuy||PROCESS|G
+|root||lcaronnage||PROCESS|G
+|root||ldarras||PROCESS|G
+|root||lfilloy||PROCESS|G
+|root||lgerance||PROCESS|G
+|root||lkiusi||PROCESS|G
+|root||lsimon1||PROCESS|G
+|root||makarojeux||PROCESS|G
+|root||mbeladassi||PROCESS|G
+|root||mdehay||PROCESS|G
+|root||mgalli||PROCESS|G
+|root||mguerry||PROCESS|G
+|root||mmeziane1||PROCESS|G
+|root||mrieu||PROCESS|G
+|root||mya||PROCESS|G
+|root||mysql|localhost|PROCESS|G
+|root||nbelkacem||PROCESS|G
+|root||ndhokhutsa||PROCESS|G
+|root||nhellal||PROCESS|G
+|root||njean||PROCESS|G
+|root||nnsomi||PROCESS|G
+|root||nrabarisoa||PROCESS|G
+|root||ntran||PROCESS|G
+|root||okasindu||PROCESS|G
+|root||olufundu||PROCESS|G
+|root||oviravagon||PROCESS|G
+|root||raissi||PROCESS|G
+|root||root|localhost|PROCESS|G
+|root||sbenboubak||PROCESS|G
+|root||schachoua||PROCESS|G
+|root||sdelblond||PROCESS|G
+|root||sgoupil||PROCESS|G
+|root||sgueye||PROCESS|G
+|root||sichalalen||PROCESS|G
+|root||srandriana||PROCESS|G
+|root||ssong||PROCESS|G
+|root||tdurang||PROCESS|G
+|root||tramamonji||PROCESS|G
+|root||tvanrompa1||PROCESS|G
+|root||tvanrompae||PROCESS|G
+|root||ufaye||PROCESS|G
+|root||vgomessilv||PROCESS|G
+|root||wouahi||PROCESS|G
+|root||yburandcha||PROCESS|G
+|root||yelmourabi||PROCESS|G
+|root||ysoufi||PROCESS|G
+|root||zbensiali||PROCESS|G
+|root||abalcerowi||READ_ONLY ADMIN|G
+|root||afotieufia||READ_ONLY ADMIN|G
+|root||agoubo||READ_ONLY ADMIN|G
+|root||ajosso||READ_ONLY ADMIN|G
+|root||akhennouci||READ_ONLY ADMIN|G
+|root||alaine||READ_ONLY ADMIN|G
+|root||alazaar||READ_ONLY ADMIN|G
+|root||anoel||READ_ONLY ADMIN|G
+|root||asouleiman||READ_ONLY ADMIN|G
+|root||atandabany||READ_ONLY ADMIN|G
+|root||azarif||READ_ONLY ADMIN|G
+|root||brodrigues||READ_ONLY ADMIN|G
+|root||bsako||READ_ONLY ADMIN|G
+|root||cjasick||READ_ONLY ADMIN|G
+|root||ckraftvale||READ_ONLY ADMIN|G
+|root||cokembameb||READ_ONLY ADMIN|G
+|root||cscion||READ_ONLY ADMIN|G
+|root||ddossantos||READ_ONLY ADMIN|G
+|root||dmaudet||READ_ONLY ADMIN|G
+|root||dthevaranc||READ_ONLY ADMIN|G
+|root||emikanda||READ_ONLY ADMIN|G
+|root||epousse||READ_ONLY ADMIN|G
+|root||erieu||READ_ONLY ADMIN|G
+|root||ethomy||READ_ONLY ADMIN|G
+|root||fbitsindou||READ_ONLY ADMIN|G
+|root||fmomika||READ_ONLY ADMIN|G
+|root||gbarreau||READ_ONLY ADMIN|G
+|root||hcros||READ_ONLY ADMIN|G
+|root||hekolimole||READ_ONLY ADMIN|G
+|root||iaziz||READ_ONLY ADMIN|G
+|root||idembele||READ_ONLY ADMIN|G
+|root||imzyene||READ_ONLY ADMIN|G
+|root||jchongtoua||READ_ONLY ADMIN|G
+|root||jdhikash||READ_ONLY ADMIN|G
+|root||jdimwanadi||READ_ONLY ADMIN|G
+|root||jfraoui||READ_ONLY ADMIN|G
+|root||jkialengel||READ_ONLY ADMIN|G
+|root||jleonard||READ_ONLY ADMIN|G
+|root||jlorng||READ_ONLY ADMIN|G
+|root||jmoudjoung||READ_ONLY ADMIN|G
+|root||kdiakumpun||READ_ONLY ADMIN|G
+|root||kemmanuel||READ_ONLY ADMIN|G
+|root||kmilius||READ_ONLY ADMIN|G
+|root||kya||READ_ONLY ADMIN|G
+|root||lbuy||READ_ONLY ADMIN|G
+|root||lcaronnage||READ_ONLY ADMIN|G
+|root||ldarras||READ_ONLY ADMIN|G
+|root||lfilloy||READ_ONLY ADMIN|G
+|root||lgerance||READ_ONLY ADMIN|G
+|root||lkiusi||READ_ONLY ADMIN|G
+|root||lsimon1||READ_ONLY ADMIN|G
+|root||makarojeux||READ_ONLY ADMIN|G
+|root||mbeladassi||READ_ONLY ADMIN|G
+|root||mdehay||READ_ONLY ADMIN|G
+|root||mgalli||READ_ONLY ADMIN|G
+|root||mguerry||READ_ONLY ADMIN|G
+|root||mmeziane1||READ_ONLY ADMIN|G
+|root||mrieu||READ_ONLY ADMIN|G
+|root||mya||READ_ONLY ADMIN|G
+|root||mysql|localhost|READ_ONLY ADMIN|G
+|root||nbelkacem||READ_ONLY ADMIN|G
+|root||ndhokhutsa||READ_ONLY ADMIN|G
+|root||nhellal||READ_ONLY ADMIN|G
+|root||njean||READ_ONLY ADMIN|G
+|root||nnsomi||READ_ONLY ADMIN|G
+|root||nrabarisoa||READ_ONLY ADMIN|G
+|root||ntran||READ_ONLY ADMIN|G
+|root||okasindu||READ_ONLY ADMIN|G
+|root||olufundu||READ_ONLY ADMIN|G
+|root||oviravagon||READ_ONLY ADMIN|G
+|root||raissi||READ_ONLY ADMIN|G
+|root||root|localhost|READ_ONLY ADMIN|G
+|root||sbenboubak||READ_ONLY ADMIN|G
+|root||schachoua||READ_ONLY ADMIN|G
+|root||sdelblond||READ_ONLY ADMIN|G
+|root||sgoupil||READ_ONLY ADMIN|G
+|root||sgueye||READ_ONLY ADMIN|G
+|root||sichalalen||READ_ONLY ADMIN|G
+|root||srandriana||READ_ONLY ADMIN|G
+|root||ssong||READ_ONLY ADMIN|G
+|root||tdurang||READ_ONLY ADMIN|G
+|root||tramamonji||READ_ONLY ADMIN|G
+|root||tvanrompa1||READ_ONLY ADMIN|G
+|root||tvanrompae||READ_ONLY ADMIN|G
+|root||ufaye||READ_ONLY ADMIN|G
+|root||vgomessilv||READ_ONLY ADMIN|G
+|root||wouahi||READ_ONLY ADMIN|G
+|root||yburandcha||READ_ONLY ADMIN|G
+|root||yelmourabi||READ_ONLY ADMIN|G
+|root||ysoufi||READ_ONLY ADMIN|G
+|root||zbensiali||READ_ONLY ADMIN|G
+|root||abalcerowi||REFERENCES|G
+|root||afotieufia||REFERENCES|G
+|root||agoubo||REFERENCES|G
+|root||ajosso||REFERENCES|G
+|root||akhennouci||REFERENCES|G
+|root||alaine||REFERENCES|G
+|root||alazaar||REFERENCES|G
+|root||anoel||REFERENCES|G
+|root||asouleiman||REFERENCES|G
+|root||atandabany||REFERENCES|G
+|root||azarif||REFERENCES|G
+|root||brodrigues||REFERENCES|G
+|root||bsako||REFERENCES|G
+|root||cjasick||REFERENCES|G
+|root||ckraftvale||REFERENCES|G
+|root||cokembameb||REFERENCES|G
+|root||cscion||REFERENCES|G
+|root||ddossantos||REFERENCES|G
+|root||dmaudet||REFERENCES|G
+|root||dthevaranc||REFERENCES|G
+|root||emikanda||REFERENCES|G
+|root||epousse||REFERENCES|G
+|root||erieu||REFERENCES|G
+|root||ethomy||REFERENCES|G
+|root||fbitsindou||REFERENCES|G
+|root||fmomika||REFERENCES|G
+|root||gbarreau||REFERENCES|G
+|root||hcros||REFERENCES|G
+|root||hekolimole||REFERENCES|G
+|root||iaziz||REFERENCES|G
+|root||idembele||REFERENCES|G
+|root||imzyene||REFERENCES|G
+|root||jchongtoua||REFERENCES|G
+|root||jdhikash||REFERENCES|G
+|root||jdimwanadi||REFERENCES|G
+|root||jfraoui||REFERENCES|G
+|root||jkialengel||REFERENCES|G
+|root||jleonard||REFERENCES|G
+|root||jlorng||REFERENCES|G
+|root||jmoudjoung||REFERENCES|G
+|root||kdiakumpun||REFERENCES|G
+|root||kemmanuel||REFERENCES|G
+|root||kmilius||REFERENCES|G
+|root||kya||REFERENCES|G
+|root||lbuy||REFERENCES|G
+|root||lcaronnage||REFERENCES|G
+|root||ldarras||REFERENCES|G
+|root||lfilloy||REFERENCES|G
+|root||lgerance||REFERENCES|G
+|root||lkiusi||REFERENCES|G
+|root||lsimon1||REFERENCES|G
+|root||makarojeux||REFERENCES|G
+|root||mbeladassi||REFERENCES|G
+|root||mdehay||REFERENCES|G
+|root||mgalli||REFERENCES|G
+|root||mguerry||REFERENCES|G
+|root||mmeziane1||REFERENCES|G
+|root||mrieu||REFERENCES|G
+|root||mya||REFERENCES|G
+|root||mysql|localhost|REFERENCES|G
+|root||nbelkacem||REFERENCES|G
+|root||ndhokhutsa||REFERENCES|G
+|root||nhellal||REFERENCES|G
+|root||njean||REFERENCES|G
+|root||nnsomi||REFERENCES|G
+|root||nrabarisoa||REFERENCES|G
+|root||ntran||REFERENCES|G
+|root||okasindu||REFERENCES|G
+|root||olufundu||REFERENCES|G
+|root||oviravagon||REFERENCES|G
+|root||raissi||REFERENCES|G
+|root||root|localhost|REFERENCES|G
+|root||sbenboubak||REFERENCES|G
+|root||schachoua||REFERENCES|G
+|root||sdelblond||REFERENCES|G
+|root||sgoupil||REFERENCES|G
+|root||sgueye||REFERENCES|G
+|root||sichalalen||REFERENCES|G
+|root||srandriana||REFERENCES|G
+|root||ssong||REFERENCES|G
+|root||tdurang||REFERENCES|G
+|root||tramamonji||REFERENCES|G
+|root||tvanrompa1||REFERENCES|G
+|root||tvanrompae||REFERENCES|G
+|root||ufaye||REFERENCES|G
+|root||vgomessilv||REFERENCES|G
+|root||wouahi||REFERENCES|G
+|root||yburandcha||REFERENCES|G
+|root||yelmourabi||REFERENCES|G
+|root||ysoufi||REFERENCES|G
+|root||zbensiali||REFERENCES|G
+|root||abalcerowi||RELOAD|G
+|root||afotieufia||RELOAD|G
+|root||agoubo||RELOAD|G
+|root||ajosso||RELOAD|G
+|root||akhennouci||RELOAD|G
+|root||alaine||RELOAD|G
+|root||alazaar||RELOAD|G
+|root||anoel||RELOAD|G
+|root||asouleiman||RELOAD|G
+|root||atandabany||RELOAD|G
+|root||azarif||RELOAD|G
+|root||brodrigues||RELOAD|G
+|root||bsako||RELOAD|G
+|root||cjasick||RELOAD|G
+|root||ckraftvale||RELOAD|G
+|root||cokembameb||RELOAD|G
+|root||cscion||RELOAD|G
+|root||ddossantos||RELOAD|G
+|root||dmaudet||RELOAD|G
+|root||dthevaranc||RELOAD|G
+|root||emikanda||RELOAD|G
+|root||epousse||RELOAD|G
+|root||erieu||RELOAD|G
+|root||ethomy||RELOAD|G
+|root||fbitsindou||RELOAD|G
+|root||fmomika||RELOAD|G
+|root||gbarreau||RELOAD|G
+|root||hcros||RELOAD|G
+|root||hekolimole||RELOAD|G
+|root||iaziz||RELOAD|G
+|root||idembele||RELOAD|G
+|root||imzyene||RELOAD|G
+|root||jchongtoua||RELOAD|G
+|root||jdhikash||RELOAD|G
+|root||jdimwanadi||RELOAD|G
+|root||jfraoui||RELOAD|G
+|root||jkialengel||RELOAD|G
+|root||jleonard||RELOAD|G
+|root||jlorng||RELOAD|G
+|root||jmoudjoung||RELOAD|G
+|root||kdiakumpun||RELOAD|G
+|root||kemmanuel||RELOAD|G
+|root||kmilius||RELOAD|G
+|root||kya||RELOAD|G
+|root||lbuy||RELOAD|G
+|root||lcaronnage||RELOAD|G
+|root||ldarras||RELOAD|G
+|root||lfilloy||RELOAD|G
+|root||lgerance||RELOAD|G
+|root||lkiusi||RELOAD|G
+|root||lsimon1||RELOAD|G
+|root||makarojeux||RELOAD|G
+|root||mbeladassi||RELOAD|G
+|root||mdehay||RELOAD|G
+|root||mgalli||RELOAD|G
+|root||mguerry||RELOAD|G
+|root||mmeziane1||RELOAD|G
+|root||mrieu||RELOAD|G
+|root||mya||RELOAD|G
+|root||mysql|localhost|RELOAD|G
+|root||nbelkacem||RELOAD|G
+|root||ndhokhutsa||RELOAD|G
+|root||nhellal||RELOAD|G
+|root||njean||RELOAD|G
+|root||nnsomi||RELOAD|G
+|root||nrabarisoa||RELOAD|G
+|root||ntran||RELOAD|G
+|root||okasindu||RELOAD|G
+|root||olufundu||RELOAD|G
+|root||oviravagon||RELOAD|G
+|root||raissi||RELOAD|G
+|root||root|localhost|RELOAD|G
+|root||sbenboubak||RELOAD|G
+|root||schachoua||RELOAD|G
+|root||sdelblond||RELOAD|G
+|root||sgoupil||RELOAD|G
+|root||sgueye||RELOAD|G
+|root||sichalalen||RELOAD|G
+|root||srandriana||RELOAD|G
+|root||ssong||RELOAD|G
+|root||tdurang||RELOAD|G
+|root||tramamonji||RELOAD|G
+|root||tvanrompa1||RELOAD|G
+|root||tvanrompae||RELOAD|G
+|root||ufaye||RELOAD|G
+|root||vgomessilv||RELOAD|G
+|root||wouahi||RELOAD|G
+|root||yburandcha||RELOAD|G
+|root||yelmourabi||RELOAD|G
+|root||ysoufi||RELOAD|G
+|root||zbensiali||RELOAD|G
+|root||abalcerowi||REPLICATION MASTER ADMIN|G
+|root||afotieufia||REPLICATION MASTER ADMIN|G
+|root||agoubo||REPLICATION MASTER ADMIN|G
+|root||ajosso||REPLICATION MASTER ADMIN|G
+|root||akhennouci||REPLICATION MASTER ADMIN|G
+|root||alaine||REPLICATION MASTER ADMIN|G
+|root||alazaar||REPLICATION MASTER ADMIN|G
+|root||anoel||REPLICATION MASTER ADMIN|G
+|root||asouleiman||REPLICATION MASTER ADMIN|G
+|root||atandabany||REPLICATION MASTER ADMIN|G
+|root||azarif||REPLICATION MASTER ADMIN|G
+|root||brodrigues||REPLICATION MASTER ADMIN|G
+|root||bsako||REPLICATION MASTER ADMIN|G
+|root||cjasick||REPLICATION MASTER ADMIN|G
+|root||ckraftvale||REPLICATION MASTER ADMIN|G
+|root||cokembameb||REPLICATION MASTER ADMIN|G
+|root||cscion||REPLICATION MASTER ADMIN|G
+|root||ddossantos||REPLICATION MASTER ADMIN|G
+|root||dmaudet||REPLICATION MASTER ADMIN|G
+|root||dthevaranc||REPLICATION MASTER ADMIN|G
+|root||emikanda||REPLICATION MASTER ADMIN|G
+|root||epousse||REPLICATION MASTER ADMIN|G
+|root||erieu||REPLICATION MASTER ADMIN|G
+|root||ethomy||REPLICATION MASTER ADMIN|G
+|root||fbitsindou||REPLICATION MASTER ADMIN|G
+|root||fmomika||REPLICATION MASTER ADMIN|G
+|root||gbarreau||REPLICATION MASTER ADMIN|G
+|root||hcros||REPLICATION MASTER ADMIN|G
+|root||hekolimole||REPLICATION MASTER ADMIN|G
+|root||iaziz||REPLICATION MASTER ADMIN|G
+|root||idembele||REPLICATION MASTER ADMIN|G
+|root||imzyene||REPLICATION MASTER ADMIN|G
+|root||jchongtoua||REPLICATION MASTER ADMIN|G
+|root||jdhikash||REPLICATION MASTER ADMIN|G
+|root||jdimwanadi||REPLICATION MASTER ADMIN|G
+|root||jfraoui||REPLICATION MASTER ADMIN|G
+|root||jkialengel||REPLICATION MASTER ADMIN|G
+|root||jleonard||REPLICATION MASTER ADMIN|G
+|root||jlorng||REPLICATION MASTER ADMIN|G
+|root||jmoudjoung||REPLICATION MASTER ADMIN|G
+|root||kdiakumpun||REPLICATION MASTER ADMIN|G
+|root||kemmanuel||REPLICATION MASTER ADMIN|G
+|root||kmilius||REPLICATION MASTER ADMIN|G
+|root||kya||REPLICATION MASTER ADMIN|G
+|root||lbuy||REPLICATION MASTER ADMIN|G
+|root||lcaronnage||REPLICATION MASTER ADMIN|G
+|root||ldarras||REPLICATION MASTER ADMIN|G
+|root||lfilloy||REPLICATION MASTER ADMIN|G
+|root||lgerance||REPLICATION MASTER ADMIN|G
+|root||lkiusi||REPLICATION MASTER ADMIN|G
+|root||lsimon1||REPLICATION MASTER ADMIN|G
+|root||makarojeux||REPLICATION MASTER ADMIN|G
+|root||mbeladassi||REPLICATION MASTER ADMIN|G
+|root||mdehay||REPLICATION MASTER ADMIN|G
+|root||mgalli||REPLICATION MASTER ADMIN|G
+|root||mguerry||REPLICATION MASTER ADMIN|G
+|root||mmeziane1||REPLICATION MASTER ADMIN|G
+|root||mrieu||REPLICATION MASTER ADMIN|G
+|root||mya||REPLICATION MASTER ADMIN|G
+|root||mysql|localhost|REPLICATION MASTER ADMIN|G
+|root||nbelkacem||REPLICATION MASTER ADMIN|G
+|root||ndhokhutsa||REPLICATION MASTER ADMIN|G
+|root||nhellal||REPLICATION MASTER ADMIN|G
+|root||njean||REPLICATION MASTER ADMIN|G
+|root||nnsomi||REPLICATION MASTER ADMIN|G
+|root||nrabarisoa||REPLICATION MASTER ADMIN|G
+|root||ntran||REPLICATION MASTER ADMIN|G
+|root||okasindu||REPLICATION MASTER ADMIN|G
+|root||olufundu||REPLICATION MASTER ADMIN|G
+|root||oviravagon||REPLICATION MASTER ADMIN|G
+|root||raissi||REPLICATION MASTER ADMIN|G
+|root||root|localhost|REPLICATION MASTER ADMIN|G
+|root||sbenboubak||REPLICATION MASTER ADMIN|G
+|root||schachoua||REPLICATION MASTER ADMIN|G
+|root||sdelblond||REPLICATION MASTER ADMIN|G
+|root||sgoupil||REPLICATION MASTER ADMIN|G
+|root||sgueye||REPLICATION MASTER ADMIN|G
+|root||sichalalen||REPLICATION MASTER ADMIN|G
+|root||srandriana||REPLICATION MASTER ADMIN|G
+|root||ssong||REPLICATION MASTER ADMIN|G
+|root||tdurang||REPLICATION MASTER ADMIN|G
+|root||tramamonji||REPLICATION MASTER ADMIN|G
+|root||tvanrompa1||REPLICATION MASTER ADMIN|G
+|root||tvanrompae||REPLICATION MASTER ADMIN|G
+|root||ufaye||REPLICATION MASTER ADMIN|G
+|root||vgomessilv||REPLICATION MASTER ADMIN|G
+|root||wouahi||REPLICATION MASTER ADMIN|G
+|root||yburandcha||REPLICATION MASTER ADMIN|G
+|root||yelmourabi||REPLICATION MASTER ADMIN|G
+|root||ysoufi||REPLICATION MASTER ADMIN|G
+|root||zbensiali||REPLICATION MASTER ADMIN|G
+|root||abalcerowi||REPLICATION SLAVE|G
+|root||afotieufia||REPLICATION SLAVE|G
+|root||agoubo||REPLICATION SLAVE|G
+|root||ajosso||REPLICATION SLAVE|G
+|root||akhennouci||REPLICATION SLAVE|G
+|root||alaine||REPLICATION SLAVE|G
+|root||alazaar||REPLICATION SLAVE|G
+|root||anoel||REPLICATION SLAVE|G
+|root||asouleiman||REPLICATION SLAVE|G
+|root||atandabany||REPLICATION SLAVE|G
+|root||azarif||REPLICATION SLAVE|G
+|root||brodrigues||REPLICATION SLAVE|G
+|root||bsako||REPLICATION SLAVE|G
+|root||cjasick||REPLICATION SLAVE|G
+|root||ckraftvale||REPLICATION SLAVE|G
+|root||cokembameb||REPLICATION SLAVE|G
+|root||cscion||REPLICATION SLAVE|G
+|root||ddossantos||REPLICATION SLAVE|G
+|root||dmaudet||REPLICATION SLAVE|G
+|root||dthevaranc||REPLICATION SLAVE|G
+|root||emikanda||REPLICATION SLAVE|G
+|root||epousse||REPLICATION SLAVE|G
+|root||erieu||REPLICATION SLAVE|G
+|root||ethomy||REPLICATION SLAVE|G
+|root||fbitsindou||REPLICATION SLAVE|G
+|root||fmomika||REPLICATION SLAVE|G
+|root||gbarreau||REPLICATION SLAVE|G
+|root||hcros||REPLICATION SLAVE|G
+|root||hekolimole||REPLICATION SLAVE|G
+|root||iaziz||REPLICATION SLAVE|G
+|root||idembele||REPLICATION SLAVE|G
+|root||imzyene||REPLICATION SLAVE|G
+|root||jchongtoua||REPLICATION SLAVE|G
+|root||jdhikash||REPLICATION SLAVE|G
+|root||jdimwanadi||REPLICATION SLAVE|G
+|root||jfraoui||REPLICATION SLAVE|G
+|root||jkialengel||REPLICATION SLAVE|G
+|root||jleonard||REPLICATION SLAVE|G
+|root||jlorng||REPLICATION SLAVE|G
+|root||jmoudjoung||REPLICATION SLAVE|G
+|root||kdiakumpun||REPLICATION SLAVE|G
+|root||kemmanuel||REPLICATION SLAVE|G
+|root||kmilius||REPLICATION SLAVE|G
+|root||kya||REPLICATION SLAVE|G
+|root||lbuy||REPLICATION SLAVE|G
+|root||lcaronnage||REPLICATION SLAVE|G
+|root||ldarras||REPLICATION SLAVE|G
+|root||lfilloy||REPLICATION SLAVE|G
+|root||lgerance||REPLICATION SLAVE|G
+|root||lkiusi||REPLICATION SLAVE|G
+|root||lsimon1||REPLICATION SLAVE|G
+|root||makarojeux||REPLICATION SLAVE|G
+|root||mbeladassi||REPLICATION SLAVE|G
+|root||mdehay||REPLICATION SLAVE|G
+|root||mgalli||REPLICATION SLAVE|G
+|root||mguerry||REPLICATION SLAVE|G
+|root||mmeziane1||REPLICATION SLAVE|G
+|root||mrieu||REPLICATION SLAVE|G
+|root||mya||REPLICATION SLAVE|G
+|root||mysql|localhost|REPLICATION SLAVE|G
+|root||nbelkacem||REPLICATION SLAVE|G
+|root||ndhokhutsa||REPLICATION SLAVE|G
+|root||nhellal||REPLICATION SLAVE|G
+|root||njean||REPLICATION SLAVE|G
+|root||nnsomi||REPLICATION SLAVE|G
+|root||nrabarisoa||REPLICATION SLAVE|G
+|root||ntran||REPLICATION SLAVE|G
+|root||okasindu||REPLICATION SLAVE|G
+|root||olufundu||REPLICATION SLAVE|G
+|root||oviravagon||REPLICATION SLAVE|G
+|root||raissi||REPLICATION SLAVE|G
+|root||root|localhost|REPLICATION SLAVE|G
+|root||sbenboubak||REPLICATION SLAVE|G
+|root||schachoua||REPLICATION SLAVE|G
+|root||sdelblond||REPLICATION SLAVE|G
+|root||sgoupil||REPLICATION SLAVE|G
+|root||sgueye||REPLICATION SLAVE|G
+|root||sichalalen||REPLICATION SLAVE|G
+|root||srandriana||REPLICATION SLAVE|G
+|root||ssong||REPLICATION SLAVE|G
+|root||tdurang||REPLICATION SLAVE|G
+|root||tramamonji||REPLICATION SLAVE|G
+|root||tvanrompa1||REPLICATION SLAVE|G
+|root||tvanrompae||REPLICATION SLAVE|G
+|root||ufaye||REPLICATION SLAVE|G
+|root||vgomessilv||REPLICATION SLAVE|G
+|root||wouahi||REPLICATION SLAVE|G
+|root||yburandcha||REPLICATION SLAVE|G
+|root||yelmourabi||REPLICATION SLAVE|G
+|root||ysoufi||REPLICATION SLAVE|G
+|root||zbensiali||REPLICATION SLAVE|G
+|root||abalcerowi||REPLICATION SLAVE ADMIN|G
+|root||afotieufia||REPLICATION SLAVE ADMIN|G
+|root||agoubo||REPLICATION SLAVE ADMIN|G
+|root||ajosso||REPLICATION SLAVE ADMIN|G
+|root||akhennouci||REPLICATION SLAVE ADMIN|G
+|root||alaine||REPLICATION SLAVE ADMIN|G
+|root||alazaar||REPLICATION SLAVE ADMIN|G
+|root||anoel||REPLICATION SLAVE ADMIN|G
+|root||asouleiman||REPLICATION SLAVE ADMIN|G
+|root||atandabany||REPLICATION SLAVE ADMIN|G
+|root||azarif||REPLICATION SLAVE ADMIN|G
+|root||brodrigues||REPLICATION SLAVE ADMIN|G
+|root||bsako||REPLICATION SLAVE ADMIN|G
+|root||cjasick||REPLICATION SLAVE ADMIN|G
+|root||ckraftvale||REPLICATION SLAVE ADMIN|G
+|root||cokembameb||REPLICATION SLAVE ADMIN|G
+|root||cscion||REPLICATION SLAVE ADMIN|G
+|root||ddossantos||REPLICATION SLAVE ADMIN|G
+|root||dmaudet||REPLICATION SLAVE ADMIN|G
+|root||dthevaranc||REPLICATION SLAVE ADMIN|G
+|root||emikanda||REPLICATION SLAVE ADMIN|G
+|root||epousse||REPLICATION SLAVE ADMIN|G
+|root||erieu||REPLICATION SLAVE ADMIN|G
+|root||ethomy||REPLICATION SLAVE ADMIN|G
+|root||fbitsindou||REPLICATION SLAVE ADMIN|G
+|root||fmomika||REPLICATION SLAVE ADMIN|G
+|root||gbarreau||REPLICATION SLAVE ADMIN|G
+|root||hcros||REPLICATION SLAVE ADMIN|G
+|root||hekolimole||REPLICATION SLAVE ADMIN|G
+|root||iaziz||REPLICATION SLAVE ADMIN|G
+|root||idembele||REPLICATION SLAVE ADMIN|G
+|root||imzyene||REPLICATION SLAVE ADMIN|G
+|root||jchongtoua||REPLICATION SLAVE ADMIN|G
+|root||jdhikash||REPLICATION SLAVE ADMIN|G
+|root||jdimwanadi||REPLICATION SLAVE ADMIN|G
+|root||jfraoui||REPLICATION SLAVE ADMIN|G
+|root||jkialengel||REPLICATION SLAVE ADMIN|G
+|root||jleonard||REPLICATION SLAVE ADMIN|G
+|root||jlorng||REPLICATION SLAVE ADMIN|G
+|root||jmoudjoung||REPLICATION SLAVE ADMIN|G
+|root||kdiakumpun||REPLICATION SLAVE ADMIN|G
+|root||kemmanuel||REPLICATION SLAVE ADMIN|G
+|root||kmilius||REPLICATION SLAVE ADMIN|G
+|root||kya||REPLICATION SLAVE ADMIN|G
+|root||lbuy||REPLICATION SLAVE ADMIN|G
+|root||lcaronnage||REPLICATION SLAVE ADMIN|G
+|root||ldarras||REPLICATION SLAVE ADMIN|G
+|root||lfilloy||REPLICATION SLAVE ADMIN|G
+|root||lgerance||REPLICATION SLAVE ADMIN|G
+|root||lkiusi||REPLICATION SLAVE ADMIN|G
+|root||lsimon1||REPLICATION SLAVE ADMIN|G
+|root||makarojeux||REPLICATION SLAVE ADMIN|G
+|root||mbeladassi||REPLICATION SLAVE ADMIN|G
+|root||mdehay||REPLICATION SLAVE ADMIN|G
+|root||mgalli||REPLICATION SLAVE ADMIN|G
+|root||mguerry||REPLICATION SLAVE ADMIN|G
+|root||mmeziane1||REPLICATION SLAVE ADMIN|G
+|root||mrieu||REPLICATION SLAVE ADMIN|G
+|root||mya||REPLICATION SLAVE ADMIN|G
+|root||mysql|localhost|REPLICATION SLAVE ADMIN|G
+|root||nbelkacem||REPLICATION SLAVE ADMIN|G
+|root||ndhokhutsa||REPLICATION SLAVE ADMIN|G
+|root||nhellal||REPLICATION SLAVE ADMIN|G
+|root||njean||REPLICATION SLAVE ADMIN|G
+|root||nnsomi||REPLICATION SLAVE ADMIN|G
+|root||nrabarisoa||REPLICATION SLAVE ADMIN|G
+|root||ntran||REPLICATION SLAVE ADMIN|G
+|root||okasindu||REPLICATION SLAVE ADMIN|G
+|root||olufundu||REPLICATION SLAVE ADMIN|G
+|root||oviravagon||REPLICATION SLAVE ADMIN|G
+|root||raissi||REPLICATION SLAVE ADMIN|G
+|root||root|localhost|REPLICATION SLAVE ADMIN|G
+|root||sbenboubak||REPLICATION SLAVE ADMIN|G
+|root||schachoua||REPLICATION SLAVE ADMIN|G
+|root||sdelblond||REPLICATION SLAVE ADMIN|G
+|root||sgoupil||REPLICATION SLAVE ADMIN|G
+|root||sgueye||REPLICATION SLAVE ADMIN|G
+|root||sichalalen||REPLICATION SLAVE ADMIN|G
+|root||srandriana||REPLICATION SLAVE ADMIN|G
+|root||ssong||REPLICATION SLAVE ADMIN|G
+|root||tdurang||REPLICATION SLAVE ADMIN|G
+|root||tramamonji||REPLICATION SLAVE ADMIN|G
+|root||tvanrompa1||REPLICATION SLAVE ADMIN|G
+|root||tvanrompae||REPLICATION SLAVE ADMIN|G
+|root||ufaye||REPLICATION SLAVE ADMIN|G
+|root||vgomessilv||REPLICATION SLAVE ADMIN|G
+|root||wouahi||REPLICATION SLAVE ADMIN|G
+|root||yburandcha||REPLICATION SLAVE ADMIN|G
+|root||yelmourabi||REPLICATION SLAVE ADMIN|G
+|root||ysoufi||REPLICATION SLAVE ADMIN|G
+|root||zbensiali||REPLICATION SLAVE ADMIN|G
+|root||abalcerowi||SELECT|G
+|root||afotieufia||SELECT|G
+|root||agoubo||SELECT|G
+|root||ajosso||SELECT|G
+|root||akhennouci||SELECT|G
+|root||alaine||SELECT|G
+|root||alazaar||SELECT|G
+|root||anoel||SELECT|G
+|root||asouleiman||SELECT|G
+|root||atandabany||SELECT|G
+|root||azarif||SELECT|G
+|root||brodrigues||SELECT|G
+|root||bsako||SELECT|G
+|root||cjasick||SELECT|G
+|root||ckraftvale||SELECT|G
+|root||cokembameb||SELECT|G
+|root||cscion||SELECT|G
+|root||ddossantos||SELECT|G
+|root||dmaudet||SELECT|G
+|root||dthevaranc||SELECT|G
+|root||emikanda||SELECT|G
+|root||epousse||SELECT|G
+|root||erieu||SELECT|G
+|root||ethomy||SELECT|G
+|root||fbitsindou||SELECT|G
+|root||fmomika||SELECT|G
+|root||gbarreau||SELECT|G
+|root||hcros||SELECT|G
+|root||hekolimole||SELECT|G
+|root||iaziz||SELECT|G
+|root||idembele||SELECT|G
+|root||imzyene||SELECT|G
+|root||jchongtoua||SELECT|G
+|root||jdhikash||SELECT|G
+|root||jdimwanadi||SELECT|G
+|root||jfraoui||SELECT|G
+|root||jkialengel||SELECT|G
+|root||jleonard||SELECT|G
+|root||jlorng||SELECT|G
+|root||jmoudjoung||SELECT|G
+|root||kdiakumpun||SELECT|G
+|root||kemmanuel||SELECT|G
+|root||kmilius||SELECT|G
+|root||kya||SELECT|G
+|root||lbuy||SELECT|G
+|root||lcaronnage||SELECT|G
+|root||ldarras||SELECT|G
+|root||lfilloy||SELECT|G
+|root||lgerance||SELECT|G
+|root||lkiusi||SELECT|G
+|root||lsimon1||SELECT|G
+|root||makarojeux||SELECT|G
+|root||mbeladassi||SELECT|G
+|root||mdehay||SELECT|G
+|root||mgalli||SELECT|G
+|root||mguerry||SELECT|G
+|root||mmeziane1||SELECT|G
+|root||mrieu||SELECT|G
+|root||mya||SELECT|G
+|root||mysql|localhost|SELECT|G
+|root||nbelkacem||SELECT|G
+|root||ndhokhutsa||SELECT|G
+|root||nhellal||SELECT|G
+|root||njean||SELECT|G
+|root||nnsomi||SELECT|G
+|root||nrabarisoa||SELECT|G
+|root||ntran||SELECT|G
+|root||okasindu||SELECT|G
+|root||olufundu||SELECT|G
+|root||oviravagon||SELECT|G
+|root||raissi||SELECT|G
+|root||root|localhost|SELECT|G
+|root||sbenboubak||SELECT|G
+|root||schachoua||SELECT|G
+|root||sdelblond||SELECT|G
+|root||sgoupil||SELECT|G
+|root||sgueye||SELECT|G
+|root||sichalalen||SELECT|G
+|root||srandriana||SELECT|G
+|root||ssong||SELECT|G
+|root||tdurang||SELECT|G
+|root||tramamonji||SELECT|G
+|root||tvanrompa1||SELECT|G
+|root||tvanrompae||SELECT|G
+|root||ufaye||SELECT|G
+|root||vgomessilv||SELECT|G
+|root||wouahi||SELECT|G
+|root||yburandcha||SELECT|G
+|root||yelmourabi||SELECT|G
+|root||ysoufi||SELECT|G
+|root||zbensiali||SELECT|G
+|root||abalcerowi||SET USER|G
+|root||afotieufia||SET USER|G
+|root||agoubo||SET USER|G
+|root||ajosso||SET USER|G
+|root||akhennouci||SET USER|G
+|root||alaine||SET USER|G
+|root||alazaar||SET USER|G
+|root||anoel||SET USER|G
+|root||asouleiman||SET USER|G
+|root||atandabany||SET USER|G
+|root||azarif||SET USER|G
+|root||brodrigues||SET USER|G
+|root||bsako||SET USER|G
+|root||cjasick||SET USER|G
+|root||ckraftvale||SET USER|G
+|root||cokembameb||SET USER|G
+|root||cscion||SET USER|G
+|root||ddossantos||SET USER|G
+|root||dmaudet||SET USER|G
+|root||dthevaranc||SET USER|G
+|root||emikanda||SET USER|G
+|root||epousse||SET USER|G
+|root||erieu||SET USER|G
+|root||ethomy||SET USER|G
+|root||fbitsindou||SET USER|G
+|root||fmomika||SET USER|G
+|root||gbarreau||SET USER|G
+|root||hcros||SET USER|G
+|root||hekolimole||SET USER|G
+|root||iaziz||SET USER|G
+|root||idembele||SET USER|G
+|root||imzyene||SET USER|G
+|root||jchongtoua||SET USER|G
+|root||jdhikash||SET USER|G
+|root||jdimwanadi||SET USER|G
+|root||jfraoui||SET USER|G
+|root||jkialengel||SET USER|G
+|root||jleonard||SET USER|G
+|root||jlorng||SET USER|G
+|root||jmoudjoung||SET USER|G
+|root||kdiakumpun||SET USER|G
+|root||kemmanuel||SET USER|G
+|root||kmilius||SET USER|G
+|root||kya||SET USER|G
+|root||lbuy||SET USER|G
+|root||lcaronnage||SET USER|G
+|root||ldarras||SET USER|G
+|root||lfilloy||SET USER|G
+|root||lgerance||SET USER|G
+|root||lkiusi||SET USER|G
+|root||lsimon1||SET USER|G
+|root||makarojeux||SET USER|G
+|root||mbeladassi||SET USER|G
+|root||mdehay||SET USER|G
+|root||mgalli||SET USER|G
+|root||mguerry||SET USER|G
+|root||mmeziane1||SET USER|G
+|root||mrieu||SET USER|G
+|root||mya||SET USER|G
+|root||mysql|localhost|SET USER|G
+|root||nbelkacem||SET USER|G
+|root||ndhokhutsa||SET USER|G
+|root||nhellal||SET USER|G
+|root||njean||SET USER|G
+|root||nnsomi||SET USER|G
+|root||nrabarisoa||SET USER|G
+|root||ntran||SET USER|G
+|root||okasindu||SET USER|G
+|root||olufundu||SET USER|G
+|root||oviravagon||SET USER|G
+|root||raissi||SET USER|G
+|root||root|localhost|SET USER|G
+|root||sbenboubak||SET USER|G
+|root||schachoua||SET USER|G
+|root||sdelblond||SET USER|G
+|root||sgoupil||SET USER|G
+|root||sgueye||SET USER|G
+|root||sichalalen||SET USER|G
+|root||srandriana||SET USER|G
+|root||ssong||SET USER|G
+|root||tdurang||SET USER|G
+|root||tramamonji||SET USER|G
+|root||tvanrompa1||SET USER|G
+|root||tvanrompae||SET USER|G
+|root||ufaye||SET USER|G
+|root||vgomessilv||SET USER|G
+|root||wouahi||SET USER|G
+|root||yburandcha||SET USER|G
+|root||yelmourabi||SET USER|G
+|root||ysoufi||SET USER|G
+|root||zbensiali||SET USER|G
+|root||abalcerowi||SHOW DATABASES|G
+|root||afotieufia||SHOW DATABASES|G
+|root||agoubo||SHOW DATABASES|G
+|root||ajosso||SHOW DATABASES|G
+|root||akhennouci||SHOW DATABASES|G
+|root||alaine||SHOW DATABASES|G
+|root||alazaar||SHOW DATABASES|G
+|root||anoel||SHOW DATABASES|G
+|root||asouleiman||SHOW DATABASES|G
+|root||atandabany||SHOW DATABASES|G
+|root||azarif||SHOW DATABASES|G
+|root||brodrigues||SHOW DATABASES|G
+|root||bsako||SHOW DATABASES|G
+|root||cjasick||SHOW DATABASES|G
+|root||ckraftvale||SHOW DATABASES|G
+|root||cokembameb||SHOW DATABASES|G
+|root||cscion||SHOW DATABASES|G
+|root||ddossantos||SHOW DATABASES|G
+|root||dmaudet||SHOW DATABASES|G
+|root||dthevaranc||SHOW DATABASES|G
+|root||emikanda||SHOW DATABASES|G
+|root||epousse||SHOW DATABASES|G
+|root||erieu||SHOW DATABASES|G
+|root||ethomy||SHOW DATABASES|G
+|root||fbitsindou||SHOW DATABASES|G
+|root||fmomika||SHOW DATABASES|G
+|root||gbarreau||SHOW DATABASES|G
+|root||hcros||SHOW DATABASES|G
+|root||hekolimole||SHOW DATABASES|G
+|root||iaziz||SHOW DATABASES|G
+|root||idembele||SHOW DATABASES|G
+|root||imzyene||SHOW DATABASES|G
+|root||jchongtoua||SHOW DATABASES|G
+|root||jdhikash||SHOW DATABASES|G
+|root||jdimwanadi||SHOW DATABASES|G
+|root||jfraoui||SHOW DATABASES|G
+|root||jkialengel||SHOW DATABASES|G
+|root||jleonard||SHOW DATABASES|G
+|root||jlorng||SHOW DATABASES|G
+|root||jmoudjoung||SHOW DATABASES|G
+|root||kdiakumpun||SHOW DATABASES|G
+|root||kemmanuel||SHOW DATABASES|G
+|root||kmilius||SHOW DATABASES|G
+|root||kya||SHOW DATABASES|G
+|root||lbuy||SHOW DATABASES|G
+|root||lcaronnage||SHOW DATABASES|G
+|root||ldarras||SHOW DATABASES|G
+|root||lfilloy||SHOW DATABASES|G
+|root||lgerance||SHOW DATABASES|G
+|root||lkiusi||SHOW DATABASES|G
+|root||lsimon1||SHOW DATABASES|G
+|root||makarojeux||SHOW DATABASES|G
+|root||mbeladassi||SHOW DATABASES|G
+|root||mdehay||SHOW DATABASES|G
+|root||mgalli||SHOW DATABASES|G
+|root||mguerry||SHOW DATABASES|G
+|root||mmeziane1||SHOW DATABASES|G
+|root||mrieu||SHOW DATABASES|G
+|root||mya||SHOW DATABASES|G
+|root||mysql|localhost|SHOW DATABASES|G
+|root||nbelkacem||SHOW DATABASES|G
+|root||ndhokhutsa||SHOW DATABASES|G
+|root||nhellal||SHOW DATABASES|G
+|root||njean||SHOW DATABASES|G
+|root||nnsomi||SHOW DATABASES|G
+|root||nrabarisoa||SHOW DATABASES|G
+|root||ntran||SHOW DATABASES|G
+|root||okasindu||SHOW DATABASES|G
+|root||olufundu||SHOW DATABASES|G
+|root||oviravagon||SHOW DATABASES|G
+|root||raissi||SHOW DATABASES|G
+|root||root|localhost|SHOW DATABASES|G
+|root||sbenboubak||SHOW DATABASES|G
+|root||schachoua||SHOW DATABASES|G
+|root||sdelblond||SHOW DATABASES|G
+|root||sgoupil||SHOW DATABASES|G
+|root||sgueye||SHOW DATABASES|G
+|root||sichalalen||SHOW DATABASES|G
+|root||srandriana||SHOW DATABASES|G
+|root||ssong||SHOW DATABASES|G
+|root||tdurang||SHOW DATABASES|G
+|root||tramamonji||SHOW DATABASES|G
+|root||tvanrompa1||SHOW DATABASES|G
+|root||tvanrompae||SHOW DATABASES|G
+|root||ufaye||SHOW DATABASES|G
+|root||vgomessilv||SHOW DATABASES|G
+|root||wouahi||SHOW DATABASES|G
+|root||yburandcha||SHOW DATABASES|G
+|root||yelmourabi||SHOW DATABASES|G
+|root||ysoufi||SHOW DATABASES|G
+|root||zbensiali||SHOW DATABASES|G
+|root||abalcerowi||SHOW VIEW|G
+|root||afotieufia||SHOW VIEW|G
+|root||agoubo||SHOW VIEW|G
+|root||ajosso||SHOW VIEW|G
+|root||akhennouci||SHOW VIEW|G
+|root||alaine||SHOW VIEW|G
+|root||alazaar||SHOW VIEW|G
+|root||anoel||SHOW VIEW|G
+|root||asouleiman||SHOW VIEW|G
+|root||atandabany||SHOW VIEW|G
+|root||azarif||SHOW VIEW|G
+|root||brodrigues||SHOW VIEW|G
+|root||bsako||SHOW VIEW|G
+|root||cjasick||SHOW VIEW|G
+|root||ckraftvale||SHOW VIEW|G
+|root||cokembameb||SHOW VIEW|G
+|root||cscion||SHOW VIEW|G
+|root||ddossantos||SHOW VIEW|G
+|root||dmaudet||SHOW VIEW|G
+|root||dthevaranc||SHOW VIEW|G
+|root||emikanda||SHOW VIEW|G
+|root||epousse||SHOW VIEW|G
+|root||erieu||SHOW VIEW|G
+|root||ethomy||SHOW VIEW|G
+|root||fbitsindou||SHOW VIEW|G
+|root||fmomika||SHOW VIEW|G
+|root||gbarreau||SHOW VIEW|G
+|root||hcros||SHOW VIEW|G
+|root||hekolimole||SHOW VIEW|G
+|root||iaziz||SHOW VIEW|G
+|root||idembele||SHOW VIEW|G
+|root||imzyene||SHOW VIEW|G
+|root||jchongtoua||SHOW VIEW|G
+|root||jdhikash||SHOW VIEW|G
+|root||jdimwanadi||SHOW VIEW|G
+|root||jfraoui||SHOW VIEW|G
+|root||jkialengel||SHOW VIEW|G
+|root||jleonard||SHOW VIEW|G
+|root||jlorng||SHOW VIEW|G
+|root||jmoudjoung||SHOW VIEW|G
+|root||kdiakumpun||SHOW VIEW|G
+|root||kemmanuel||SHOW VIEW|G
+|root||kmilius||SHOW VIEW|G
+|root||kya||SHOW VIEW|G
+|root||lbuy||SHOW VIEW|G
+|root||lcaronnage||SHOW VIEW|G
+|root||ldarras||SHOW VIEW|G
+|root||lfilloy||SHOW VIEW|G
+|root||lgerance||SHOW VIEW|G
+|root||lkiusi||SHOW VIEW|G
+|root||lsimon1||SHOW VIEW|G
+|root||makarojeux||SHOW VIEW|G
+|root||mbeladassi||SHOW VIEW|G
+|root||mdehay||SHOW VIEW|G
+|root||mgalli||SHOW VIEW|G
+|root||mguerry||SHOW VIEW|G
+|root||mmeziane1||SHOW VIEW|G
+|root||mrieu||SHOW VIEW|G
+|root||mya||SHOW VIEW|G
+|root||mysql|localhost|SHOW VIEW|G
+|root||nbelkacem||SHOW VIEW|G
+|root||ndhokhutsa||SHOW VIEW|G
+|root||nhellal||SHOW VIEW|G
+|root||njean||SHOW VIEW|G
+|root||nnsomi||SHOW VIEW|G
+|root||nrabarisoa||SHOW VIEW|G
+|root||ntran||SHOW VIEW|G
+|root||okasindu||SHOW VIEW|G
+|root||olufundu||SHOW VIEW|G
+|root||oviravagon||SHOW VIEW|G
+|root||raissi||SHOW VIEW|G
+|root||root|localhost|SHOW VIEW|G
+|root||sbenboubak||SHOW VIEW|G
+|root||schachoua||SHOW VIEW|G
+|root||sdelblond||SHOW VIEW|G
+|root||sgoupil||SHOW VIEW|G
+|root||sgueye||SHOW VIEW|G
+|root||sichalalen||SHOW VIEW|G
+|root||srandriana||SHOW VIEW|G
+|root||ssong||SHOW VIEW|G
+|root||tdurang||SHOW VIEW|G
+|root||tramamonji||SHOW VIEW|G
+|root||tvanrompa1||SHOW VIEW|G
+|root||tvanrompae||SHOW VIEW|G
+|root||ufaye||SHOW VIEW|G
+|root||vgomessilv||SHOW VIEW|G
+|root||wouahi||SHOW VIEW|G
+|root||yburandcha||SHOW VIEW|G
+|root||yelmourabi||SHOW VIEW|G
+|root||ysoufi||SHOW VIEW|G
+|root||zbensiali||SHOW VIEW|G
+|root||abalcerowi||SHUTDOWN|G
+|root||afotieufia||SHUTDOWN|G
+|root||agoubo||SHUTDOWN|G
+|root||ajosso||SHUTDOWN|G
+|root||akhennouci||SHUTDOWN|G
+|root||alaine||SHUTDOWN|G
+|root||alazaar||SHUTDOWN|G
+|root||anoel||SHUTDOWN|G
+|root||asouleiman||SHUTDOWN|G
+|root||atandabany||SHUTDOWN|G
+|root||azarif||SHUTDOWN|G
+|root||brodrigues||SHUTDOWN|G
+|root||bsako||SHUTDOWN|G
+|root||cjasick||SHUTDOWN|G
+|root||ckraftvale||SHUTDOWN|G
+|root||cokembameb||SHUTDOWN|G
+|root||cscion||SHUTDOWN|G
+|root||ddossantos||SHUTDOWN|G
+|root||dmaudet||SHUTDOWN|G
+|root||dthevaranc||SHUTDOWN|G
+|root||emikanda||SHUTDOWN|G
+|root||epousse||SHUTDOWN|G
+|root||erieu||SHUTDOWN|G
+|root||ethomy||SHUTDOWN|G
+|root||fbitsindou||SHUTDOWN|G
+|root||fmomika||SHUTDOWN|G
+|root||gbarreau||SHUTDOWN|G
+|root||hcros||SHUTDOWN|G
+|root||hekolimole||SHUTDOWN|G
+|root||iaziz||SHUTDOWN|G
+|root||idembele||SHUTDOWN|G
+|root||imzyene||SHUTDOWN|G
+|root||jchongtoua||SHUTDOWN|G
+|root||jdhikash||SHUTDOWN|G
+|root||jdimwanadi||SHUTDOWN|G
+|root||jfraoui||SHUTDOWN|G
+|root||jkialengel||SHUTDOWN|G
+|root||jleonard||SHUTDOWN|G
+|root||jlorng||SHUTDOWN|G
+|root||jmoudjoung||SHUTDOWN|G
+|root||kdiakumpun||SHUTDOWN|G
+|root||kemmanuel||SHUTDOWN|G
+|root||kmilius||SHUTDOWN|G
+|root||kya||SHUTDOWN|G
+|root||lbuy||SHUTDOWN|G
+|root||lcaronnage||SHUTDOWN|G
+|root||ldarras||SHUTDOWN|G
+|root||lfilloy||SHUTDOWN|G
+|root||lgerance||SHUTDOWN|G
+|root||lkiusi||SHUTDOWN|G
+|root||lsimon1||SHUTDOWN|G
+|root||makarojeux||SHUTDOWN|G
+|root||mbeladassi||SHUTDOWN|G
+|root||mdehay||SHUTDOWN|G
+|root||mgalli||SHUTDOWN|G
+|root||mguerry||SHUTDOWN|G
+|root||mmeziane1||SHUTDOWN|G
+|root||mrieu||SHUTDOWN|G
+|root||mya||SHUTDOWN|G
+|root||mysql|localhost|SHUTDOWN|G
+|root||nbelkacem||SHUTDOWN|G
+|root||ndhokhutsa||SHUTDOWN|G
+|root||nhellal||SHUTDOWN|G
+|root||njean||SHUTDOWN|G
+|root||nnsomi||SHUTDOWN|G
+|root||nrabarisoa||SHUTDOWN|G
+|root||ntran||SHUTDOWN|G
+|root||okasindu||SHUTDOWN|G
+|root||olufundu||SHUTDOWN|G
+|root||oviravagon||SHUTDOWN|G
+|root||raissi||SHUTDOWN|G
+|root||root|localhost|SHUTDOWN|G
+|root||sbenboubak||SHUTDOWN|G
+|root||schachoua||SHUTDOWN|G
+|root||sdelblond||SHUTDOWN|G
+|root||sgoupil||SHUTDOWN|G
+|root||sgueye||SHUTDOWN|G
+|root||sichalalen||SHUTDOWN|G
+|root||srandriana||SHUTDOWN|G
+|root||ssong||SHUTDOWN|G
+|root||tdurang||SHUTDOWN|G
+|root||tramamonji||SHUTDOWN|G
+|root||tvanrompa1||SHUTDOWN|G
+|root||tvanrompae||SHUTDOWN|G
+|root||ufaye||SHUTDOWN|G
+|root||vgomessilv||SHUTDOWN|G
+|root||wouahi||SHUTDOWN|G
+|root||yburandcha||SHUTDOWN|G
+|root||yelmourabi||SHUTDOWN|G
+|root||ysoufi||SHUTDOWN|G
+|root||zbensiali||SHUTDOWN|G
+|root||abalcerowi||SLAVE MONITOR|G
+|root||afotieufia||SLAVE MONITOR|G
+|root||agoubo||SLAVE MONITOR|G
+|root||ajosso||SLAVE MONITOR|G
+|root||akhennouci||SLAVE MONITOR|G
+|root||alaine||SLAVE MONITOR|G
+|root||alazaar||SLAVE MONITOR|G
+|root||anoel||SLAVE MONITOR|G
+|root||asouleiman||SLAVE MONITOR|G
+|root||atandabany||SLAVE MONITOR|G
+|root||azarif||SLAVE MONITOR|G
+|root||brodrigues||SLAVE MONITOR|G
+|root||bsako||SLAVE MONITOR|G
+|root||cjasick||SLAVE MONITOR|G
+|root||ckraftvale||SLAVE MONITOR|G
+|root||cokembameb||SLAVE MONITOR|G
+|root||cscion||SLAVE MONITOR|G
+|root||ddossantos||SLAVE MONITOR|G
+|root||dmaudet||SLAVE MONITOR|G
+|root||dthevaranc||SLAVE MONITOR|G
+|root||emikanda||SLAVE MONITOR|G
+|root||epousse||SLAVE MONITOR|G
+|root||erieu||SLAVE MONITOR|G
+|root||ethomy||SLAVE MONITOR|G
+|root||fbitsindou||SLAVE MONITOR|G
+|root||fmomika||SLAVE MONITOR|G
+|root||gbarreau||SLAVE MONITOR|G
+|root||hcros||SLAVE MONITOR|G
+|root||hekolimole||SLAVE MONITOR|G
+|root||iaziz||SLAVE MONITOR|G
+|root||idembele||SLAVE MONITOR|G
+|root||imzyene||SLAVE MONITOR|G
+|root||jchongtoua||SLAVE MONITOR|G
+|root||jdhikash||SLAVE MONITOR|G
+|root||jdimwanadi||SLAVE MONITOR|G
+|root||jfraoui||SLAVE MONITOR|G
+|root||jkialengel||SLAVE MONITOR|G
+|root||jleonard||SLAVE MONITOR|G
+|root||jlorng||SLAVE MONITOR|G
+|root||jmoudjoung||SLAVE MONITOR|G
+|root||kdiakumpun||SLAVE MONITOR|G
+|root||kemmanuel||SLAVE MONITOR|G
+|root||kmilius||SLAVE MONITOR|G
+|root||kya||SLAVE MONITOR|G
+|root||lbuy||SLAVE MONITOR|G
+|root||lcaronnage||SLAVE MONITOR|G
+|root||ldarras||SLAVE MONITOR|G
+|root||lfilloy||SLAVE MONITOR|G
+|root||lgerance||SLAVE MONITOR|G
+|root||lkiusi||SLAVE MONITOR|G
+|root||lsimon1||SLAVE MONITOR|G
+|root||makarojeux||SLAVE MONITOR|G
+|root||mbeladassi||SLAVE MONITOR|G
+|root||mdehay||SLAVE MONITOR|G
+|root||mgalli||SLAVE MONITOR|G
+|root||mguerry||SLAVE MONITOR|G
+|root||mmeziane1||SLAVE MONITOR|G
+|root||mrieu||SLAVE MONITOR|G
+|root||mya||SLAVE MONITOR|G
+|root||mysql|localhost|SLAVE MONITOR|G
+|root||nbelkacem||SLAVE MONITOR|G
+|root||ndhokhutsa||SLAVE MONITOR|G
+|root||nhellal||SLAVE MONITOR|G
+|root||njean||SLAVE MONITOR|G
+|root||nnsomi||SLAVE MONITOR|G
+|root||nrabarisoa||SLAVE MONITOR|G
+|root||ntran||SLAVE MONITOR|G
+|root||okasindu||SLAVE MONITOR|G
+|root||olufundu||SLAVE MONITOR|G
+|root||oviravagon||SLAVE MONITOR|G
+|root||raissi||SLAVE MONITOR|G
+|root||root|localhost|SLAVE MONITOR|G
+|root||sbenboubak||SLAVE MONITOR|G
+|root||schachoua||SLAVE MONITOR|G
+|root||sdelblond||SLAVE MONITOR|G
+|root||sgoupil||SLAVE MONITOR|G
+|root||sgueye||SLAVE MONITOR|G
+|root||sichalalen||SLAVE MONITOR|G
+|root||srandriana||SLAVE MONITOR|G
+|root||ssong||SLAVE MONITOR|G
+|root||tdurang||SLAVE MONITOR|G
+|root||tramamonji||SLAVE MONITOR|G
+|root||tvanrompa1||SLAVE MONITOR|G
+|root||tvanrompae||SLAVE MONITOR|G
+|root||ufaye||SLAVE MONITOR|G
+|root||vgomessilv||SLAVE MONITOR|G
+|root||wouahi||SLAVE MONITOR|G
+|root||yburandcha||SLAVE MONITOR|G
+|root||yelmourabi||SLAVE MONITOR|G
+|root||ysoufi||SLAVE MONITOR|G
+|root||zbensiali||SLAVE MONITOR|G
+|root||abalcerowi||SUPER|G
+|root||afotieufia||SUPER|G
+|root||agoubo||SUPER|G
+|root||ajosso||SUPER|G
+|root||akhennouci||SUPER|G
+|root||alaine||SUPER|G
+|root||alazaar||SUPER|G
+|root||anoel||SUPER|G
+|root||asouleiman||SUPER|G
+|root||atandabany||SUPER|G
+|root||azarif||SUPER|G
+|root||brodrigues||SUPER|G
+|root||bsako||SUPER|G
+|root||cjasick||SUPER|G
+|root||ckraftvale||SUPER|G
+|root||cokembameb||SUPER|G
+|root||cscion||SUPER|G
+|root||ddossantos||SUPER|G
+|root||dmaudet||SUPER|G
+|root||dthevaranc||SUPER|G
+|root||emikanda||SUPER|G
+|root||epousse||SUPER|G
+|root||erieu||SUPER|G
+|root||ethomy||SUPER|G
+|root||fbitsindou||SUPER|G
+|root||fmomika||SUPER|G
+|root||gbarreau||SUPER|G
+|root||hcros||SUPER|G
+|root||hekolimole||SUPER|G
+|root||iaziz||SUPER|G
+|root||idembele||SUPER|G
+|root||imzyene||SUPER|G
+|root||jchongtoua||SUPER|G
+|root||jdhikash||SUPER|G
+|root||jdimwanadi||SUPER|G
+|root||jfraoui||SUPER|G
+|root||jkialengel||SUPER|G
+|root||jleonard||SUPER|G
+|root||jlorng||SUPER|G
+|root||jmoudjoung||SUPER|G
+|root||kdiakumpun||SUPER|G
+|root||kemmanuel||SUPER|G
+|root||kmilius||SUPER|G
+|root||kya||SUPER|G
+|root||lbuy||SUPER|G
+|root||lcaronnage||SUPER|G
+|root||ldarras||SUPER|G
+|root||lfilloy||SUPER|G
+|root||lgerance||SUPER|G
+|root||lkiusi||SUPER|G
+|root||lsimon1||SUPER|G
+|root||makarojeux||SUPER|G
+|root||mbeladassi||SUPER|G
+|root||mdehay||SUPER|G
+|root||mgalli||SUPER|G
+|root||mguerry||SUPER|G
+|root||mmeziane1||SUPER|G
+|root||mrieu||SUPER|G
+|root||mya||SUPER|G
+|root||mysql|localhost|SUPER|G
+|root||nbelkacem||SUPER|G
+|root||ndhokhutsa||SUPER|G
+|root||nhellal||SUPER|G
+|root||njean||SUPER|G
+|root||nnsomi||SUPER|G
+|root||nrabarisoa||SUPER|G
+|root||ntran||SUPER|G
+|root||okasindu||SUPER|G
+|root||olufundu||SUPER|G
+|root||oviravagon||SUPER|G
+|root||raissi||SUPER|G
+|root||root|localhost|SUPER|G
+|root||sbenboubak||SUPER|G
+|root||schachoua||SUPER|G
+|root||sdelblond||SUPER|G
+|root||sgoupil||SUPER|G
+|root||sgueye||SUPER|G
+|root||sichalalen||SUPER|G
+|root||srandriana||SUPER|G
+|root||ssong||SUPER|G
+|root||tdurang||SUPER|G
+|root||tramamonji||SUPER|G
+|root||tvanrompa1||SUPER|G
+|root||tvanrompae||SUPER|G
+|root||ufaye||SUPER|G
+|root||vgomessilv||SUPER|G
+|root||wouahi||SUPER|G
+|root||yburandcha||SUPER|G
+|root||yelmourabi||SUPER|G
+|root||ysoufi||SUPER|G
+|root||zbensiali||SUPER|G
+|root||abalcerowi||TRIGGER|G
+|root||afotieufia||TRIGGER|G
+|root||agoubo||TRIGGER|G
+|root||ajosso||TRIGGER|G
+|root||akhennouci||TRIGGER|G
+|root||alaine||TRIGGER|G
+|root||alazaar||TRIGGER|G
+|root||anoel||TRIGGER|G
+|root||asouleiman||TRIGGER|G
+|root||atandabany||TRIGGER|G
+|root||azarif||TRIGGER|G
+|root||brodrigues||TRIGGER|G
+|root||bsako||TRIGGER|G
+|root||cjasick||TRIGGER|G
+|root||ckraftvale||TRIGGER|G
+|root||cokembameb||TRIGGER|G
+|root||cscion||TRIGGER|G
+|root||ddossantos||TRIGGER|G
+|root||dmaudet||TRIGGER|G
+|root||dthevaranc||TRIGGER|G
+|root||emikanda||TRIGGER|G
+|root||epousse||TRIGGER|G
+|root||erieu||TRIGGER|G
+|root||ethomy||TRIGGER|G
+|root||fbitsindou||TRIGGER|G
+|root||fmomika||TRIGGER|G
+|root||gbarreau||TRIGGER|G
+|root||hcros||TRIGGER|G
+|root||hekolimole||TRIGGER|G
+|root||iaziz||TRIGGER|G
+|root||idembele||TRIGGER|G
+|root||imzyene||TRIGGER|G
+|root||jchongtoua||TRIGGER|G
+|root||jdhikash||TRIGGER|G
+|root||jdimwanadi||TRIGGER|G
+|root||jfraoui||TRIGGER|G
+|root||jkialengel||TRIGGER|G
+|root||jleonard||TRIGGER|G
+|root||jlorng||TRIGGER|G
+|root||jmoudjoung||TRIGGER|G
+|root||kdiakumpun||TRIGGER|G
+|root||kemmanuel||TRIGGER|G
+|root||kmilius||TRIGGER|G
+|root||kya||TRIGGER|G
+|root||lbuy||TRIGGER|G
+|root||lcaronnage||TRIGGER|G
+|root||ldarras||TRIGGER|G
+|root||lfilloy||TRIGGER|G
+|root||lgerance||TRIGGER|G
+|root||lkiusi||TRIGGER|G
+|root||lsimon1||TRIGGER|G
+|root||makarojeux||TRIGGER|G
+|root||mbeladassi||TRIGGER|G
+|root||mdehay||TRIGGER|G
+|root||mgalli||TRIGGER|G
+|root||mguerry||TRIGGER|G
+|root||mmeziane1||TRIGGER|G
+|root||mrieu||TRIGGER|G
+|root||mya||TRIGGER|G
+|root||mysql|localhost|TRIGGER|G
+|root||nbelkacem||TRIGGER|G
+|root||ndhokhutsa||TRIGGER|G
+|root||nhellal||TRIGGER|G
+|root||njean||TRIGGER|G
+|root||nnsomi||TRIGGER|G
+|root||nrabarisoa||TRIGGER|G
+|root||ntran||TRIGGER|G
+|root||okasindu||TRIGGER|G
+|root||olufundu||TRIGGER|G
+|root||oviravagon||TRIGGER|G
+|root||raissi||TRIGGER|G
+|root||root|localhost|TRIGGER|G
+|root||sbenboubak||TRIGGER|G
+|root||schachoua||TRIGGER|G
+|root||sdelblond||TRIGGER|G
+|root||sgoupil||TRIGGER|G
+|root||sgueye||TRIGGER|G
+|root||sichalalen||TRIGGER|G
+|root||srandriana||TRIGGER|G
+|root||ssong||TRIGGER|G
+|root||tdurang||TRIGGER|G
+|root||tramamonji||TRIGGER|G
+|root||tvanrompa1||TRIGGER|G
+|root||tvanrompae||TRIGGER|G
+|root||ufaye||TRIGGER|G
+|root||vgomessilv||TRIGGER|G
+|root||wouahi||TRIGGER|G
+|root||yburandcha||TRIGGER|G
+|root||yelmourabi||TRIGGER|G
+|root||ysoufi||TRIGGER|G
+|root||zbensiali||TRIGGER|G
+|root||abalcerowi||UPDATE|G
+|root||afotieufia||UPDATE|G
+|root||agoubo||UPDATE|G
+|root||ajosso||UPDATE|G
+|root||akhennouci||UPDATE|G
+|root||alaine||UPDATE|G
+|root||alazaar||UPDATE|G
+|root||anoel||UPDATE|G
+|root||asouleiman||UPDATE|G
+|root||atandabany||UPDATE|G
+|root||azarif||UPDATE|G
+|root||brodrigues||UPDATE|G
+|root||bsako||UPDATE|G
+|root||cjasick||UPDATE|G
+|root||ckraftvale||UPDATE|G
+|root||cokembameb||UPDATE|G
+|root||cscion||UPDATE|G
+|root||ddossantos||UPDATE|G
+|root||dmaudet||UPDATE|G
+|root||dthevaranc||UPDATE|G
+|root||emikanda||UPDATE|G
+|root||epousse||UPDATE|G
+|root||erieu||UPDATE|G
+|root||ethomy||UPDATE|G
+|root||fbitsindou||UPDATE|G
+|root||fmomika||UPDATE|G
+|root||gbarreau||UPDATE|G
+|root||hcros||UPDATE|G
+|root||hekolimole||UPDATE|G
+|root||iaziz||UPDATE|G
+|root||idembele||UPDATE|G
+|root||imzyene||UPDATE|G
+|root||jchongtoua||UPDATE|G
+|root||jdhikash||UPDATE|G
+|root||jdimwanadi||UPDATE|G
+|root||jfraoui||UPDATE|G
+|root||jkialengel||UPDATE|G
+|root||jleonard||UPDATE|G
+|root||jlorng||UPDATE|G
+|root||jmoudjoung||UPDATE|G
+|root||kdiakumpun||UPDATE|G
+|root||kemmanuel||UPDATE|G
+|root||kmilius||UPDATE|G
+|root||kya||UPDATE|G
+|root||lbuy||UPDATE|G
+|root||lcaronnage||UPDATE|G
+|root||ldarras||UPDATE|G
+|root||lfilloy||UPDATE|G
+|root||lgerance||UPDATE|G
+|root||lkiusi||UPDATE|G
+|root||lsimon1||UPDATE|G
+|root||makarojeux||UPDATE|G
+|root||mbeladassi||UPDATE|G
+|root||mdehay||UPDATE|G
+|root||mgalli||UPDATE|G
+|root||mguerry||UPDATE|G
+|root||mmeziane1||UPDATE|G
+|root||mrieu||UPDATE|G
+|root||mya||UPDATE|G
+|root||mysql|localhost|UPDATE|G
+|root||nbelkacem||UPDATE|G
+|root||ndhokhutsa||UPDATE|G
+|root||nhellal||UPDATE|G
+|root||njean||UPDATE|G
+|root||nnsomi||UPDATE|G
+|root||nrabarisoa||UPDATE|G
+|root||ntran||UPDATE|G
+|root||okasindu||UPDATE|G
+|root||olufundu||UPDATE|G
+|root||oviravagon||UPDATE|G
+|root||raissi||UPDATE|G
+|root||root|localhost|UPDATE|G
+|root||sbenboubak||UPDATE|G
+|root||schachoua||UPDATE|G
+|root||sdelblond||UPDATE|G
+|root||sgoupil||UPDATE|G
+|root||sgueye||UPDATE|G
+|root||sichalalen||UPDATE|G
+|root||srandriana||UPDATE|G
+|root||ssong||UPDATE|G
+|root||tdurang||UPDATE|G
+|root||tramamonji||UPDATE|G
+|root||tvanrompa1||UPDATE|G
+|root||tvanrompae||UPDATE|G
+|root||ufaye||UPDATE|G
+|root||vgomessilv||UPDATE|G
+|root||wouahi||UPDATE|G
+|root||yburandcha||UPDATE|G
+|root||yelmourabi||UPDATE|G
+|root||ysoufi||UPDATE|G
+|root||zbensiali||UPDATE|G
+|root||mysql|localhost|grant option|G
+|root||root|localhost|grant option|G</Grants>
+      <ServerVersion>10.11.11</ServerVersion>
+    </root>
+    <collation id="2" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+    </collation>
+    <collation id="3" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="4" parent="1" name="armscii8_general_nopad_ci">
+      <Charset>armscii8</Charset>
+    </collation>
+    <collation id="5" parent="1" name="armscii8_nopad_bin">
+      <Charset>armscii8</Charset>
+    </collation>
+    <collation id="6" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+    </collation>
+    <collation id="7" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="8" parent="1" name="ascii_general_nopad_ci">
+      <Charset>ascii</Charset>
+    </collation>
+    <collation id="9" parent="1" name="ascii_nopad_bin">
+      <Charset>ascii</Charset>
+    </collation>
+    <collation id="10" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+    </collation>
+    <collation id="11" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="12" parent="1" name="big5_chinese_nopad_ci">
+      <Charset>big5</Charset>
+    </collation>
+    <collation id="13" parent="1" name="big5_nopad_bin">
+      <Charset>big5</Charset>
+    </collation>
+    <collation id="14" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="15" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="16" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="17" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="18" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="19" parent="1" name="cp1250_general_nopad_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="20" parent="1" name="cp1250_nopad_bin">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="21" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="22" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="23" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="24" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="25" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="26" parent="1" name="cp1251_general_nopad_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="27" parent="1" name="cp1251_nopad_bin">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="28" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="29" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+    </collation>
+    <collation id="30" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="31" parent="1" name="cp1256_general_nopad_ci">
+      <Charset>cp1256</Charset>
+    </collation>
+    <collation id="32" parent="1" name="cp1256_nopad_bin">
+      <Charset>cp1256</Charset>
+    </collation>
+    <collation id="33" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="34" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="35" parent="1" name="cp1257_general_nopad_ci">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="36" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="37" parent="1" name="cp1257_nopad_bin">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="38" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+    </collation>
+    <collation id="39" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="cp850_general_nopad_ci">
+      <Charset>cp850</Charset>
+    </collation>
+    <collation id="41" parent="1" name="cp850_nopad_bin">
+      <Charset>cp850</Charset>
+    </collation>
+    <collation id="42" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+    </collation>
+    <collation id="43" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="44" parent="1" name="cp852_general_nopad_ci">
+      <Charset>cp852</Charset>
+    </collation>
+    <collation id="45" parent="1" name="cp852_nopad_bin">
+      <Charset>cp852</Charset>
+    </collation>
+    <collation id="46" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+    </collation>
+    <collation id="47" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="48" parent="1" name="cp866_general_nopad_ci">
+      <Charset>cp866</Charset>
+    </collation>
+    <collation id="49" parent="1" name="cp866_nopad_bin">
+      <Charset>cp866</Charset>
+    </collation>
+    <collation id="50" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+    </collation>
+    <collation id="51" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="52" parent="1" name="cp932_japanese_nopad_ci">
+      <Charset>cp932</Charset>
+    </collation>
+    <collation id="53" parent="1" name="cp932_nopad_bin">
+      <Charset>cp932</Charset>
+    </collation>
+    <collation id="54" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+    </collation>
+    <collation id="55" parent="1" name="dec8_nopad_bin">
+      <Charset>dec8</Charset>
+    </collation>
+    <collation id="56" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="dec8_swedish_nopad_ci">
+      <Charset>dec8</Charset>
+    </collation>
+    <collation id="58" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+    </collation>
+    <collation id="59" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="60" parent="1" name="eucjpms_japanese_nopad_ci">
+      <Charset>eucjpms</Charset>
+    </collation>
+    <collation id="61" parent="1" name="eucjpms_nopad_bin">
+      <Charset>eucjpms</Charset>
+    </collation>
+    <collation id="62" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+    </collation>
+    <collation id="63" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="64" parent="1" name="euckr_korean_nopad_ci">
+      <Charset>euckr</Charset>
+    </collation>
+    <collation id="65" parent="1" name="euckr_nopad_bin">
+      <Charset>euckr</Charset>
+    </collation>
+    <collation id="66" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+    </collation>
+    <collation id="67" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="68" parent="1" name="gb2312_chinese_nopad_ci">
+      <Charset>gb2312</Charset>
+    </collation>
+    <collation id="69" parent="1" name="gb2312_nopad_bin">
+      <Charset>gb2312</Charset>
+    </collation>
+    <collation id="70" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+    </collation>
+    <collation id="71" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="72" parent="1" name="gbk_chinese_nopad_ci">
+      <Charset>gbk</Charset>
+    </collation>
+    <collation id="73" parent="1" name="gbk_nopad_bin">
+      <Charset>gbk</Charset>
+    </collation>
+    <collation id="74" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+    </collation>
+    <collation id="75" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="76" parent="1" name="geostd8_general_nopad_ci">
+      <Charset>geostd8</Charset>
+    </collation>
+    <collation id="77" parent="1" name="geostd8_nopad_bin">
+      <Charset>geostd8</Charset>
+    </collation>
+    <collation id="78" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+    </collation>
+    <collation id="79" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="greek_general_nopad_ci">
+      <Charset>greek</Charset>
+    </collation>
+    <collation id="81" parent="1" name="greek_nopad_bin">
+      <Charset>greek</Charset>
+    </collation>
+    <collation id="82" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+    </collation>
+    <collation id="83" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="hebrew_general_nopad_ci">
+      <Charset>hebrew</Charset>
+    </collation>
+    <collation id="85" parent="1" name="hebrew_nopad_bin">
+      <Charset>hebrew</Charset>
+    </collation>
+    <collation id="86" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+    </collation>
+    <collation id="87" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="hp8_english_nopad_ci">
+      <Charset>hp8</Charset>
+    </collation>
+    <collation id="89" parent="1" name="hp8_nopad_bin">
+      <Charset>hp8</Charset>
+    </collation>
+    <collation id="90" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+    </collation>
+    <collation id="91" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="92" parent="1" name="keybcs2_general_nopad_ci">
+      <Charset>keybcs2</Charset>
+    </collation>
+    <collation id="93" parent="1" name="keybcs2_nopad_bin">
+      <Charset>keybcs2</Charset>
+    </collation>
+    <collation id="94" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+    </collation>
+    <collation id="95" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="96" parent="1" name="koi8r_general_nopad_ci">
+      <Charset>koi8r</Charset>
+    </collation>
+    <collation id="97" parent="1" name="koi8r_nopad_bin">
+      <Charset>koi8r</Charset>
+    </collation>
+    <collation id="98" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+    </collation>
+    <collation id="99" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="100" parent="1" name="koi8u_general_nopad_ci">
+      <Charset>koi8u</Charset>
+    </collation>
+    <collation id="101" parent="1" name="koi8u_nopad_bin">
+      <Charset>koi8u</Charset>
+    </collation>
+    <collation id="102" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="103" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="104" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="105" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="106" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="107" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="108" parent="1" name="latin1_nopad_bin">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="109" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="110" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="latin1_swedish_nopad_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="112" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="113" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="114" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="115" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="116" parent="1" name="latin2_general_nopad_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="117" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="118" parent="1" name="latin2_nopad_bin">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="119" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+    </collation>
+    <collation id="120" parent="1" name="latin5_nopad_bin">
+      <Charset>latin5</Charset>
+    </collation>
+    <collation id="121" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="latin5_turkish_nopad_ci">
+      <Charset>latin5</Charset>
+    </collation>
+    <collation id="123" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="124" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="125" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="126" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="127" parent="1" name="latin7_general_nopad_ci">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="128" parent="1" name="latin7_nopad_bin">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="129" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+    </collation>
+    <collation id="130" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="131" parent="1" name="macce_general_nopad_ci">
+      <Charset>macce</Charset>
+    </collation>
+    <collation id="132" parent="1" name="macce_nopad_bin">
+      <Charset>macce</Charset>
+    </collation>
+    <collation id="133" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+    </collation>
+    <collation id="134" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="135" parent="1" name="macroman_general_nopad_ci">
+      <Charset>macroman</Charset>
+    </collation>
+    <collation id="136" parent="1" name="macroman_nopad_bin">
+      <Charset>macroman</Charset>
+    </collation>
+    <collation id="137" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+    </collation>
+    <collation id="138" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="139" parent="1" name="sjis_japanese_nopad_ci">
+      <Charset>sjis</Charset>
+    </collation>
+    <collation id="140" parent="1" name="sjis_nopad_bin">
+      <Charset>sjis</Charset>
+    </collation>
+    <collation id="141" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+    </collation>
+    <collation id="142" parent="1" name="swe7_nopad_bin">
+      <Charset>swe7</Charset>
+    </collation>
+    <collation id="143" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="144" parent="1" name="swe7_swedish_nopad_ci">
+      <Charset>swe7</Charset>
+    </collation>
+    <collation id="145" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+    </collation>
+    <collation id="146" parent="1" name="tis620_nopad_bin">
+      <Charset>tis620</Charset>
+    </collation>
+    <collation id="147" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="148" parent="1" name="tis620_thai_nopad_ci">
+      <Charset>tis620</Charset>
+    </collation>
+    <collation id="149" parent="1" name="uca1400_ai_ci"/>
+    <collation id="150" parent="1" name="uca1400_ai_cs"/>
+    <collation id="151" parent="1" name="uca1400_as_ci"/>
+    <collation id="152" parent="1" name="uca1400_as_cs"/>
+    <collation id="153" parent="1" name="uca1400_croatian_ai_ci"/>
+    <collation id="154" parent="1" name="uca1400_croatian_ai_cs"/>
+    <collation id="155" parent="1" name="uca1400_croatian_as_ci"/>
+    <collation id="156" parent="1" name="uca1400_croatian_as_cs"/>
+    <collation id="157" parent="1" name="uca1400_croatian_nopad_ai_ci"/>
+    <collation id="158" parent="1" name="uca1400_croatian_nopad_ai_cs"/>
+    <collation id="159" parent="1" name="uca1400_croatian_nopad_as_ci"/>
+    <collation id="160" parent="1" name="uca1400_croatian_nopad_as_cs"/>
+    <collation id="161" parent="1" name="uca1400_czech_ai_ci"/>
+    <collation id="162" parent="1" name="uca1400_czech_ai_cs"/>
+    <collation id="163" parent="1" name="uca1400_czech_as_ci"/>
+    <collation id="164" parent="1" name="uca1400_czech_as_cs"/>
+    <collation id="165" parent="1" name="uca1400_czech_nopad_ai_ci"/>
+    <collation id="166" parent="1" name="uca1400_czech_nopad_ai_cs"/>
+    <collation id="167" parent="1" name="uca1400_czech_nopad_as_ci"/>
+    <collation id="168" parent="1" name="uca1400_czech_nopad_as_cs"/>
+    <collation id="169" parent="1" name="uca1400_danish_ai_ci"/>
+    <collation id="170" parent="1" name="uca1400_danish_ai_cs"/>
+    <collation id="171" parent="1" name="uca1400_danish_as_ci"/>
+    <collation id="172" parent="1" name="uca1400_danish_as_cs"/>
+    <collation id="173" parent="1" name="uca1400_danish_nopad_ai_ci"/>
+    <collation id="174" parent="1" name="uca1400_danish_nopad_ai_cs"/>
+    <collation id="175" parent="1" name="uca1400_danish_nopad_as_ci"/>
+    <collation id="176" parent="1" name="uca1400_danish_nopad_as_cs"/>
+    <collation id="177" parent="1" name="uca1400_esperanto_ai_ci"/>
+    <collation id="178" parent="1" name="uca1400_esperanto_ai_cs"/>
+    <collation id="179" parent="1" name="uca1400_esperanto_as_ci"/>
+    <collation id="180" parent="1" name="uca1400_esperanto_as_cs"/>
+    <collation id="181" parent="1" name="uca1400_esperanto_nopad_ai_ci"/>
+    <collation id="182" parent="1" name="uca1400_esperanto_nopad_ai_cs"/>
+    <collation id="183" parent="1" name="uca1400_esperanto_nopad_as_ci"/>
+    <collation id="184" parent="1" name="uca1400_esperanto_nopad_as_cs"/>
+    <collation id="185" parent="1" name="uca1400_estonian_ai_ci"/>
+    <collation id="186" parent="1" name="uca1400_estonian_ai_cs"/>
+    <collation id="187" parent="1" name="uca1400_estonian_as_ci"/>
+    <collation id="188" parent="1" name="uca1400_estonian_as_cs"/>
+    <collation id="189" parent="1" name="uca1400_estonian_nopad_ai_ci"/>
+    <collation id="190" parent="1" name="uca1400_estonian_nopad_ai_cs"/>
+    <collation id="191" parent="1" name="uca1400_estonian_nopad_as_ci"/>
+    <collation id="192" parent="1" name="uca1400_estonian_nopad_as_cs"/>
+    <collation id="193" parent="1" name="uca1400_german2_ai_ci"/>
+    <collation id="194" parent="1" name="uca1400_german2_ai_cs"/>
+    <collation id="195" parent="1" name="uca1400_german2_as_ci"/>
+    <collation id="196" parent="1" name="uca1400_german2_as_cs"/>
+    <collation id="197" parent="1" name="uca1400_german2_nopad_ai_ci"/>
+    <collation id="198" parent="1" name="uca1400_german2_nopad_ai_cs"/>
+    <collation id="199" parent="1" name="uca1400_german2_nopad_as_ci"/>
+    <collation id="200" parent="1" name="uca1400_german2_nopad_as_cs"/>
+    <collation id="201" parent="1" name="uca1400_hungarian_ai_ci"/>
+    <collation id="202" parent="1" name="uca1400_hungarian_ai_cs"/>
+    <collation id="203" parent="1" name="uca1400_hungarian_as_ci"/>
+    <collation id="204" parent="1" name="uca1400_hungarian_as_cs"/>
+    <collation id="205" parent="1" name="uca1400_hungarian_nopad_ai_ci"/>
+    <collation id="206" parent="1" name="uca1400_hungarian_nopad_ai_cs"/>
+    <collation id="207" parent="1" name="uca1400_hungarian_nopad_as_ci"/>
+    <collation id="208" parent="1" name="uca1400_hungarian_nopad_as_cs"/>
+    <collation id="209" parent="1" name="uca1400_icelandic_ai_ci"/>
+    <collation id="210" parent="1" name="uca1400_icelandic_ai_cs"/>
+    <collation id="211" parent="1" name="uca1400_icelandic_as_ci"/>
+    <collation id="212" parent="1" name="uca1400_icelandic_as_cs"/>
+    <collation id="213" parent="1" name="uca1400_icelandic_nopad_ai_ci"/>
+    <collation id="214" parent="1" name="uca1400_icelandic_nopad_ai_cs"/>
+    <collation id="215" parent="1" name="uca1400_icelandic_nopad_as_ci"/>
+    <collation id="216" parent="1" name="uca1400_icelandic_nopad_as_cs"/>
+    <collation id="217" parent="1" name="uca1400_latvian_ai_ci"/>
+    <collation id="218" parent="1" name="uca1400_latvian_ai_cs"/>
+    <collation id="219" parent="1" name="uca1400_latvian_as_ci"/>
+    <collation id="220" parent="1" name="uca1400_latvian_as_cs"/>
+    <collation id="221" parent="1" name="uca1400_latvian_nopad_ai_ci"/>
+    <collation id="222" parent="1" name="uca1400_latvian_nopad_ai_cs"/>
+    <collation id="223" parent="1" name="uca1400_latvian_nopad_as_ci"/>
+    <collation id="224" parent="1" name="uca1400_latvian_nopad_as_cs"/>
+    <collation id="225" parent="1" name="uca1400_lithuanian_ai_ci"/>
+    <collation id="226" parent="1" name="uca1400_lithuanian_ai_cs"/>
+    <collation id="227" parent="1" name="uca1400_lithuanian_as_ci"/>
+    <collation id="228" parent="1" name="uca1400_lithuanian_as_cs"/>
+    <collation id="229" parent="1" name="uca1400_lithuanian_nopad_ai_ci"/>
+    <collation id="230" parent="1" name="uca1400_lithuanian_nopad_ai_cs"/>
+    <collation id="231" parent="1" name="uca1400_lithuanian_nopad_as_ci"/>
+    <collation id="232" parent="1" name="uca1400_lithuanian_nopad_as_cs"/>
+    <collation id="233" parent="1" name="uca1400_nopad_ai_ci"/>
+    <collation id="234" parent="1" name="uca1400_nopad_ai_cs"/>
+    <collation id="235" parent="1" name="uca1400_nopad_as_ci"/>
+    <collation id="236" parent="1" name="uca1400_nopad_as_cs"/>
+    <collation id="237" parent="1" name="uca1400_persian_ai_ci"/>
+    <collation id="238" parent="1" name="uca1400_persian_ai_cs"/>
+    <collation id="239" parent="1" name="uca1400_persian_as_ci"/>
+    <collation id="240" parent="1" name="uca1400_persian_as_cs"/>
+    <collation id="241" parent="1" name="uca1400_persian_nopad_ai_ci"/>
+    <collation id="242" parent="1" name="uca1400_persian_nopad_ai_cs"/>
+    <collation id="243" parent="1" name="uca1400_persian_nopad_as_ci"/>
+    <collation id="244" parent="1" name="uca1400_persian_nopad_as_cs"/>
+    <collation id="245" parent="1" name="uca1400_polish_ai_ci"/>
+    <collation id="246" parent="1" name="uca1400_polish_ai_cs"/>
+    <collation id="247" parent="1" name="uca1400_polish_as_ci"/>
+    <collation id="248" parent="1" name="uca1400_polish_as_cs"/>
+    <collation id="249" parent="1" name="uca1400_polish_nopad_ai_ci"/>
+    <collation id="250" parent="1" name="uca1400_polish_nopad_ai_cs"/>
+    <collation id="251" parent="1" name="uca1400_polish_nopad_as_ci"/>
+    <collation id="252" parent="1" name="uca1400_polish_nopad_as_cs"/>
+    <collation id="253" parent="1" name="uca1400_roman_ai_ci"/>
+    <collation id="254" parent="1" name="uca1400_roman_ai_cs"/>
+    <collation id="255" parent="1" name="uca1400_roman_as_ci"/>
+    <collation id="256" parent="1" name="uca1400_roman_as_cs"/>
+    <collation id="257" parent="1" name="uca1400_roman_nopad_ai_ci"/>
+    <collation id="258" parent="1" name="uca1400_roman_nopad_ai_cs"/>
+    <collation id="259" parent="1" name="uca1400_roman_nopad_as_ci"/>
+    <collation id="260" parent="1" name="uca1400_roman_nopad_as_cs"/>
+    <collation id="261" parent="1" name="uca1400_romanian_ai_ci"/>
+    <collation id="262" parent="1" name="uca1400_romanian_ai_cs"/>
+    <collation id="263" parent="1" name="uca1400_romanian_as_ci"/>
+    <collation id="264" parent="1" name="uca1400_romanian_as_cs"/>
+    <collation id="265" parent="1" name="uca1400_romanian_nopad_ai_ci"/>
+    <collation id="266" parent="1" name="uca1400_romanian_nopad_ai_cs"/>
+    <collation id="267" parent="1" name="uca1400_romanian_nopad_as_ci"/>
+    <collation id="268" parent="1" name="uca1400_romanian_nopad_as_cs"/>
+    <collation id="269" parent="1" name="uca1400_sinhala_ai_ci"/>
+    <collation id="270" parent="1" name="uca1400_sinhala_ai_cs"/>
+    <collation id="271" parent="1" name="uca1400_sinhala_as_ci"/>
+    <collation id="272" parent="1" name="uca1400_sinhala_as_cs"/>
+    <collation id="273" parent="1" name="uca1400_sinhala_nopad_ai_ci"/>
+    <collation id="274" parent="1" name="uca1400_sinhala_nopad_ai_cs"/>
+    <collation id="275" parent="1" name="uca1400_sinhala_nopad_as_ci"/>
+    <collation id="276" parent="1" name="uca1400_sinhala_nopad_as_cs"/>
+    <collation id="277" parent="1" name="uca1400_slovak_ai_ci"/>
+    <collation id="278" parent="1" name="uca1400_slovak_ai_cs"/>
+    <collation id="279" parent="1" name="uca1400_slovak_as_ci"/>
+    <collation id="280" parent="1" name="uca1400_slovak_as_cs"/>
+    <collation id="281" parent="1" name="uca1400_slovak_nopad_ai_ci"/>
+    <collation id="282" parent="1" name="uca1400_slovak_nopad_ai_cs"/>
+    <collation id="283" parent="1" name="uca1400_slovak_nopad_as_ci"/>
+    <collation id="284" parent="1" name="uca1400_slovak_nopad_as_cs"/>
+    <collation id="285" parent="1" name="uca1400_slovenian_ai_ci"/>
+    <collation id="286" parent="1" name="uca1400_slovenian_ai_cs"/>
+    <collation id="287" parent="1" name="uca1400_slovenian_as_ci"/>
+    <collation id="288" parent="1" name="uca1400_slovenian_as_cs"/>
+    <collation id="289" parent="1" name="uca1400_slovenian_nopad_ai_ci"/>
+    <collation id="290" parent="1" name="uca1400_slovenian_nopad_ai_cs"/>
+    <collation id="291" parent="1" name="uca1400_slovenian_nopad_as_ci"/>
+    <collation id="292" parent="1" name="uca1400_slovenian_nopad_as_cs"/>
+    <collation id="293" parent="1" name="uca1400_spanish2_ai_ci"/>
+    <collation id="294" parent="1" name="uca1400_spanish2_ai_cs"/>
+    <collation id="295" parent="1" name="uca1400_spanish2_as_ci"/>
+    <collation id="296" parent="1" name="uca1400_spanish2_as_cs"/>
+    <collation id="297" parent="1" name="uca1400_spanish2_nopad_ai_ci"/>
+    <collation id="298" parent="1" name="uca1400_spanish2_nopad_ai_cs"/>
+    <collation id="299" parent="1" name="uca1400_spanish2_nopad_as_ci"/>
+    <collation id="300" parent="1" name="uca1400_spanish2_nopad_as_cs"/>
+    <collation id="301" parent="1" name="uca1400_spanish_ai_ci"/>
+    <collation id="302" parent="1" name="uca1400_spanish_ai_cs"/>
+    <collation id="303" parent="1" name="uca1400_spanish_as_ci"/>
+    <collation id="304" parent="1" name="uca1400_spanish_as_cs"/>
+    <collation id="305" parent="1" name="uca1400_spanish_nopad_ai_ci"/>
+    <collation id="306" parent="1" name="uca1400_spanish_nopad_ai_cs"/>
+    <collation id="307" parent="1" name="uca1400_spanish_nopad_as_ci"/>
+    <collation id="308" parent="1" name="uca1400_spanish_nopad_as_cs"/>
+    <collation id="309" parent="1" name="uca1400_swedish_ai_ci"/>
+    <collation id="310" parent="1" name="uca1400_swedish_ai_cs"/>
+    <collation id="311" parent="1" name="uca1400_swedish_as_ci"/>
+    <collation id="312" parent="1" name="uca1400_swedish_as_cs"/>
+    <collation id="313" parent="1" name="uca1400_swedish_nopad_ai_ci"/>
+    <collation id="314" parent="1" name="uca1400_swedish_nopad_ai_cs"/>
+    <collation id="315" parent="1" name="uca1400_swedish_nopad_as_ci"/>
+    <collation id="316" parent="1" name="uca1400_swedish_nopad_as_cs"/>
+    <collation id="317" parent="1" name="uca1400_turkish_ai_ci"/>
+    <collation id="318" parent="1" name="uca1400_turkish_ai_cs"/>
+    <collation id="319" parent="1" name="uca1400_turkish_as_ci"/>
+    <collation id="320" parent="1" name="uca1400_turkish_as_cs"/>
+    <collation id="321" parent="1" name="uca1400_turkish_nopad_ai_ci"/>
+    <collation id="322" parent="1" name="uca1400_turkish_nopad_ai_cs"/>
+    <collation id="323" parent="1" name="uca1400_turkish_nopad_as_ci"/>
+    <collation id="324" parent="1" name="uca1400_turkish_nopad_as_cs"/>
+    <collation id="325" parent="1" name="uca1400_vietnamese_ai_ci"/>
+    <collation id="326" parent="1" name="uca1400_vietnamese_ai_cs"/>
+    <collation id="327" parent="1" name="uca1400_vietnamese_as_ci"/>
+    <collation id="328" parent="1" name="uca1400_vietnamese_as_cs"/>
+    <collation id="329" parent="1" name="uca1400_vietnamese_nopad_ai_ci"/>
+    <collation id="330" parent="1" name="uca1400_vietnamese_nopad_ai_cs"/>
+    <collation id="331" parent="1" name="uca1400_vietnamese_nopad_as_ci"/>
+    <collation id="332" parent="1" name="uca1400_vietnamese_nopad_as_cs"/>
+    <collation id="333" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="334" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="335" parent="1" name="ucs2_croatian_mysql561_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="336" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="337" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="338" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="339" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="340" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="341" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="342" parent="1" name="ucs2_general_nopad_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="343" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="344" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="345" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="346" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="347" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="348" parent="1" name="ucs2_myanmar_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="349" parent="1" name="ucs2_nopad_bin">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="350" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="351" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="352" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="353" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="354" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="355" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="356" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="357" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="358" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="359" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="360" parent="1" name="ucs2_thai_520_w2">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="361" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="362" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="363" parent="1" name="ucs2_unicode_520_nopad_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="364" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="365" parent="1" name="ucs2_unicode_nopad_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="366" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="367" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+    </collation>
+    <collation id="368" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="369" parent="1" name="ujis_japanese_nopad_ci">
+      <Charset>ujis</Charset>
+    </collation>
+    <collation id="370" parent="1" name="ujis_nopad_bin">
+      <Charset>ujis</Charset>
+    </collation>
+    <collation id="371" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="372" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="373" parent="1" name="utf16_croatian_mysql561_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="374" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="375" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="376" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="377" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="378" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="379" parent="1" name="utf16_general_nopad_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="380" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="381" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="382" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="383" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="384" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="385" parent="1" name="utf16_myanmar_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="386" parent="1" name="utf16_nopad_bin">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="387" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="388" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="389" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="390" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="391" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="392" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="393" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="394" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="395" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="396" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="397" parent="1" name="utf16_thai_520_w2">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="398" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="399" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="400" parent="1" name="utf16_unicode_520_nopad_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="401" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="402" parent="1" name="utf16_unicode_nopad_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="403" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="404" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+    </collation>
+    <collation id="405" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="406" parent="1" name="utf16le_general_nopad_ci">
+      <Charset>utf16le</Charset>
+    </collation>
+    <collation id="407" parent="1" name="utf16le_nopad_bin">
+      <Charset>utf16le</Charset>
+    </collation>
+    <collation id="408" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="409" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="410" parent="1" name="utf32_croatian_mysql561_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="411" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="412" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="413" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="414" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="415" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="416" parent="1" name="utf32_general_nopad_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="417" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="418" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="419" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="420" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="421" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="422" parent="1" name="utf32_myanmar_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="423" parent="1" name="utf32_nopad_bin">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="424" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="425" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="426" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="427" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="428" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="429" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="430" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="431" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="432" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="433" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="434" parent="1" name="utf32_thai_520_w2">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="435" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="436" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="437" parent="1" name="utf32_unicode_520_nopad_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="438" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="439" parent="1" name="utf32_unicode_nopad_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="440" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="441" parent="1" name="utf8mb3_bin">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="442" parent="1" name="utf8mb3_croatian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="443" parent="1" name="utf8mb3_croatian_mysql561_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="444" parent="1" name="utf8mb3_czech_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="445" parent="1" name="utf8mb3_danish_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="446" parent="1" name="utf8mb3_esperanto_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="447" parent="1" name="utf8mb3_estonian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="448" parent="1" name="utf8mb3_general_ci">
+      <Charset>utf8mb3</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="449" parent="1" name="utf8mb3_general_mysql500_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="450" parent="1" name="utf8mb3_general_nopad_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="451" parent="1" name="utf8mb3_german2_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="452" parent="1" name="utf8mb3_hungarian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="453" parent="1" name="utf8mb3_icelandic_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="454" parent="1" name="utf8mb3_latvian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="455" parent="1" name="utf8mb3_lithuanian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="456" parent="1" name="utf8mb3_myanmar_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="457" parent="1" name="utf8mb3_nopad_bin">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="458" parent="1" name="utf8mb3_persian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="459" parent="1" name="utf8mb3_polish_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="460" parent="1" name="utf8mb3_roman_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="461" parent="1" name="utf8mb3_romanian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="462" parent="1" name="utf8mb3_sinhala_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="463" parent="1" name="utf8mb3_slovak_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="464" parent="1" name="utf8mb3_slovenian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="465" parent="1" name="utf8mb3_spanish2_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="466" parent="1" name="utf8mb3_spanish_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="467" parent="1" name="utf8mb3_swedish_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="468" parent="1" name="utf8mb3_thai_520_w2">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="469" parent="1" name="utf8mb3_turkish_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="470" parent="1" name="utf8mb3_unicode_520_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="471" parent="1" name="utf8mb3_unicode_520_nopad_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="472" parent="1" name="utf8mb3_unicode_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="473" parent="1" name="utf8mb3_unicode_nopad_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="474" parent="1" name="utf8mb3_vietnamese_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="475" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="476" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="477" parent="1" name="utf8mb4_croatian_mysql561_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="478" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="479" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="480" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="481" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="482" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="483" parent="1" name="utf8mb4_general_nopad_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="484" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="485" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="486" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="487" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="488" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="489" parent="1" name="utf8mb4_myanmar_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="490" parent="1" name="utf8mb4_nopad_bin">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="491" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="492" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="493" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="494" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="495" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="496" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="497" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="498" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="499" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="500" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="501" parent="1" name="utf8mb4_thai_520_w2">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="502" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="503" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="504" parent="1" name="utf8mb4_unicode_520_nopad_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="505" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="506" parent="1" name="utf8mb4_unicode_nopad_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="507" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <schema id="508" parent="1" name="abalcerowi_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="509" parent="1" name="agoubo_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="510" parent="1" name="alazaar-springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="511" parent="1" name="atandabany_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="512" parent="1" name="bd_camping_beau_temps_Ufaye">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="513" parent="1" name="bd_camping_beau_temps_erieu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="514" parent="1" name="bd_camping_beau_temps_hcros">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="515" parent="1" name="bd_camping_beau_temps_jdhikash">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="516" parent="1" name="bd_camping_beau_temps_kya">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="517" parent="1" name="bd_etudiant_abalcerowi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="518" parent="1" name="bd_etudiant_jchongtoua">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="519" parent="1" name="bd_etudiant_lkiusi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="520" parent="1" name="bd_eurocasters_akhennouci">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="521" parent="1" name="bd_eurocasters_schachoua">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="522" parent="1" name="bd_eurocasters_srandriana">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="523" parent="1" name="bd_eurocoaster_tramamonji">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="524" parent="1" name="bd_eurocoasters_afotieufia">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="525" parent="1" name="bd_eurocoasters_ajosso">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="526" parent="1" name="bd_eurocoasters_anoel">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="527" parent="1" name="bd_eurocoasters_cjasick">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="528" parent="1" name="bd_eurocoasters_ckraftvale">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="529" parent="1" name="bd_eurocoasters_dhokhu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="530" parent="1" name="bd_eurocoasters_epousse">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="531" parent="1" name="bd_eurocoasters_erieu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="532" parent="1" name="bd_eurocoasters_fbitsindou">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="533" parent="1" name="bd_eurocoasters_hcros">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="534" parent="1" name="bd_eurocoasters_hekolimole">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="535" parent="1" name="bd_eurocoasters_iaziz">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="536" parent="1" name="bd_eurocoasters_idembele">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="537" parent="1" name="bd_eurocoasters_imzyene">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="538" parent="1" name="bd_eurocoasters_jdhikash">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="539" parent="1" name="bd_eurocoasters_jdimwanadi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="540" parent="1" name="bd_eurocoasters_jkialengel">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="541" parent="1" name="bd_eurocoasters_jleonard">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="542" parent="1" name="bd_eurocoasters_jmoudjoung">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="543" parent="1" name="bd_eurocoasters_kdiakumpun">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="544" parent="1" name="bd_eurocoasters_kemmanuel">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="545" parent="1" name="bd_eurocoasters_kmilius">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="546" parent="1" name="bd_eurocoasters_kya">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="547" parent="1" name="bd_eurocoasters_lfilloy">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="548" parent="1" name="bd_eurocoasters_lgerance">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="549" parent="1" name="bd_eurocoasters_mdehay">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="550" parent="1" name="bd_eurocoasters_mgalli">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="551" parent="1" name="bd_eurocoasters_monLogin">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="552" parent="1" name="bd_eurocoasters_mrieu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="553" parent="1" name="bd_eurocoasters_mya">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="554" parent="1" name="bd_eurocoasters_nhellal">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="555" parent="1" name="bd_eurocoasters_njean">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="556" parent="1" name="bd_eurocoasters_nrabarisoa">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="557" parent="1" name="bd_eurocoasters_oviravagon">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="558" parent="1" name="bd_eurocoasters_sgueye">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="559" parent="1" name="bd_eurocoasters_vgomessilv">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="560" parent="1" name="bd_eurocoasters_wouahi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="561" parent="1" name="bd_eurocoasters_yburandcha">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="562" parent="1" name="bd_eurocoasters_zbensiali">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="563" parent="1" name="bd_eurocosters_fmomika">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="564" parent="1" name="bd_eurocosters_sdelblond">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="565" parent="1" name="bd_eurocosters_ufaye">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="566" parent="1" name="bd_eurocosters_yelmourabi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="567" parent="1" name="bd_procedure_Ufaye">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="568" parent="1" name="bd_procedure_abalcerowi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="569" parent="1" name="bd_procedure_agoubo">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="570" parent="1" name="bd_procedure_atandabany">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="571" parent="1" name="bd_procedure_dmaudet">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="572" parent="1" name="bd_procedure_erieu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="573" parent="1" name="bd_procedure_jchongtoua">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="574" parent="1" name="bd_procedure_ldarras">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="575" parent="1" name="bd_procedure_lgerance">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="576" parent="1" name="bd_procedure_lkiusi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="577" parent="1" name="bd_procedure_mdehay">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="578" parent="1" name="bd_procedure_monLogin">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="579" parent="1" name="bd_procedure_nbelkacem">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="580" parent="1" name="bd_procedure_ntran">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="581" parent="1" name="bd_procedure_olufundu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="582" parent="1" name="bd_procedure_sbenboubak">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="583" parent="1" name="bd_procedure_sdelblond">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="584" parent="1" name="bd_procedure_sichalalen">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="585" parent="1" name="bd_procedure_ssong">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="586" parent="1" name="bd_procedures_yburandcha">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="587" parent="1" name="bd_releveNotes_Ufaye">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="588" parent="1" name="bd_releveNotes_abalcerowi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="589" parent="1" name="bd_releveNotes_atandabany">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="590" parent="1" name="bd_releveNotes_dmaudet">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="591" parent="1" name="bd_releveNotes_dthevaranc">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="592" parent="1" name="bd_releveNotes_jchongtoua">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="593" parent="1" name="bd_releveNotes_ldarras">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="594" parent="1" name="bd_rollercoaster_tramamonji">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="595" parent="1" name="bd_savon_CMF">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="596" parent="1" name="bd_savon_Dhikash">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="597" parent="1" name="bd_savon_Yael">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="598" parent="1" name="bd_savon_afotieufia">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="599" parent="1" name="bd_savon_ajosso">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="600" parent="1" name="bd_savon_cjasick">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="601" parent="1" name="bd_savon_erieu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="602" parent="1" name="bd_savon_fmomika">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="603" parent="1" name="bd_savon_hcros2">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="604" parent="1" name="bd_savon_hekolimole">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="605" parent="1" name="bd_savon_iaziz">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="606" parent="1" name="bd_savon_imzyene">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="607" parent="1" name="bd_savon_jdhikash">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="608" parent="1" name="bd_savon_jleonard">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="609" parent="1" name="bd_savon_jmoudjoung">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="610" parent="1" name="bd_savon_kemmanuel">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="611" parent="1" name="bd_savon_kya">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="612" parent="1" name="bd_savon_lgerance">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="613" parent="1" name="bd_savon_mdehay">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="614" parent="1" name="bd_savon_mya">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="615" parent="1" name="bd_savon_ndhokhutsa">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="616" parent="1" name="bd_savon_oviravagon">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="617" parent="1" name="bd_savon_pseudo">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="618" parent="1" name="bd_savon_sdelblond">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="619" parent="1" name="bd_savon_tramamonji">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="620" parent="1" name="bd_savon_ufaye2">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="621" parent="1" name="bd_savon_yelmourabi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="622" parent="1" name="bd_savon_ysoufi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="623" parent="1" name="bd_savon_zbensiali">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="624" parent="1" name="bd_stagiaire_adrien">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="625" parent="1" name="bd_stagiaire_aj">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="626" parent="1" name="bd_stagiaire_deva">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="627" parent="1" name="bd_stagiaire_leny">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="628" parent="1" name="bd_stagiaire_lesly">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="629" parent="1" name="bd_stagiaire_oceane">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="630" parent="1" name="bd_stagiaire_steeven">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="631" parent="1" name="bd_stagiare_cedrick">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="632" parent="1" name="bd_sushi_afotieufia">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="633" parent="1" name="bd_sushi_cjasick">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="634" parent="1" name="bd_sushi_dhokhu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="635" parent="1" name="bd_sushi_erieu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="636" parent="1" name="bd_sushi_fmomika">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="637" parent="1" name="bd_sushi_hcros">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="638" parent="1" name="bd_sushi_hekolimole">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="639" parent="1" name="bd_sushi_iaziz">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="640" parent="1" name="bd_sushi_imzyene">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="641" parent="1" name="bd_sushi_jdhikash">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="642" parent="1" name="bd_sushi_jleonard">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="643" parent="1" name="bd_sushi_jlorng">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="644" parent="1" name="bd_sushi_jmoudjoung">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="645" parent="1" name="bd_sushi_kemmanuel">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="646" parent="1" name="bd_sushi_kya">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="647" parent="1" name="bd_sushi_lgerance">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="648" parent="1" name="bd_sushi_mdehay">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="649" parent="1" name="bd_sushi_mya">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="650" parent="1" name="bd_sushi_oviravagon">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="651" parent="1" name="bd_sushi_ufaye">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="652" parent="1" name="bd_sushi_yburandcha">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="653" parent="1" name="bd_sushi_yelmourabi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="654" parent="1" name="bd_sushi_zbensiali">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="655" parent="1" name="bd_sushiapp_ysoufi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="656" parent="1" name="camping_beau_temps">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="657" parent="1" name="camping_beau_temps_atandabany">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="658" parent="1" name="camping_beau_temps_ldarras">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="659" parent="1" name="cokembameb_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="660" parent="1" name="dbSerie_Blondel">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="661" parent="1" name="dbSerie_Nesyou91">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="662" parent="1" name="dbSerie_cjasick">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="663" parent="1" name="dbSerie_erieu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="664" parent="1" name="dbSerie_fmomika">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="665" parent="1" name="dbSerie_hcros">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="666" parent="1" name="dbSerie_hekolimole">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="667" parent="1" name="dbSerie_iaziz">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="668" parent="1" name="dbSerie_imzyene">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="669" parent="1" name="dbSerie_jdhikash">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="670" parent="1" name="dbSerie_jleonard">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="671" parent="1" name="dbSerie_jlorng">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="672" parent="1" name="dbSerie_jmoudjoung">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="673" parent="1" name="dbSerie_kya">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="674" parent="1" name="dbSerie_lgerance">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="675" parent="1" name="dbSerie_mdehay">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="676" parent="1" name="dbSerie_mya">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="677" parent="1" name="dbSerie_ndhokhutsa">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="678" parent="1" name="dbSerie_oviravagon">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="679" parent="1" name="dbSerie_sdelblond">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="680" parent="1" name="dbSerie_tramamonji">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="681" parent="1" name="dbSerie_ufaye">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="682" parent="1" name="dbSerie_yburandcha">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="683" parent="1" name="dbSerie_ysoufi">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="684" parent="1" name="dbSerie_zbensiali">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="685" parent="1" name="db_eurocoasters_asouleiman">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="686" parent="1" name="db_eurocoasters_okasindu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="687" parent="1" name="db_kotlinAventure_ajosso">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="688" parent="1" name="db_kotlinAventure_erieu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="689" parent="1" name="db_kotlinAventure_fmomika">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="690" parent="1" name="db_kotlinAventure_hcros">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="691" parent="1" name="db_kotlinAventure_kemmanuel">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="692" parent="1" name="db_kotlinAventure_kya">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="693" parent="1" name="db_kotlinAventure_lgerance">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="694" parent="1" name="db_kotlinAventure_ndhokhutsa">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="695" parent="1" name="db_kotlinAventure_okasindu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="696" parent="1" name="db_kotlinAventure_sdelblond">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="697" parent="1" name="db_kotlinAventure_tramamonji">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="698" parent="1" name="db_kotlinAventure_ufaye">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="699" parent="1" name="db_kotlinAventure_zbensiali">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="700" parent="1" name="db_monsters_anoel">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="701" parent="1" name="db_monsters_lfilloy">
+      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
+      <Current>1</Current>
+      <LastIntrospectionLevel>3</LastIntrospectionLevel>
+      <LastIntrospectionLocalTimestamp>2025-10-09.07:02:47</LastIntrospectionLocalTimestamp>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="702" parent="1" name="db_monsters_schachoua">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="703" parent="1" name="db_savon_kya">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="704" parent="1" name="db_savon_okasindu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="705" parent="1" name="db_savon_sdelblond">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="706" parent="1" name="db_serie_ajosso">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="707" parent="1" name="db_stagiaire_loic">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="708" parent="1" name="db_sushi_okasindu">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="709" parent="1" name="dbserie_kemmanuel">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="710" parent="1" name="deva">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="711" parent="1" name="dmaudet_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="712" parent="1" name="dthevaranc_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="713" parent="1" name="information_schema">
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="714" parent="1" name="jchongtoua_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="715" parent="1" name="ldarras_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="716" parent="1" name="lgerance_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="717" parent="1" name="lkiusi_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="718" parent="1" name="lsimon1_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="719" parent="1" name="mysql">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="720" parent="1" name="nbelkacem_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="721" parent="1" name="ntran_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="722" parent="1" name="ockies_api">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="723" parent="1" name="olufundu-springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="724" parent="1" name="olufundu_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="725" parent="1" name="performance_schema">
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="726" parent="1" name="sbenboubak_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="727" parent="1" name="sichalalen_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="728" parent="1" name="springaventure_cscion">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="729" parent="1" name="ssong_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="730" parent="1" name="sys">
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="731" parent="1" name="tvanrompae_springaventure">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <user id="732" parent="1" name="abalcerowi"/>
+    <user id="733" parent="1" name="afotieufia"/>
+    <user id="734" parent="1" name="agoubo"/>
+    <user id="735" parent="1" name="ajosso"/>
+    <user id="736" parent="1" name="akhennouci"/>
+    <user id="737" parent="1" name="alaine"/>
+    <user id="738" parent="1" name="alazaar"/>
+    <user id="739" parent="1" name="anoel"/>
+    <user id="740" parent="1" name="asouleiman"/>
+    <user id="741" parent="1" name="atandabany"/>
+    <user id="742" parent="1" name="azarif"/>
+    <user id="743" parent="1" name="brodrigues"/>
+    <user id="744" parent="1" name="bsako"/>
+    <user id="745" parent="1" name="cjasick"/>
+    <user id="746" parent="1" name="ckraftvale"/>
+    <user id="747" parent="1" name="cokembameb"/>
+    <user id="748" parent="1" name="cscion"/>
+    <user id="749" parent="1" name="ddossantos"/>
+    <user id="750" parent="1" name="dmaudet"/>
+    <user id="751" parent="1" name="dthevaranc"/>
+    <user id="752" parent="1" name="emikanda"/>
+    <user id="753" parent="1" name="epousse"/>
+    <user id="754" parent="1" name="erieu"/>
+    <user id="755" parent="1" name="ethomy"/>
+    <user id="756" parent="1" name="fbitsindou"/>
+    <user id="757" parent="1" name="fmomika"/>
+    <user id="758" parent="1" name="gbarreau"/>
+    <user id="759" parent="1" name="hcros"/>
+    <user id="760" parent="1" name="hekolimole"/>
+    <user id="761" parent="1" name="iaziz"/>
+    <user id="762" parent="1" name="idembele"/>
+    <user id="763" parent="1" name="imzyene"/>
+    <user id="764" parent="1" name="jchongtoua"/>
+    <user id="765" parent="1" name="jdhikash"/>
+    <user id="766" parent="1" name="jdimwanadi"/>
+    <user id="767" parent="1" name="jfraoui"/>
+    <user id="768" parent="1" name="jkialengel"/>
+    <user id="769" parent="1" name="jleonard"/>
+    <user id="770" parent="1" name="jlorng"/>
+    <user id="771" parent="1" name="jmoudjoung"/>
+    <user id="772" parent="1" name="kdiakumpun"/>
+    <user id="773" parent="1" name="kemmanuel"/>
+    <user id="774" parent="1" name="kmilius"/>
+    <user id="775" parent="1" name="kya"/>
+    <user id="776" parent="1" name="lbuy"/>
+    <user id="777" parent="1" name="lcaronnage"/>
+    <user id="778" parent="1" name="ldarras"/>
+    <user id="779" parent="1" name="lfilloy"/>
+    <user id="780" parent="1" name="lgerance"/>
+    <user id="781" parent="1" name="lkiusi"/>
+    <user id="782" parent="1" name="lsimon1"/>
+    <user id="783" parent="1" name="makarojeux"/>
+    <user id="784" parent="1" name="mariadb.sys">
+      <Host>localhost</Host>
+    </user>
+    <user id="785" parent="1" name="mbeladassi"/>
+    <user id="786" parent="1" name="mdehay"/>
+    <user id="787" parent="1" name="mgalli"/>
+    <user id="788" parent="1" name="mguerry"/>
+    <user id="789" parent="1" name="mmeziane1"/>
+    <user id="790" parent="1" name="mrieu"/>
+    <user id="791" parent="1" name="mya"/>
+    <user id="792" parent="1" name="mysql">
+      <Host>localhost</Host>
+    </user>
+    <user id="793" parent="1" name="nbelkacem"/>
+    <user id="794" parent="1" name="ndhokhutsa"/>
+    <user id="795" parent="1" name="nhellal"/>
+    <user id="796" parent="1" name="njean"/>
+    <user id="797" parent="1" name="nnsomi"/>
+    <user id="798" parent="1" name="nrabarisoa"/>
+    <user id="799" parent="1" name="ntran"/>
+    <user id="800" parent="1" name="okasindu"/>
+    <user id="801" parent="1" name="olufundu"/>
+    <user id="802" parent="1" name="oviravagon"/>
+    <user id="803" parent="1" name="raissi"/>
+    <user id="804" parent="1" name="root">
+      <Host>localhost</Host>
+    </user>
+    <user id="805" parent="1" name="sbenboubak"/>
+    <user id="806" parent="1" name="schachoua"/>
+    <user id="807" parent="1" name="sdelblond"/>
+    <user id="808" parent="1" name="sgoupil"/>
+    <user id="809" parent="1" name="sgueye"/>
+    <user id="810" parent="1" name="sichalalen"/>
+    <user id="811" parent="1" name="srandriana"/>
+    <user id="812" parent="1" name="ssong"/>
+    <user id="813" parent="1" name="tdurang"/>
+    <user id="814" parent="1" name="tramamonji"/>
+    <user id="815" parent="1" name="tvanrompa1"/>
+    <user id="816" parent="1" name="tvanrompae"/>
+    <user id="817" parent="1" name="ufaye"/>
+    <user id="818" parent="1" name="vgomessilv"/>
+    <user id="819" parent="1" name="wouahi"/>
+    <user id="820" parent="1" name="yburandcha"/>
+    <user id="821" parent="1" name="yelmourabi"/>
+    <user id="822" parent="1" name="ysoufi"/>
+    <user id="823" parent="1" name="zbensiali"/>
+  </database-model>
+</dataSource>

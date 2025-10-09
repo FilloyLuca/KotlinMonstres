@@ -12,7 +12,6 @@ import org.junit.jupiter.api.Test
 import kotlin.test.BeforeTest
 
 class ElementTest {
-
     @BeforeTest
     fun valorisation() {
         // 🔥 Feu

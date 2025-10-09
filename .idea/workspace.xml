@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50c69400-f47b-4344-b359-6ed2bc10c750" name="Changes" comment="ajout des elements dans le main + test fait">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/monstre/ElementTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/monstre/ElementTest.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinMonstres" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FilloyLuca&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FilloyLuca/KotlinMonstres&quot;,
+    &quot;accountId&quot;: &quot;8e9ef788-5bfd-4b93-991b-04829ce0656c&quot;
+  }
+}</component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.14-bin/38aieal9i53h9rfe7vjup95b9/gradle-8.14" javaHome="/usr/lib/jvm/default-java" gradleVersion="8.14">
+    <option name="jvmArguments">
+      <list>
+        <option value="-Dhttp.proxyHost=172.16.0.54" />
+        <option value="-Dhttp.proxyPort=8080" />
+        <option value="-Dhttps.proxyHost=172.16.0.54" />
+        <option value="-Dhttps.proxyPort=8080" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="32mCf2P0s0Gt4RyWxqtfATy3gXW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ElementTest.efficaceContre.executor": "Run",
+    "Gradle.ElementTest.executor": "Run",
+    "Gradle.KotlinMonstres [:org.example.MainKt.main()].executor": "Run",
+    "Gradle.TechniqueTest.calculerPrecision.executor": "Run",
+    "Gradle.TechniqueTest.testEffetInfligeDegats.executor": "Run",
+    "Gradle.TechniqueTest.testcalculerBonusStab.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/media/luca/Disque-Luca/BTS-SIO/Annee2/Cours/Slam/Kotlin/exoKotAlgoSansCor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/media/luca/Disque-Luca/BTS-SIO/Annee2/Cours/AtelierPro/KotlinMonstres/KotlinMonstres/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ],
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="monstre" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.TechniqueTest.testEffetInfligeDegats">
+    <configuration name="ElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;monstre.ElementTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ElementTest.efficaceContre" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;monstre.ElementTest.efficaceContre&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TechniqueTest.calculerPrecision" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;monstre.TechniqueTest.calculerPrecision&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TechniqueTest.testEffetInfligeDegats" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;monstre.TechniqueTest.testEffetInfligeDegats&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TechniqueTest.testcalculerBonusStab" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;monstre.TechniqueTest.testcalculerBonusStab&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TechniqueTest.testEffetInfligeDegats" />
+        <item itemvalue="Gradle.TechniqueTest.testcalculerBonusStab" />
+        <item itemvalue="Gradle.ElementTest.efficaceContre" />
+        <item itemvalue="Gradle.TechniqueTest.calculerPrecision" />
+        <item itemvalue="Gradle.ElementTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50c69400-f47b-4344-b359-6ed2bc10c750" name="Changes" comment="" />
+      <created>1758016465366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758016465366</updated>
+      <workItem from="1758016466564" duration="84000" />
+      <workItem from="1758016704305" duration="399000" />
+      <workItem from="1758176355431" duration="525000" />
+      <workItem from="1758176897660" duration="22000" />
+      <workItem from="1758176958302" duration="58000" />
+      <workItem from="1758177892732" duration="11000" />
+      <workItem from="1758177924573" duration="10913000" />
+      <workItem from="1758283629276" duration="10195000" />
+      <workItem from="1758522060176" duration="12661000" />
+      <workItem from="1758608355624" duration="12495000" />
+      <workItem from="1758781163951" duration="12186000" />
+      <workItem from="1758888873811" duration="185000" />
+      <workItem from="1759214234063" duration="10340000" />
+      <workItem from="1759386017030" duration="12421000" />
+      <workItem from="1759731972894" duration="797000" />
+      <workItem from="1759992103319" duration="393000" />
+      <workItem from="1759992529541" duration="95000" />
+      <workItem from="1759992641350" duration="725000" />
+    </task>
+    <task id="LOCAL-00014" summary="fun attaquer() + test">
+      <option name="closed" value="true" />
+      <created>1758526486559</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1758526486559</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fun attaquer() + test">
+      <option name="closed" value="true" />
+      <created>1758526625297</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1758526625297</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fun attaquer() + test">
+      <option name="closed" value="true" />
+      <created>1758526647409</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1758526647409</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fun renommer() fait">
+      <option name="closed" value="true" />
+      <created>1758527590558</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1758527590558</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fun renommer() fait">
+      <option name="closed" value="true" />
+      <created>1758529520826</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1758529520826</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fun renommer() fait">
+      <option name="closed" value="true" />
+      <created>1758529533702</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1758529533702</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Moddif affichage fun renommer()">
+      <option name="closed" value="true" />
+      <created>1758530289384</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1758530289384</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Creation de la class item">
+      <option name="closed" value="true" />
+      <created>1758530750039</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1758530750039</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Modiff class Entraineur">
+      <option name="closed" value="true" />
+      <created>1758530777679</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1758530777679</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Class Badge terminee pour le moment">
+      <option name="closed" value="true" />
+      <created>1758531967083</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1758531967083</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Interface Utilisable initiée">
+      <option name="closed" value="true" />
+      <created>1758532583563</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1758532583563</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Début Class MonsterKube">
+      <option name="closed" value="true" />
+      <created>1758535141760</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1758535141760</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Début Class MonsterKube">
+      <option name="closed" value="true" />
+      <created>1758535166469</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1758535166469</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Nouveau monstres">
+      <option name="closed" value="true" />
+      <created>1758610017245</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1758610017245</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Sac items">
+      <option name="closed" value="true" />
+      <created>1758610032779</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1758610032779</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Debut CombatMonstre">
+      <option name="closed" value="true" />
+      <created>1758610043027</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1758610043027</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fun gameOver()">
+      <option name="closed" value="true" />
+      <created>1758610459996</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1758610459996</updated>
+    </task>
+    <task id="LOCAL-00031" summary="JoueurGagne() fait">
+      <option name="closed" value="true" />
+      <created>1758611805062</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1758611805062</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fun actionJoueur() fait">
+      <option name="closed" value="true" />
+      <created>1758616748462</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1758616748462</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fun afficheCombat() fait">
+      <option name="closed" value="true" />
+      <created>1758617557678</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1758617557678</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fin class CombatMonstre">
+      <option name="closed" value="true" />
+      <created>1758618552460</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1758618552460</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Fin class CombatMonstre">
+      <option name="closed" value="true" />
+      <created>1758621363047</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1758621363047</updated>
+    </task>
+    <task id="LOCAL-00036" summary="debut fun genereMonstre()">
+      <option name="closed" value="true" />
+      <created>1758621543819</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1758621543819</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Ajout de monstres">
+      <option name="closed" value="true" />
+      <created>1758781682706</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1758781682706</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Ajout des méthodes genereMonstre() et rencontreMonstre() dans la classe Zone">
+      <option name="closed" value="true" />
+      <created>1758784558983</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1758784558983</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Ajout de la classe Partie avec la méthode choisirStarter()">
+      <option name="closed" value="true" />
+      <created>1758789624112</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1758789624112</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Ajout de références et de documentation dans les classes Zone et IndividuMonstre">
+      <option name="closed" value="true" />
+      <created>1758789633813</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1758789633813</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Utilisation de la classe Partie pour initialiser et choisir le starter">
+      <option name="closed" value="true" />
+      <created>1758789639109</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1758789639109</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Ajout de la méthode modifierOrdreEquipe() dans la classe Partie pour permettre la réorganisation des monstres dans l'équipe">
+      <option name="closed" value="true" />
+      <created>1758791115757</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1758791115757</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Amélioration de l'affichage dans la méthode modifierOrdreEquipe() pour clarifier les entrées utilisateur et les actions effectuées.">
+      <option name="closed" value="true" />
+      <created>1758791339393</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1758791339393</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Ajout de la méthode examineEquipe() dans la classe Partie pour permettre l'examen détaillé de l'équipe et la modification de son ordre.">
+      <option name="closed" value="true" />
+      <created>1758792429337</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1758792429337</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Ajout de la méthode jouer() dans la classe Partie pour gérer la boucle principale du jeu avec un menu interactif pour les actions du joueur.">
+      <option name="closed" value="true" />
+      <created>1758793644229</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1758793644229</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Ajout de la méthode nouvellePartie() pour initialiser une nouvelle partie avec saisie du nom du joueur et mise à jour de la logique dans main().">
+      <option name="closed" value="true" />
+      <created>1758793888715</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1758793888715</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Ajout de la méthode nouvellePartie() pour initialiser une nouvelle partie avec saisie du nom du joueur et mise à jour de la logique dans main().">
+      <option name="closed" value="true" />
+      <created>1758793893976</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1758793893976</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Fin sprint 1">
+      <option name="closed" value="true" />
+      <created>1759216029665</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1759216029665</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Fin sprint 1">
+      <option name="closed" value="true" />
+      <created>1759216048783</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1759216048783</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Fin sprint 1">
+      <option name="closed" value="true" />
+      <created>1759216088545</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1759216088546</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Ajout de la classe `Element` et gestion des éléments dans `EspeceMonstre` pour étendre les fonctionnalités des monstres.">
+      <option name="closed" value="true" />
+      <created>1759218500399</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1759218500399</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Creation des elements de base avec leure resistances, leurs faiblesse">
+      <option name="closed" value="true" />
+      <created>1759219142155</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1759219142155</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Ajout de la dépendance `kotlin-test-junit5` pour les tests et suppression d'une ligne vide inutile dans le code.">
+      <option name="closed" value="true" />
+      <created>1759220690502</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1759220690502</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Ajout des classes de test pour gérer les interactions entre éléments et implémentation de la classe `Technique`.">
+      <option name="closed" value="true" />
+      <created>1759221562104</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1759221562104</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fun calculerPrecision() fait">
+      <option name="closed" value="true" />
+      <created>1759222006207</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1759222006207</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Ajout des tests pour la classe `Technique` et mise à jour de la méthode `calculerPrecision` pour supprimer le paramètre inutile.">
+      <option name="closed" value="true" />
+      <created>1759223264781</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1759223264781</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Ajout type normal">
+      <option name="closed" value="true" />
+      <created>1759394572039</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1759394572040</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Correction">
+      <option name="closed" value="true" />
+      <created>1759394937892</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1759394937893</updated>
+    </task>
+    <task id="LOCAL-00059" summary="test de la fonction calculerBonusStab">
+      <option name="closed" value="true" />
+      <created>1759395460239</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1759395460239</updated>
+    </task>
+    <task id="LOCAL-00060" summary="fun effet() fait">
+      <option name="closed" value="true" />
+      <created>1759397474664</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1759397474664</updated>
+    </task>
+    <task id="LOCAL-00061" summary="test fun effet()">
+      <option name="closed" value="true" />
+      <created>1759398473295</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1759398473295</updated>
+    </task>
+    <task id="LOCAL-00062" summary="ajout des elements dans le main + test fait">
+      <option name="closed" value="true" />
+      <created>1759399275177</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1759399275177</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout des méthodes genereMonstre() et rencontreMonstre() dans la classe Zone" />
+    <MESSAGE value="Ajout de la classe Partie avec la méthode choisirStarter()" />
+    <MESSAGE value="Ajout de références et de documentation dans les classes Zone et IndividuMonstre" />
+    <MESSAGE value="Utilisation de la classe Partie pour initialiser et choisir le starter" />
+    <MESSAGE value="Ajout de la méthode modifierOrdreEquipe() dans la classe Partie pour permettre la réorganisation des monstres dans l'équipe" />
+    <MESSAGE value="Amélioration de l'affichage dans la méthode modifierOrdreEquipe() pour clarifier les entrées utilisateur et les actions effectuées." />
+    <MESSAGE value="Ajout de la méthode examineEquipe() dans la classe Partie pour permettre l'examen détaillé de l'équipe et la modification de son ordre." />
+    <MESSAGE value="Ajout de la méthode jouer() dans la classe Partie pour gérer la boucle principale du jeu avec un menu interactif pour les actions du joueur." />
+    <MESSAGE value="Ajout de la méthode nouvellePartie() pour initialiser une nouvelle partie avec saisie du nom du joueur et mise à jour de la logique dans main()." />
+    <MESSAGE value="Add initial project structure, code, and configuration files for Kotlin Monsters game&#10;&#10;Includes:&#10;- README with game description, objectives, and functional/technical analysis&#10;- Base project configuration (Gradle and Kotlin setup)&#10;- Initial implementation of core classes such as `IndividuMonstre`, `Zone`, `Badge`, `Item`&#10;- ASCII art for monsters&#10;- Initial game logic and starter data&#10;- `.gitignore` and IntelliJ project files." />
+    <MESSAGE value="Initialize project with Kotlin setup, base classes, and specifications. Includes README with project details, initial Gradle setup, IntelliJ configurations, and foundational code structure." />
+    <MESSAGE value="Fin sprint 1" />
+    <MESSAGE value="Ajout de la classe `Element` et gestion des éléments dans `EspeceMonstre` pour étendre les fonctionnalités des monstres." />
+    <MESSAGE value="sprint 2" />
+    <MESSAGE value="Creation des elements de base avec leure resistances, leurs faiblesse" />
+    <MESSAGE value="Ajout de la dépendance `kotlin-test-junit5` pour les tests et suppression d'une ligne vide inutile dans le code." />
+    <MESSAGE value="Ajout des classes de test pour gérer les interactions entre éléments et implémentation de la classe `Technique`." />
+    <MESSAGE value="fun calculerPrecision() fait" />
+    <MESSAGE value="Ajout des tests pour la classe `Technique` et mise à jour de la méthode `calculerPrecision` pour supprimer le paramètre inutile." />
+    <MESSAGE value="Ajout type normal" />
+    <MESSAGE value="Correction" />
+    <MESSAGE value="test de la fonction calculerBonusStab" />
+    <MESSAGE value="fun effet() fait" />
+    <MESSAGE value="test fun effet()" />
+    <MESSAGE value="ajout des elements dans le main + test fait" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des elements dans le main + test fait" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/jeu/CombatMonstre.kt</url>
+          <line>172</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/monstre/TechniqueTest.kt</url>
+          <line>103</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/monstre/TechniqueTest.kt</url>
+          <line>46</line>
+          <properties class="monstre.TechniqueTest" method="calculerPrecision">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
